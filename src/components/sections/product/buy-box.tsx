@@ -25,6 +25,13 @@ function toPence(price: string) {
   return Math.round(parseFloat(price.replace(/[^0-9.]/g, '')) * 100);
 }
 
+// Matches the Shopify "Test + retest" discount: the percentage comes off each
+// kit and is rounded down to the penny (e.g. £15.95 → £1.59 off per kit).
+function totalFor(unitPence: number, quantity: number, discount: number) {
+  if (quantity === 1) return unitPence;
+  return quantity * (unitPence - Math.floor((unitPence * discount) / 100));
+}
+
 function formatPence(pence: number) {
   return `£${(pence / 100).toFixed(2)}`;
 }
@@ -50,12 +57,11 @@ export default function BuyBox({
   const variantId = isBundle ? selected.variantId! : product.variantId;
   const unitPence = toPence(selected?.price ?? shopProduct?.price ?? '0');
   const discount = product.retest?.discount ?? 0;
-  const totalPence =
-    quantity === 1 ? unitPence : unitPence * 2 * (1 - discount / 100);
+  const totalPence = totalFor(unitPence, quantity, discount);
   // "__PRICE__" in the label shows the current total.
   const buyLabel = (
     isBundle ? (selected.buttonLabel ?? product.buyLabel) : product.buyLabel
-  ).replace('__PRICE__', formatPence(Math.round(totalPence)));
+  ).replace('__PRICE__', formatPence(totalPence));
   const buyHref = shopUrl(`/cart/add?id=${variantId}&quantity=${quantity}`);
 
   // Mobile: keep a buy button on screen once the main one scrolls away.
@@ -204,8 +210,7 @@ export default function BuyBox({
           </legend>
           <div className="grid grid-cols-2 gap-3">
             {[1, 2].map((qty) => {
-              const pence =
-                qty === 1 ? unitPence : unitPence * 2 * (1 - discount / 100);
+              const pence = totalFor(unitPence, qty, discount);
               const unit = isBundle
                 ? 'bundle'
                 : (product.retest!.unit ?? 'test');
@@ -234,7 +239,7 @@ export default function BuyBox({
                     {qty} {qty === 1 ? unit : `${unit}s`}
                   </span>
                   <span className="text-muted-foreground">
-                    {formatPence(Math.round(pence))}
+                    {formatPence(pence)}
                     {qty === 2 && discount > 0 && (
                       <span className="text-accent-deep ml-1.5 font-semibold">
                         Save {discount}%
