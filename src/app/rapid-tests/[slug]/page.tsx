@@ -33,8 +33,8 @@ export async function generateMetadata({
     description:
       product.seo?.description ??
       product.intro.replace(/<[^>]+>/g, '').replace(/\*$/, ''),
-    // Same copy as the Shopify product pages, so kept out of search until reviewed.
-    robots: { index: false, follow: false },
+    alternates: { canonical: `/rapid-tests/${slug}` },
+    robots: { index: true, follow: true },
   };
 }
 

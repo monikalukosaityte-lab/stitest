@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: '/' },
+  robots: { index: true, follow: true },
   openGraph: { title: TITLE, description: DESCRIPTION, url: '/' },
   twitter: { title: TITLE, description: DESCRIPTION },
 };

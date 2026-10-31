@@ -53,14 +53,6 @@ export const metadata: Metadata = {
   authors: [{ name: 'STI Test Kit' }],
   creator: 'STI Test Kit',
   publisher: 'STI Test Kit',
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
-  },
   icons: {
     icon: [
       { url: '/favicon/favicon.ico', sizes: '48x48' },

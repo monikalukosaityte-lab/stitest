@@ -91,6 +91,8 @@ export async function generateMetadata({
     },
     description:
       article.frontmatter.metaDescription ?? article.frontmatter.description,
+    alternates: { canonical: `/blog/${slug}` },
+    robots: { index: true, follow: true },
   };
 }
 

@@ -7,6 +7,8 @@ export const metadata: Metadata = {
   title: { absolute: 'STI & Sexual Health Blog | STI Test Kit' },
   description:
     'Medically reviewed articles on STI symptoms, testing and sexual health - clear answers to the questions people are often too embarrassed to ask.',
+  alternates: { canonical: '/blog' },
+  robots: { index: true, follow: true },
 };
 
 export default async function BlogPage() {
