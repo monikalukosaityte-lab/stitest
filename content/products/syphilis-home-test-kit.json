@@ -103,12 +103,12 @@
       {
         "question": "What are the stages of syphilis?",
         "open": false,
-        "answer": "<p>Without treatment, syphilis can move through <a href=\"/blog/syphilis-symptoms-stages#how-does-syphilis-progress-through-the-four-stages\">four stages</a>:</p><table><thead><tr><th>Stage</th><th>When</th><th>What you might notice</th></tr></thead><tbody><tr><td>Primary</td><td>Around 3 weeks after infection</td><td>A painless sore on the genitals, anus or mouth</td></tr><tr><td>Secondary</td><td>Up to 3 months after the sore</td><td>A rash, often on the palms of the hands and soles of the feet, plus fever, tiredness, swollen glands, sore throat or patchy hair loss</td></tr><tr><td>Latent</td><td>Can last for years</td><td>No symptoms, but the infection is still in the body</td></tr><tr><td>Tertiary</td><td>Usually 10 to 30 years after infection</td><td>Rare. Can damage the heart, brain, nerves, eyes and hearing</td></tr></tbody></table><p>The <a href=\"/blog/syphilis-symptoms-stages#what-is-secondary-syphilis\">secondary syphilis rash</a> rarely itches and can be too faint to notice. You can also have <a href=\"/blog/syphilis-symptoms-stages#can-you-have-syphilis-with-no-symptoms\">syphilis with no symptoms at all</a>, which is why testing matters even if you feel well.</p>"
+        "answer": "<p>Without treatment, syphilis can move through <a href=\"/blog/syphilis-symptoms-stages#how-does-syphilis-progress-through-the-four-stages\">four stages</a>:</p><table><thead><tr><th>Stage</th><th>When</th><th>What you might notice</th></tr></thead><tbody><tr><td>Primary</td><td>Around 3 weeks after infection</td><td>A painless sore on the genitals, anus or mouth</td></tr><tr><td>Secondary</td><td>Up to 3 months after the sore</td><td>A rash, often on the palms of the hands and soles of the feet, plus fever, tiredness, swollen glands, sore throat or patchy hair loss</td></tr><tr><td>Latent</td><td>Can last for years</td><td>No symptoms, but the infection is still in the body</td></tr><tr><td>Tertiary</td><td>Usually 10 to 30 years after infection</td><td>Rare. Can damage the heart, brain, nerves, eyes and hearing</td></tr></tbody></table><p>The <a href=\"/blog/syphilis-symptoms-stages#what-is-secondary-syphilis\">secondary syphilis rash</a> rarely itches and can be too faint to notice. Although serious complications are often associated with later syphilis, the infection can affect the brain, nerves, eyes or hearing at any stage. You can also have <a href=\"/blog/syphilis-symptoms-stages#can-you-have-syphilis-with-no-symptoms\">syphilis with no symptoms at all</a>, so testing matters even if you feel well.</p>"
       },
       {
         "question": "Is syphilis curable?",
         "open": false,
-        "answer": "<p>Yes. <a href=\"/blog/syphilis-symptoms-stages#is-syphilis-curable\">Syphilis is curable</a> with antibiotics, usually a single injection or a short course of tablets. Treatment is free at NHS sexual health clinics, and you’ll be retested at 6 and 12 weeks to check it has worked. The earlier it’s found, the simpler it is to treat.</p>"
+        "answer": "<p>Yes. <a href=\"/blog/syphilis-symptoms-stages#is-syphilis-curable\">Syphilis is curable</a> with antibiotics, usually a single injection or a course of tablets. Some cases need a course of injections, depending on the stage. Treatment is free at NHS sexual health clinics. You’ll be retested at 6 and 12 weeks, and further follow-up may be needed. The earlier it’s found, the simpler it is to treat.</p>"
       },
       {
         "question": "Who should take a syphilis test?",
@@ -290,8 +290,8 @@
       "interval": "12 weeks",
       "retest_title": "Test now. If negative, test again on __DATE__.",
       "retest_body": "An early negative may miss syphilis from this exposure.",
-      "now_title": "You can test now.",
-      "now_body": "A negative result covers this exposure.",
+      "now_title": "You can test now, as 12 weeks have passed since this exposure.",
+      "now_body": "",
       "unsure_title": "Test now. If negative, test again in __INTERVAL__.",
       "unsure_body": "",
       "retest": "",
@@ -360,7 +360,7 @@
           },
           {
             "question": "How do I read my syphilis test result?",
-            "answer": "<p>One line at C means negative. Lines at C and T mean positive, even if the T line is faint. No line at C means the test is invalid and hasn’t worked. Contact us and we’ll help.</p>"
+            "answer": "<p>One line at C only means negative. Lines at C and T mean positive, even if the T line is faint. No line at C means the test is invalid and hasn’t worked. Contact us and we’ll help.</p>"
           },
           {
             "question": "What does a negative syphilis test result mean?",
@@ -397,7 +397,7 @@
           },
           {
             "question": "Is syphilis curable?",
-            "answer": "<p>Yes. Syphilis is curable with antibiotics, usually a single injection or a short course of tablets. Some later-stage cases need a longer course. You’ll be retested at 6 and 12 weeks to make sure the treatment has worked.</p>"
+            "answer": "<p>Yes. Syphilis is curable with antibiotics. The treatment and its length depend on the stage of infection. You’ll be retested at 6 and 12 weeks to check treatment has worked, and further follow-up may be needed.</p>"
           },
           {
             "question": "Can you get syphilis from oral sex?",
@@ -405,7 +405,7 @@
           },
           {
             "question": "Can you get syphilis more than once?",
-            "answer": "<p><mark>[Check against clinical guidance before publishing.]</mark> Yes. Being treated for syphilis doesn’t protect you from catching it again. That’s why recent sexual partners should be tested and treated too, and why regular testing helps if you have new partners.</p>"
+            "answer": "<p>Yes. Being treated for syphilis doesn’t protect you from catching it again. Regular STI testing is important if you have new sexual partners.</p>"
           },
           {
             "question": "What happens if syphilis is left untreated?",
@@ -413,11 +413,11 @@
           },
           {
             "question": "Should my partner get tested for syphilis?",
-            "answer": "<p>Yes. If you test positive, your recent sexual partners should be tested and treated too, even if they feel well. A sexual health clinic can contact partners for you confidentially.</p>"
+            "answer": "<p>If your home test is positive, contact a sexual health clinic for further testing. They’ll advise whether your recent partners need testing or treatment and can contact them confidentially.</p>"
           },
           {
             "question": "How common is syphilis in the UK?",
-            "answer": "<p>In 2025, there were 8,262 syphilis diagnoses in England, a 13.5% fall from the year before. Cases among heterosexual women rose, so anyone who is sexually active can be at risk.</p>"
+            "answer": "<p>In 2025, there were <a href=\"https://www.gov.uk/government/statistics/sexually-transmitted-infections-stis-annual-data-tables/sexually-transmitted-infections-and-screening-for-chlamydia-in-england-2025-report\">8,262 infectious syphilis diagnoses</a> in England, a 13.5% fall from the year before. Cases among heterosexual women rose, so anyone who is sexually active can be at risk.</p>"
           },
           {
             "question": "Can I take a syphilis test while pregnant?",
@@ -446,11 +446,12 @@
     "references": {
       "heading": "References",
       "items": [
-        "Centers for Disease Control and Prevention. “About Syphilis.” <em>CDC</em>, 23 Feb. 2026, <a href=\"https://www.cdc.gov/syphilis/about/index.html\">cdc.gov/syphilis/about</a>.",
-        "NHS. “Syphilis.” <em>NHS.uk</em>, 17 Mar. 2026, <a href=\"https://www.nhs.uk/conditions/syphilis/\">nhs.uk/conditions/syphilis</a>.",
-        "UK Health Security Agency. “STIs Fall with Syphilis among Gay and Bisexual Men Lowest in a Decade.” <em>GOV.UK</em>, 2 Jun. 2026, <a href=\"https://www.gov.uk/government/news/stis-fall-with-syphilis-among-gay-and-bisexual-men-lowest-in-a-decade\">gov.uk</a>.",
-        "UK Health Security Agency. “What Is Syphilis? A Quick Guide to Its Symptoms and Treatment.” <em>UKHSA Blog</em>, 2 Jun. 2026, <a href=\"https://ukhsa.blog.gov.uk/2026/06/02/what-is-syphilis-a-quick-guide-to-its-symptoms-and-treatment/\">ukhsa.blog.gov.uk</a>.",
-        "World Health Organization. “Syphilis.” <em>WHO</em>, 29 May 2025, <a href=\"https://www.who.int/news-room/fact-sheets/detail/syphilis\">who.int</a>."
+        "Centers for Disease Control and Prevention. “About Syphilis.” <em>CDC</em>, 23 Feb. 2026, <a href=\"https://www.cdc.gov/syphilis/about/index.html\">https://www.cdc.gov/syphilis/about/index.html</a>.",
+        "NHS. “Syphilis.” <em>NHS.uk</em>, 17 Mar. 2026, <a href=\"https://www.nhs.uk/conditions/syphilis/\">https://www.nhs.uk/conditions/syphilis/</a>.",
+        "UK Health Security Agency. “Sexually Transmitted Infections and Screening for Chlamydia in England: 2025 Report.” <em>GOV.UK</em>, 2 June 2026, <a href=\"https://www.gov.uk/government/statistics/sexually-transmitted-infections-stis-annual-data-tables/sexually-transmitted-infections-and-screening-for-chlamydia-in-england-2025-report\">https://www.gov.uk/government/statistics/sexually-transmitted-infections-stis-annual-data-tables/sexually-transmitted-infections-and-screening-for-chlamydia-in-england-2025-report</a>.",
+        "UK Health Security Agency. “STIs Fall with Syphilis among Gay and Bisexual Men Lowest in a Decade.” <em>GOV.UK</em>, 2 June 2026, <a href=\"https://www.gov.uk/government/news/stis-fall-with-syphilis-among-gay-and-bisexual-men-lowest-in-a-decade\">https://www.gov.uk/government/news/stis-fall-with-syphilis-among-gay-and-bisexual-men-lowest-in-a-decade</a>.",
+        "UK Health Security Agency. “What Is Syphilis? A Quick Guide to Its Symptoms and Treatment.” <em>UKHSA Blog</em>, 2 June 2026, <a href=\"https://ukhsa.blog.gov.uk/2026/06/02/what-is-syphilis-a-quick-guide-to-its-symptoms-and-treatment/\">https://ukhsa.blog.gov.uk/2026/06/02/what-is-syphilis-a-quick-guide-to-its-symptoms-and-treatment/</a>.",
+        "World Health Organization. “Syphilis.” <em>WHO</em>, 29 May 2025, <a href=\"https://www.who.int/news-room/fact-sheets/detail/syphilis\">https://www.who.int/news-room/fact-sheets/detail/syphilis</a>."
       ]
     }
   },
