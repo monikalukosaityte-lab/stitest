@@ -7,6 +7,12 @@
 - Always work on a branch (e.g. `preview/<feature>`) and push it so Vercel builds a preview URL for review
 - Never merge into `main` — the user reviews the preview and merges themselves
 
+## Team Workflow
+
+- Several people edit this repo. Start each piece of work from the latest `main` (or the open preview branch if it hasn't been merged yet), on your own `preview/<feature>` branch
+- Commit and push often so work is saved on GitHub; open a pull request for review. Only the project owner merges into `main`
+- Open tasks live in `TODO.md`. When you finish one, remove it there in the same commit; add new ones there too
+
 ## Styling
 
 - always use shadcn components
@@ -89,6 +95,9 @@
 - Pages with `seo` automatically get Product, BreadcrumbList, FAQPage and HowTo schema. Copy-doc notes such as "(New)" are left out of the page
 - Copy arrives as an SEO doc (.docx). Use its wording exactly and keep its internal links: guide links go to `/blog/...` anchors on this site, product links go to this site's `/rapid-tests/...` pages, and only buy buttons go to the Shopify checkout
 - Wrap anything the copy says still needs checking in `<mark>`
+- About section H2: set `about.heading` to the copy doc's section 2 label (e.g. "2. About PSA and prostate testing" → "About PSA and prostate testing"); the About questions then render as H3s
+- When to test date checker: keep the 1-week grace logic in `window-calculator.tsx` on every page, including bundles. Update the message wording from the doc, but don't switch to the doc's exact cut-offs; if a doc's ranges differ, just mention it
+- Never invent medical claims or accuracy figures; use only what the copy doc gives
 
 ## MDX / Articles
 
