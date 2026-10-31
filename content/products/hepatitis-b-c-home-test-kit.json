@@ -227,7 +227,7 @@
   "trust": "Secure checkout · Discreet UK delivery · Dispatched within 1 working day",
   "reassurance": {
     "title": "Discreet delivery",
-    "text": "Plain packaging with nothing on the outside to reveal what’s inside. Click & Collect is also available at checkout."
+    "text": "Plain packaging with nothing on the outside to reveal what’s inside."
   },
   "how": {
     "heading": "How does the hepatitis B and C home test work?",
@@ -438,7 +438,7 @@
         "questions": [
           {
             "question": "Will anyone know what I ordered?",
-            "answer": "<p>No. Your order arrives in plain, discreet packaging with nothing on the outside to reveal what’s inside. Click &amp; Collect is also available at checkout. Your bank statement won’t show “Test Discreet” or the name of the test.</p>"
+            "answer": "<p>No. Your order arrives in plain, discreet packaging with nothing on the outside to reveal what’s inside. Your bank statement won’t show “Test Discreet” or the name of the test.</p>"
           },
           {
             "question": "Can I get a free hepatitis test on the NHS?",
