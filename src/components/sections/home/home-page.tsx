@@ -607,7 +607,7 @@ function Guides() {
                 </h3>
                 <p className="flex-1">{guide.text}</p>
                 <p className="text-muted-foreground text-xs">
-                  <mark>Medically reviewed by [name], [date]</mark>
+                  Medically reviewed
                 </p>
                 <p className="text-primary inline-flex items-center gap-1.5 font-bold">
                   Read guide
