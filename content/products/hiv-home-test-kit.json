@@ -264,14 +264,6 @@
       "href": "https://testdiscreet.co.uk/pages/how-to-test-hiv?utm_source=stitestkit&utm_medium=referral"
     }
   },
-  "windows": {
-    "heading": "When should I take an HIV <em>test?</em>",
-    "subheading": "You can test at any time, but <a href=\"/blog/hiv-symptoms-stages#when-should-you-get-tested-for-hiv\">when you get tested for HIV</a> matters. Testing too early can give a negative result even if you have HIV. This antibody test has a 90-day window period, so an early negative should be repeated 90 days after your last possible exposure.",
-    "days": 0,
-    "initialTitle": null,
-    "strings": null,
-    "notes": "<p>If you have symptoms or a partner has tested positive, contact a sexual health clinic now.</p><p><strong>Possible exposure in the last 72 hours?</strong> Contact a sexual health clinic or A&amp;E now and ask about PEP. Don’t wait for a test result.</p>"
-  },
   "results": {
     "heading": "How to read your HIV test result",
     "groups": [
