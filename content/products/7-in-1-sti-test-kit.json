@@ -134,7 +134,7 @@
       {
         "question": "Who is the 7-in-1 kit for?",
         "open": false,
-        "answer": "<p>You don’t need symptoms to test. The 7-in-1 kit is a good choice if:</p><ul><li>You want a full sexual health check in one go</li><li>You’ve had sex without a condom, or with a new partner</li><li>You have more than one partner and want to test regularly</li><li>A partner has told you they have an STI, and you’re not sure which tests you need</li><li>You’re starting a new relationship and want peace of mind</li><li>You’d prefer a private home test to a clinic visit</li></ul><p><strong>Need help now?</strong> If you have symptoms, a partner has tested positive, or you may have been exposed to HIV in the last 72 hours, contact a sexual health clinic or A&amp;E. Ask about PEP, medicine that can help prevent HIV after exposure. Don’t wait for a test result.</p>"
+        "answer": "<p>You don’t need symptoms to test. The 7-in-1 kit is a good choice if:</p><ul><li>You want a full sexual health check in one go</li><li>You’ve had sex without a condom, or with a new partner</li><li>You have more than one partner and want to test regularly</li><li>A partner has told you they have an STI, and you’re not sure which tests you need</li><li>You’re starting a new relationship and want peace of mind</li><li>You’d prefer a private home test to a clinic visit</li></ul><p><strong>Need help now?</strong> If you have symptoms or a partner has tested positive, contact a sexual health clinic now.</p><p><strong>Possible HIV exposure in the last 72 hours?</strong> Contact a sexual health clinic or A&amp;E as soon as possible and ask about PEP, medicine that can help prevent HIV after exposure. Don’t wait for a test result.</p>"
       }
     ],
     "aside": {
@@ -244,7 +244,7 @@
           "alt": "Step 1 start with the swab test"
         },
         "title": "Start with the swab test",
-        "text": "Don’t pee for at least 2 hours before. Take a vaginal or urethral swab and follow the chlamydia and gonorrhoea instructions."
+        "text": "Take a vaginal or urethral swab following the collection instructions. If taking a urethral swab, don’t pee for at least 2 hours beforehand."
       },
       {
         "image": {
@@ -271,7 +271,7 @@
   },
   "windows": {
     "heading": "How soon after sex can I take a full STI <em>test?</em>",
-    "subheading": "<p>You can test at any time, but testing too early can give a negative result even if you have an infection. Each STI takes a different amount of time to show up on a test. This is called the window period. If you test before it ends and get a negative result, test again once it has passed.</p><table><thead><tr><th>Infection</th><th>Retest an early negative at</th></tr></thead><tbody><tr><td>Chlamydia and gonorrhoea</td><td>2 weeks after possible exposure</td></tr><tr><td>Syphilis</td><td>12 weeks</td></tr><tr><td>Hepatitis B</td><td>12 weeks</td></tr><tr><td>HIV</td><td>90 days</td></tr><tr><td>Hepatitis C</td><td>6 months</td></tr><tr><td>Genital herpes (HSV-2)</td><td>No set time. If you have sores, a clinic can swab them</td></tr></tbody></table>",
+    "subheading": "<p>You can test straight away, but testing too early can give a negative result even if you have an infection. An early negative may need repeating: chlamydia and gonorrhoea at 2 weeks, syphilis and hepatitis B at 12 weeks, HIV at 90 days and hepatitis C at six months after your last possible exposure. There isn’t a reliable number of days or weeks when the herpes IgM test becomes conclusive.</p><table><thead><tr><th>Infection</th><th>Retest an early negative at</th></tr></thead><tbody><tr><td>Chlamydia and gonorrhoea</td><td>2 weeks after possible exposure</td></tr><tr><td>Syphilis</td><td>12 weeks</td></tr><tr><td>Hepatitis B</td><td>12 weeks</td></tr><tr><td>HIV</td><td>90 days</td></tr><tr><td>Hepatitis C</td><td>6 months</td></tr><tr><td>Genital herpes (HSV-2)</td><td>No set time. If you have sores, a clinic can swab them</td></tr></tbody></table>",
     "days": 182,
     "initialTitle": "Test now. If anything is negative, check the table above for when to retest.",
     "strings": {
@@ -283,7 +283,7 @@
       "retest_body": "",
       "now_title": "",
       "now_body": "",
-      "unsure_title": "Test now. If negative, retest at __INTERVAL__.",
+      "unsure_title": "Contact a sexual health clinic for advice about when to test.",
       "unsure_body": "",
       "retest": "",
       "privacy": "This checker runs on your device. The date never leaves it: we don’t see it, store it or send it anywhere."
@@ -291,36 +291,36 @@
     "stages": [
       {
         "until": 3,
-        "title": "Contact a sexual health clinic or A&E today and ask about PEP.",
-        "body": "Then test now, and retest on the dates below: chlamydia and gonorrhoea on __DATE_14__, syphilis and hepatitis B on __DATE_84__, HIV on __DATE_90__ and hepatitis C on __DATE_182__."
+        "title": "Contact a sexual health clinic or A&E as soon as possible and ask about PEP.",
+        "body": "Don’t wait for a home test result. The clinic will advise when to test."
       },
       {
         "until": 14,
-        "title": "Test now.",
-        "body": "Retest chlamydia and gonorrhoea on __DATE_14__, syphilis and hepatitis B on __DATE_84__, HIV on __DATE_90__ and hepatitis C on __DATE_182__."
+        "title": "You can test now.",
+        "body": "If negative, repeat chlamydia and gonorrhoea on __DATE_14__, syphilis and hepatitis B on __DATE_84__, HIV on __DATE_90__ and hepatitis C on __DATE_182__."
       },
       {
         "until": 84,
-        "title": "Your chlamydia and gonorrhoea result covers this exposure.",
-        "body": "Retest syphilis and hepatitis B on __DATE_84__, HIV on __DATE_90__ and hepatitis C on __DATE_182__."
+        "title": "You can test now.",
+        "body": "If negative, repeat syphilis and hepatitis B on __DATE_84__, HIV on __DATE_90__ and hepatitis C on __DATE_182__."
       },
       {
         "until": 90,
-        "title": "Your chlamydia, gonorrhoea, syphilis and hepatitis B results cover this exposure.",
-        "body": "If not yet 90 days, retest HIV on __DATE_90__. Retest hepatitis C on __DATE_182__."
+        "title": "You can test now.",
+        "body": "If negative, repeat HIV on __DATE_90__ and hepatitis C on __DATE_182__."
       },
       {
         "until": 182,
-        "title": "Your chlamydia, gonorrhoea, syphilis and hepatitis B results cover this exposure.",
-        "body": "Retest hepatitis C on __DATE_182__."
+        "title": "You can test now.",
+        "body": "If negative, repeat hepatitis C on __DATE_182__."
       },
       {
         "until": null,
-        "title": "Your results cover this exposure for every infection except herpes, which has no set window.",
-        "body": ""
+        "title": "You can test now.",
+        "body": "There is no reliable conclusive window period for the herpes IgM test. If you have symptoms or concerns, contact a sexual health clinic."
       }
     ],
-    "notes": "<p><strong>Simple rule:</strong> If you test soon after exposure and get negative results, retest at 2 weeks, 90 days and 6 months. That covers every window above.</p><p><strong>PEP alert:</strong> Possible HIV exposure in the last 72 hours? Contact a sexual health clinic or A&amp;E now and ask about PEP. Don’t wait for a test result.</p>",
+    "notes": "<p><strong>PEP alert:</strong> Possible HIV exposure in the last 72 hours? Contact a sexual health clinic or A&amp;E now and ask about PEP. Don’t wait for a test result.</p>",
     "after": "<p><strong>Planning to retest?</strong> Choose the 2-kit Test + retest pack for £116.91 and save 10%, or our <a href=\"/rapid-tests/core-4-sti-test-kit\">Core 4 bundle</a> covers chlamydia, gonorrhoea, HIV and syphilis for a lower price.</p>"
   },
   "results": {
@@ -400,7 +400,7 @@
           },
           {
             "question": "Can I use the kit while pregnant?",
-            "answer": "<p>Speak to your midwife, GP or a sexual health clinic. HIV, syphilis and hepatitis B testing is routinely offered during pregnancy through the NHS.</p>"
+            "answer": "<p>The swab test is not recommended if you are pregnant. If you’re pregnant and concerned about STIs, speak to your midwife, GP or a sexual health clinic. HIV, syphilis and hepatitis B testing is routinely offered during pregnancy through the NHS, and they can advise on testing for the other infections.</p>"
           }
         ]
       },
