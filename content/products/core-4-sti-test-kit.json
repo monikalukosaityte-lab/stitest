@@ -1,0 +1,433 @@
+{
+  "slug": "core-4-sti-test-kit",
+  "handle": "core-4",
+  "seo": {
+    "title": "4-in-1 STI Test Kit UK – Core 4 Home Test | STI Test Kit",
+    "description": "Test for chlamydia, gonorrhoea, HIV and syphilis at home. 3 rapid tests, results in 15 minutes. £44.95, our most popular STI test kit.",
+    "itemList": [
+      {
+        "name": "Chlamydia",
+        "url": "/rapid-tests/chlamydia-gonorrhoea-home-test-kit"
+      },
+      {
+        "name": "Gonorrhoea",
+        "url": "/rapid-tests/chlamydia-gonorrhoea-home-test-kit"
+      },
+      {
+        "name": "HIV-1 and HIV-2",
+        "url": "/rapid-tests/hiv-home-test-kit"
+      },
+      {
+        "name": "Syphilis",
+        "url": "/rapid-tests/syphilis-home-test-kit"
+      }
+    ],
+    "related": ["sti-bundle"]
+  },
+  "gallery": [
+    {
+      "src": "/images/products/gallery/product-core-4-grey.webp",
+      "alt": "Test Discreet Core 4 STI home test kit with HIV, syphilis and chlamydia and gonorrhoea tests"
+    },
+    {
+      "src": "/images/products/gallery/privacy-promise.webp",
+      "alt": "Test Discreet privacy promise: confidential, discreet delivery, private payment"
+    },
+    {
+      "src": "/images/products/gallery/benefits-core-4.webp",
+      "alt": "Core 4 Bundle: what you get"
+    },
+    {
+      "src": "/images/products/gallery/value-prop-core-4-benefits.webp",
+      "alt": "Core 4 Bundle - results in 15 minutes, no clinic visit, discreet packaging"
+    },
+    {
+      "src": "/images/products/gallery/how-to-test-core-4.webp",
+      "alt": "How to use the Core 4 Bundle"
+    }
+  ],
+  "title": "Core 4 STI Test Kit",
+  "hero": {
+    "breadcrumb": "Core 4 STI Test Kit",
+    "badge": "Most popular",
+    "heading": "Core 4 STI Test Kit – Chlamydia, Gonorrhoea, HIV & Syphilis at Home",
+    "intro": "Our most popular 4-in-1 STI test kit. Check for chlamydia, gonorrhoea, HIV and syphilis in one private order, with results in around 15 minutes. Three rapid tests, no clinic and nothing to post to a lab.",
+    "highlights": [
+      {
+        "icon": "verified",
+        "label": "4 STIs in one kit"
+      },
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "home",
+        "label": "No lab, nothing to post"
+      },
+      {
+        "icon": "lock",
+        "label": "Discreet packaging"
+      }
+    ],
+    "specs": [
+      {
+        "icon": "search",
+        "label": "Tests for",
+        "value": "Chlamydia, gonorrhoea, HIV-1 and HIV-2, syphilis"
+      },
+      {
+        "icon": "package",
+        "label": "What’s in the box",
+        "value": "3 rapid tests: 2 finger-prick blood tests and 1 swab test"
+      },
+      {
+        "icon": "clock",
+        "label": "Results",
+        "value": "Each test in around 15 minutes, at home"
+      },
+      {
+        "icon": "users",
+        "label": "Suitable for",
+        "value": "Anyone aged 16 and over"
+      },
+      {
+        "icon": "package",
+        "label": "Delivery",
+        "value": "Ships within 1 working day"
+      }
+    ],
+    "priceNote": "",
+    "after": "<p><strong>Want the full picture?</strong> Add herpes and hepatitis B and C for £20 more with our <a href=\"/rapid-tests/7-in-1-sti-test-kit\">7-in-1 STI test kit</a>.</p>"
+  },
+  "about": {
+    "questions": [
+      {
+        "question": "What does the Core 4 STI test kit check for?",
+        "open": true,
+        "answer": "<p>The kit contains 3 rapid tests that check for 4 infections between them. Every test gives its own result, so you’ll know exactly what was and wasn’t detected.</p><table><thead><tr><th>Infection</th><th>Test in the kit</th><th>Sample</th><th>Bought alone</th></tr></thead><tbody><tr><td>Chlamydia and gonorrhoea</td><td><a href=\"/rapid-tests/chlamydia-gonorrhoea-home-test-kit\">Chlamydia &amp; gonorrhoea test</a></td><td>Vaginal or urethral swab</td><td>£19.95</td></tr><tr><td>HIV-1 and HIV-2</td><td><a href=\"/rapid-tests/hiv-home-test-kit\">HIV test</a></td><td>Finger-prick</td><td>£15.95</td></tr><tr><td>Syphilis</td><td><a href=\"/rapid-tests/syphilis-home-test-kit\">Syphilis test</a></td><td>Finger-prick</td><td>£14.95</td></tr><tr><td><strong>All 4</strong></td><td><strong>Core 4 kit</strong></td><td><strong>2 finger-pricks + 1 swab</strong></td><td><strong>£44.95 (save £5.90)</strong></td></tr></tbody></table><h3>Chlamydia and gonorrhoea</h3><p>Chlamydia is the most commonly diagnosed STI in England, and gonorrhoea is second, with 151,163 and 63,943 diagnoses in 2025. Most people with chlamydia have no symptoms. Both are treated with antibiotics. Learn about <a href=\"/blog/chlamydia-gonorrhoea-symptoms\">chlamydia and gonorrhoea symptoms</a>.</p><h3>HIV</h3><p>HIV attacks the immune system and can cause no symptoms for years. Treatment is free on the NHS and highly effective. Learn about <a href=\"/blog/hiv-symptoms-stages\">the symptoms and stages of HIV</a>.</p><h3>Syphilis</h3><p>Syphilis often starts with a painless sore that’s easy to miss, and it can come back as a rash. It’s curable with antibiotics. Learn about <a href=\"/blog/syphilis-symptoms-stages\">the four stages of syphilis</a>.</p><p><strong>Not included:</strong> genital herpes and hepatitis B and C. To test for those too, choose the <a href=\"/rapid-tests/7-in-1-sti-test-kit\">7-in-1 STI test kit</a>.</p>"
+      },
+      {
+        "question": "Can you have an STI without knowing?",
+        "open": false,
+        "answer": "<p>Yes. Most people with chlamydia have no symptoms. HIV can cause no symptoms for years, and the first sign of syphilis is often a painless sore that heals by itself. <a href=\"/blog/what-is-an-sti-test\">Testing is the only way to know</a>, even if you feel well.</p>"
+      },
+      {
+        "question": "Who is the Core 4 kit for?",
+        "open": false,
+        "answer": "<p>You don’t need symptoms to test. The Core 4 is a good choice if:</p><ul><li>You’ve had sex without a condom, or with a new partner</li><li>You want a regular check-up for the most commonly tested STIs</li><li>You’ve had a full STI test before and want a lower-cost retest</li><li>A partner has told you they have chlamydia, gonorrhoea, HIV or syphilis</li><li>You’d prefer a private home test to a clinic visit</li></ul><p><strong>Not sure which kit you need?</strong> If you’d like to check for herpes and hepatitis too, the <a href=\"/rapid-tests/7-in-1-sti-test-kit\">7-in-1 STI test kit</a> tests for 7 infections for £64.95.</p><p><strong>Need help now?</strong> If you have symptoms or a partner has tested positive, contact a sexual health clinic now.</p><p><strong>Possible HIV exposure in the last 72 hours?</strong> Contact a sexual health clinic or A&amp;E as soon as possible and ask about PEP, medicine that can help prevent HIV after exposure. Don’t wait for a test result.</p>"
+      }
+    ],
+    "aside": {
+      "heading": "Why choose a 4-in-1 STI test?",
+      "text": "Chlamydia, gonorrhoea, HIV and syphilis are the infections most often tested for together at sexual health clinics. They can all be passed on through sex without a condom, they often cause no symptoms, and they can all be treated. A 4-in-1 STI test covers them in one simple order.",
+      "items": [
+        {
+          "icon": "verified",
+          "title": "The essentials in one kit",
+          "text": "4 key STIs, 3 tests, 1 order."
+        },
+        {
+          "icon": "clock",
+          "title": "Results in 15 minutes",
+          "text": "Read every result at home, the same day. No posting samples to a lab."
+        },
+        {
+          "icon": "tag",
+          "title": "Save £5.90",
+          "text": "Pay £44.95 instead of £50.85 for the same tests bought separately."
+        },
+        {
+          "icon": "lock",
+          "title": "Completely private",
+          "text": "Plain parcel, discreet bank statement, and only you see your results."
+        }
+      ],
+      "buttonLabel": "Get my test"
+    }
+  },
+  "intro": "<p>Test privately at home for chlamydia, gonorrhoea, HIV and syphilis. Three simple rapid tests using a swab and finger-prick blood samples, with results in around 15 minutes.</p>",
+  "keyFacts": [
+    "<strong>Screens for:</strong> Chlamydia, gonorrhoea, HIV-1 and HIV-2, and syphilis",
+    "<strong>Samples:</strong> Swab and finger-prick blood",
+    "<strong>Results:</strong> Around 15 minutes"
+  ],
+  "shipping": "Ships within <strong>1 working day</strong>",
+  "accordions": [
+    {
+      "heading": "What does Core 4 test for?",
+      "open": false,
+      "content": "<p>Core 4 screens for four STIs: chlamydia, gonorrhoea, HIV and syphilis. All four can cause no noticeable symptoms. Chlamydia, gonorrhoea and syphilis can be cured with antibiotics, while HIV can be effectively managed with treatment.</p>",
+      "after": "",
+      "checklist": []
+    },
+    {
+      "heading": "Is this for you?",
+      "open": true,
+      "content": "<p><strong>You don’t need to have symptoms to test.</strong> All four infections can cause no noticeable symptoms.</p><p>It may be worth testing if:</p>",
+      "after": "<p><strong>Had a possible HIV exposure in the last 72 hours?</strong> Don’t wait for a test result. Contact a sexual health clinic or go to A&E as soon as possible and ask about PEP, medication that can help prevent HIV after exposure.</p>",
+      "checklist": [
+        "You’ve had <strong>sex without a condom</strong>",
+        "You have a <strong>new sexual partner</strong>, or more than one",
+        "A <strong>sexual partner has told you</strong> they have an STI",
+        "You’ve had <strong>possible symptoms</strong>, such as unusual discharge, pain when peeing, a sore or a rash",
+        "You want to check for <strong>four STIs</strong> in one go",
+        "You’d rather <strong>test privately</strong> at home"
+      ]
+    }
+  ],
+  "benefits": {
+    "heading": "Test <em>privately</em>",
+    "text": "Everything you need to test for the core 4 at home:",
+    "items": [
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "swab",
+        "label": "1 swab and 2 finger-prick tests"
+      },
+      {
+        "icon": "package",
+        "label": "Discreet packaging"
+      },
+      {
+        "icon": "home",
+        "label": "No clinic visit"
+      }
+    ]
+  },
+  "footnote": "",
+  "bundleChoice": null,
+  "variantId": 63780180492618,
+  "retest": {
+    "heading": "Select quantity",
+    "badge": "Test + retest",
+    "discount": 10,
+    "unit": "kit",
+    "note": "Testing soon after sex? An early negative may need to be repeated. See when to retest each infection below."
+  },
+  "buyLabel": "Get my test",
+  "trust": "Secure checkout · Discreet UK delivery · Ships within 1 working day",
+  "reassurance": {
+    "title": "Discreet delivery",
+    "text": "Plain packaging with nothing on the outside to reveal what’s inside. Your bank statement won’t show “Test Discreet” or the name of the test."
+  },
+  "how": {
+    "heading": "How does the Core 4 STI test kit work?",
+    "intro": "<p>You’ll find 3 rapid tests in the box, each with its own instructions. Two use a small finger-prick of blood and one uses a swab. You read every result at home, with no sample to send to a lab.</p>",
+    "stepsHeading": "How to use the Core 4 kit in 3 steps",
+    "steps": [
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-core-4-step-1.webp",
+          "alt": "Step 1 start with the swab test"
+        },
+        "title": "Start with the swab test",
+        "text": "Take a vaginal or urethral swab following the collection instructions. If taking a urethral swab, don’t pee for at least 2 hours beforehand."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-core-4-step-2.webp",
+          "alt": "Step 2 do the 2 finger-prick tests"
+        },
+        "title": "Do the 2 finger-prick tests",
+        "text": "Clean and prick your fingertip, then add blood and test liquid to the HIV and syphilis tests as each leaflet shows."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-core-4-step-3.webp",
+          "alt": "Step 3 read each result in its time window"
+        },
+        "title": "Read each result in its time window",
+        "text": "Set a timer so you don’t miss one."
+      }
+    ],
+    "after": "<table><thead><tr><th>Test</th><th>Read between</th><th>Don’t read after</th></tr></thead><tbody><tr><td>Chlamydia &amp; gonorrhoea</td><td>15 and 20 minutes</td><td>25 minutes</td></tr><tr><td>HIV</td><td>15 and 20 minutes</td><td>20 minutes</td></tr><tr><td>Syphilis</td><td>10 and 20 minutes</td><td>20 minutes</td></tr></tbody></table><p>Step-by-step guides with pictures are on each test’s own page: <a href=\"/rapid-tests/chlamydia-gonorrhoea-home-test-kit\">chlamydia and gonorrhoea</a>, <a href=\"/rapid-tests/hiv-home-test-kit\">HIV</a> and <a href=\"/rapid-tests/syphilis-home-test-kit\">syphilis</a>.</p>",
+    "link": {
+      "label": "How to test and read your results",
+      "href": "https://testdiscreet.co.uk/pages/how-to-test?utm_source=stitestkit&utm_medium=referral"
+    }
+  },
+  "windows": {
+    "heading": "How soon after sex can I take the Core 4 <em>test?</em>",
+    "subheading": "<p>You can test at any time, but testing too early can give a negative result even if you have an infection. Each STI takes a different amount of time to show up. If you test early and get a negative result, test again once its window period has passed.</p><table><thead><tr><th>Infection</th><th>Retest an early negative at</th></tr></thead><tbody><tr><td>Chlamydia and gonorrhoea</td><td>2 weeks after possible exposure</td></tr><tr><td>Syphilis</td><td>12 weeks</td></tr><tr><td>HIV</td><td>90 days</td></tr></tbody></table>",
+    "days": 90,
+    "initialTitle": "Test now. If anything is negative, check the table above for when to retest.",
+    "strings": {
+      "today": "Today",
+      "days_ago_one": "__COUNT__ day ago",
+      "days_ago_other": "__COUNT__ days ago",
+      "interval": "2 weeks and 90 days",
+      "retest_title": "",
+      "retest_body": "",
+      "now_title": "",
+      "now_body": "",
+      "unsure_title": "Contact a sexual health clinic for advice about when to test.",
+      "unsure_body": "",
+      "retest": "",
+      "privacy": "This checker runs on your device. The date never leaves it: we don’t see it, store it or send it anywhere."
+    },
+    "stages": [
+      {
+        "until": 3,
+        "title": "Contact a sexual health clinic or A&E as soon as possible and ask about PEP.",
+        "body": "Don’t wait for a home test result. The clinic will advise when to test."
+      },
+      {
+        "until": 14,
+        "title": "You can test now.",
+        "body": "If negative, repeat chlamydia and gonorrhoea on __DATE_14__, syphilis on __DATE_84__ and HIV on __DATE_90__."
+      },
+      {
+        "until": 84,
+        "title": "You can test now.",
+        "body": "If negative, repeat syphilis on __DATE_84__ and HIV on __DATE_90__."
+      },
+      {
+        "until": 90,
+        "title": "You can test now.",
+        "body": "If negative, repeat HIV on __DATE_90__."
+      },
+      {
+        "until": null,
+        "title": "You can test now, as all three testing windows have passed.",
+        "body": "If you have symptoms or concerns, contact a sexual health clinic."
+      }
+    ],
+    "notes": "<p><strong>PEP alert:</strong> Possible HIV exposure in the last 72 hours? Contact a sexual health clinic or A&amp;E now and ask about PEP. Don’t wait for a test result.</p>",
+    "after": "<p><strong>Planning to retest?</strong> The 2-kit Test + retest pack is £80.91 and saves 10%.</p>"
+  },
+  "results": {
+    "heading": "How to read your Core 4 STI test results",
+    "groups": [
+      {
+        "title": null,
+        "intro": "<p>Every test has a C (control) line and a T (test) line. The C line shows the test worked. A T line, even a faint one, means something was detected. The chlamydia and gonorrhoea test has two windows, so you get a separate result for each.</p><table><thead><tr><th>Test</th><th>Window(s)</th><th>Negative</th><th>Positive</th></tr></thead><tbody><tr><td>Chlamydia &amp; gonorrhoea</td><td>Ct (chlamydia) and Ng (gonorrhoea)</td><td>C line only in both</td><td>C and T lines in the Ct and/or Ng window</td></tr><tr><td>HIV</td><td>One</td><td>C line only</td><td>C and T lines</td></tr><tr><td>Syphilis</td><td>One</td><td>C line only</td><td>C and T lines</td></tr></tbody></table><p><strong>Invalid:</strong> No C line in a window means that test hasn’t worked, even if a T line shows. Contact us and we’ll help.</p>",
+        "items": []
+      }
+    ],
+    "notes": [
+      {
+        "title": "What if a result is positive?",
+        "text": "<p>Don’t panic. All 4 infections can be treated: chlamydia, gonorrhoea and syphilis are cured with antibiotics, and HIV treatment is highly effective. Contact a sexual health clinic or your GP for a confirmation test and treatment. NHS sexual health services are free and confidential, and your recent partners may need testing too.</p><p>If you’ve had syphilis before, tell the clinic, because syphilis antibodies can stay after treatment.</p>"
+      },
+      {
+        "title": "Good to know",
+        "text": "<p>These tests are designed for screening and don’t replace advice from a doctor or nurse. For ages 16 and over.</p>"
+      }
+    ],
+    "buttonLabel": "Get my test – £44.95"
+  },
+  "faq": {
+    "heading": "Core 4 STI test kit FAQs",
+    "tabs": [
+      {
+        "label": "About the kit",
+        "questions": [
+          {
+            "question": "What does the Core 4 kit test for?",
+            "answer": "<p>It tests for 4 infections: chlamydia, gonorrhoea, HIV (types 1 and 2) and syphilis. There are 3 tests in the box, and each gives its own result.</p>"
+          },
+          {
+            "question": "How long do the results take?",
+            "answer": "<p>Each test gives a result in around 15 minutes, read at home. There’s nothing to post to a lab.</p>"
+          },
+          {
+            "question": "How accurate is the Core 4 kit?",
+            "answer": "<p>When used correctly, each test is a reliable screening test. In clinical evaluations, 99.81% of syphilis results matched a lab test. Testing too soon after exposure can affect results, and any positive should be confirmed by a clinic or GP.</p>"
+          },
+          {
+            "question": "Is a 4-in-1 STI test enough?",
+            "answer": "<p>For many people, yes. These are the STIs most often checked together at sexual health clinics. But the Core 4 doesn’t test for genital herpes or hepatitis B and C. If you’d like those too, choose the <a href=\"/rapid-tests/7-in-1-sti-test-kit\">7-in-1 STI test kit</a>.</p>"
+          },
+          {
+            "question": "What’s the difference between the Core 4 and the 7-in-1?",
+            "answer": "<p>The Core 4 tests for chlamydia, gonorrhoea, HIV and syphilis for £44.95. The 7-in-1 adds genital herpes, hepatitis B and hepatitis C for £64.95, so it’s £20 more for 3 extra infections.</p>"
+          },
+          {
+            "question": "How much do I save with the Core 4?",
+            "answer": "<p>The 3 tests cost £50.85 bought separately. The Core 4 is £44.95, so you save £5.90. The 2-kit Test + retest pack is £80.91, saving a further 10%.</p>"
+          },
+          {
+            "question": "Can men and women use the Core 4 kit?",
+            "answer": "<p>Yes. It’s for anyone aged 16 and over. The swab test works with a vaginal swab or a swab from the urethra (the tube you pee from).</p>"
+          },
+          {
+            "question": "Does it test for throat or anal infections?",
+            "answer": "<p>No. The chlamydia and gonorrhoea test uses a genital swab only. If you’ve had oral or anal sex, ask a sexual health clinic about throat or rectal testing.</p>"
+          },
+          {
+            "question": "How soon after sex can I use the Core 4?",
+            "answer": "<p>You can test straight away. If you test early and get negative results, retest chlamydia and gonorrhoea at 2 weeks, syphilis at 12 weeks and HIV at 90 days.</p>"
+          },
+          {
+            "question": "What if one of my results is positive?",
+            "answer": "<p>Contact a sexual health clinic or your GP for a confirmation test and treatment. Chlamydia, gonorrhoea and syphilis are cured with antibiotics, and HIV treatment is highly effective. Your recent partners may need testing too.</p>"
+          },
+          {
+            "question": "What does a negative result mean?",
+            "answer": "<p>It means that infection wasn’t detected. If you tested soon after possible exposure, retest once its window period has passed. If you have symptoms, speak to a sexual health clinic.</p>"
+          },
+          {
+            "question": "Can I use the kit while pregnant?",
+            "answer": "<p>The swab test is not recommended if you are pregnant. If you’re pregnant and concerned about STIs, speak to your midwife, GP or a sexual health clinic first. HIV and syphilis testing is routinely offered during pregnancy through the NHS, and they can test for chlamydia and gonorrhoea safely.</p>"
+          }
+        ]
+      },
+      {
+        "label": "Choosing an STI test",
+        "questions": [
+          {
+            "question": "Which STI test should I get?",
+            "answer": "<p>If you want a quick check of the STIs most often tested for, the Core 4 is a good choice. If you’d like the most complete check, including herpes and hepatitis, choose the 7-in-1. If you’re only worried about one infection, a single test may be enough. Read more about <a href=\"/blog/what-is-an-sti-test\">how STI testing works</a>.</p>"
+          },
+          {
+            "question": "What does a basic STI test check for?",
+            "answer": "<p>A basic STI test usually checks for chlamydia and gonorrhoea, and often HIV and syphilis too. The Core 4 covers all 4 in one kit.</p>"
+          },
+          {
+            "question": "Can you have chlamydia and gonorrhoea at the same time?",
+            "answer": "<p>Yes. You can have one or both at once, and their symptoms look very alike. The Core 4 shows a separate result for each.</p>"
+          },
+          {
+            "question": "How often should I take an STI test?",
+            "answer": "<p>Test after sex without a condom or with a new partner, and regularly if you have more than one partner. A sexual health clinic can advise how often is right for you.</p>"
+          },
+          {
+            "question": "Can I get a free STI test on the NHS?",
+            "answer": "<p>Yes. NHS sexual health clinics offer free, confidential testing, and some areas offer free postal kits that you send to a lab. Many people choose a rapid home test for results in around 15 minutes, with no appointment.</p>"
+          }
+        ]
+      },
+      {
+        "label": "Ordering and delivery",
+        "questions": [
+          {
+            "question": "Will anyone know what I ordered?",
+            "answer": "<p>No. Your kit arrives in plain, discreet packaging with nothing on the outside to reveal what’s inside. Your bank statement won’t show “Test Discreet” or the name of the test.</p>"
+          },
+          {
+            "question": "How fast is delivery?",
+            "answer": "<p>We ship within 1 working day, with discreet delivery across the UK.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "otherProducts": [
+    "sti-bundle",
+    "chlamydia-gonorrhoea",
+    "hiv",
+    "syphilis",
+    "hsv-2",
+    "hep-b-c",
+    "psa"
+  ],
+  "compare": {
+    "heading": "Core 4 or 7-in-1: which STI test kit is right for me?",
+    "html": "<table><thead><tr><th></th><th>Core 4 kit</th><th>7-in-1 kit</th><th>Single tests</th></tr></thead><tbody><tr><td>Chlamydia &amp; gonorrhoea</td><td>Yes</td><td>Yes</td><td><a href=\"/rapid-tests/chlamydia-gonorrhoea-home-test-kit\">£19.95</a></td></tr><tr><td>HIV</td><td>Yes</td><td>Yes</td><td><a href=\"/rapid-tests/hiv-home-test-kit\">£15.95</a></td></tr><tr><td>Syphilis</td><td>Yes</td><td>Yes</td><td><a href=\"/rapid-tests/syphilis-home-test-kit\">£14.95</a></td></tr><tr><td>Genital herpes (HSV-2)</td><td>No</td><td>Yes</td><td><a href=\"/rapid-tests/herpes-hsv-2-home-test-kit\">£19.95</a></td></tr><tr><td>Hepatitis B &amp; C</td><td>No</td><td>Yes</td><td><a href=\"/rapid-tests/hepatitis-b-c-home-test-kit\">£27.95</a></td></tr><tr><td>Price</td><td><strong>£44.95</strong></td><td><a href=\"/rapid-tests/7-in-1-sti-test-kit\">£64.95</a></td><td>Priced individually</td></tr><tr><td>Best for</td><td>A quick check of the most commonly tested STIs</td><td>The most complete check</td><td>Checking one thing</td></tr></tbody></table><p>All results in around 15 minutes.</p><p><strong>Also available:</strong> <a href=\"/rapid-tests/psa-prostate-home-test-kit\">PSA Prostate Test</a>, £19.95, for checking prostate health.</p>",
+    "buttonLabel": "Get my test – £44.95"
+  }
+}

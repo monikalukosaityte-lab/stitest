@@ -1,0 +1,494 @@
+{
+  "slug": "herpes-hsv-2-home-test-kit",
+  "handle": "hsv-2",
+  "seo": {
+    "title": "Herpes Test Kit UK – HSV-2 Home Test, 15 Min | STI Test Kit",
+    "description": "Private HSV-2 herpes home test. One finger-prick, results in 15 minutes and discreet UK delivery."
+  },
+  "gallery": [
+    {
+      "src": "/images/products/gallery/product-hsv-2-grey.webp",
+      "alt": "Test Discreet herpes HSV-2 home test kit"
+    },
+    {
+      "src": "/images/products/gallery/privacy-promise.webp",
+      "alt": "Test Discreet privacy promise: confidential, discreet delivery, private payment"
+    },
+    {
+      "src": "/images/products/gallery/benefits-hsv-2.webp",
+      "alt": "Herpes (HSV-2) Rapid Test Kit: what you get"
+    },
+    {
+      "src": "/images/products/gallery/value-prop-hsv-2-benefits.webp",
+      "alt": "Herpes (HSV-2) Rapid Test Kit - results in 15 minutes, no clinic visit, discreet packaging"
+    },
+    {
+      "src": "/images/products/gallery/how-to-test-hsv-2.webp",
+      "alt": "How to use the Herpes (HSV-2) Rapid Test Kit"
+    }
+  ],
+  "title": "Herpes (HSV-2) Rapid Test Kit",
+  "hero": {
+    "breadcrumb": "Herpes (HSV-2) Test Kit",
+    "heading": "Herpes (HSV-2) Home Test Kit – Rapid Results in 15 Minutes",
+    "intro": "Test for herpes privately at home with one simple finger-prick blood test. This rapid HSV-2 self-test checks for HSV-2 IgM antibodies and gives you a result in around 15 minutes. No clinic visit, no sample to post, and discreet delivery across the UK.",
+    "highlights": [
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "drop",
+        "label": "Simple finger-prick test"
+      },
+      {
+        "icon": "lock",
+        "label": "Discreet packaging"
+      },
+      {
+        "icon": "home",
+        "label": "No clinic visit"
+      }
+    ],
+    "specs": [
+      {
+        "icon": "search",
+        "label": "Detects",
+        "value": "HSV-2 IgM antibodies"
+      },
+      {
+        "icon": "drop",
+        "label": "Sample",
+        "value": "Finger-prick blood"
+      },
+      {
+        "icon": "clock",
+        "label": "Results",
+        "value": "In around 15 minutes"
+      },
+      {
+        "icon": "users",
+        "label": "Suitable for",
+        "value": "Men and women"
+      },
+      {
+        "icon": "package",
+        "label": "Delivery",
+        "value": "Ships within 1 working day"
+      }
+    ]
+  },
+  "about": {
+    "heading": "About genital herpes and testing",
+    "questions": [
+      {
+        "question": "What is genital herpes?",
+        "open": true,
+        "answer": "<p>Genital herpes is a <a href=\"/blog/what-is-an-sti-test\">sexually transmitted infection (STI)</a> caused by the herpes simplex virus (HSV). There are 2 types. HSV-1 mainly causes cold sores but can be passed to the genitals through oral sex. HSV-2 almost always affects the genitals and is more linked to repeat outbreaks. In 2025, sexual health services in England diagnosed 28,779 first episodes of genital herpes, up 3.1% on 2024.</p><p>An HSV-2 home test kit lets you check privately. You use a small finger-prick of blood, the test looks for HSV-2 IgM antibodies, and your result shows in around 15 minutes, with nothing to post to a lab.</p>"
+      },
+      {
+        "question": "How is herpes passed on?",
+        "open": false,
+        "answer": "<p>Herpes spreads through skin-to-skin contact with the infected area during vaginal, anal or oral sex. It can be passed on <a href=\"/blog/genital-herpes-symptoms#can-herpes-be-passed-on-without-symptoms\">even when there are no sores</a>. This risk is highest in the first 6 months after infection and becomes rare after 2 years. You can’t catch herpes from towels, toilet seats or swimming pools.</p>"
+      },
+      {
+        "question": "What are the symptoms of genital herpes?",
+        "open": false,
+        "answer": "<p>Most people with herpes have no symptoms, or symptoms so mild they don’t notice them. When symptoms do appear, usually 2 to 12 days after contact, the <a href=\"/blog/genital-herpes-symptoms#what-are-the-symptoms-of-a-first-genital-herpes-outbreak\">first outbreak</a> is often the worst. It can cause:</p><ul><li>Small blisters that burst and leave red, open sores around the genitals, anus, thighs or bottom</li><li>Tingling, burning or itching around the genitals</li><li>Pain when peeing, or unusual discharge</li><li>Fever, headache, backache or other flu-like symptoms</li><li>Swollen glands in the groin</li></ul><p>A first outbreak can <a href=\"/blog/genital-herpes-symptoms#how-long-does-a-first-genital-herpes-outbreak-last\">last 2 to 4 weeks</a>. Sores may look less red on brown or black skin.</p>"
+      },
+      {
+        "question": "Can herpes come back?",
+        "open": false,
+        "answer": "<p>Yes. The virus stays in your body and can cause <a href=\"/blog/genital-herpes-symptoms#what-do-recurrent-genital-herpes-outbreaks-look-like\">repeat outbreaks</a> in the same area. These are usually milder and shorter than the first one, and they tend to happen less often over time. Some people never have another outbreak.</p><p>Many people feel <a href=\"/blog/genital-herpes-symptoms#are-there-early-warning-signs-of-a-herpes-outbreak\">early warning signs</a>, like tingling or burning, before blisters appear. Common <a href=\"/blog/genital-herpes-symptoms#what-triggers-a-genital-herpes-outbreak\">outbreak triggers</a> include sunlight, friction, stress, being unwell and periods.</p>"
+      },
+      {
+        "question": "Is genital herpes curable?",
+        "open": false,
+        "answer": "<p>No, but <a href=\"/blog/genital-herpes-symptoms#is-genital-herpes-curable\">it’s very manageable</a>. Outbreaks usually get milder and less frequent over time. Antiviral tablets can make outbreaks shorter, and people with frequent outbreaks can take them longer term to reduce how often they come back.</p>"
+      },
+      {
+        "question": "Who should take a herpes test?",
+        "open": false,
+        "answer": "<p>You don’t need symptoms to test. It may be worth testing if:</p><ul><li>You’re sexually active and want to check your sexual health</li><li>You have a new sexual partner</li><li>A sexual partner has told you they have herpes or another STI</li><li>You’ve had possible symptoms in the past, such as blisters, sores or tingling</li><li>You’d prefer to test privately at home</li></ul><p><strong>Have blisters or sores right now?</strong> Go to a sexual health clinic or your GP while the sores are there. A swab of the sore is the best way to confirm herpes. A first outbreak is best treated within 5 days of symptoms starting.</p>"
+      }
+    ],
+    "link": {
+      "label": "Testing for other STIs too? See our 7-in-1 STI test bundle",
+      "href": "/rapid-tests/7-in-1-sti-test-kit"
+    },
+    "aside": {
+      "heading": "Why test for herpes at home?",
+      "items": [
+        {
+          "icon": "clock",
+          "title": "Fast answer",
+          "text": "Results in 15 minutes, not days."
+        },
+        {
+          "icon": "home",
+          "title": "No clinic visit",
+          "text": "Test when and where suits you."
+        },
+        {
+          "icon": "lock",
+          "title": "Completely private",
+          "text": "Plain parcel, and only you see your result."
+        }
+      ],
+      "buttonLabel": "Get my test"
+    }
+  },
+  "intro": "<p>Test privately at home with a simple finger-prick test for HSV-2 IgM antibodies. Results in around 15 minutes.</p>",
+  "footnote": "",
+  "keyFacts": [
+    "<strong>Screens for:</strong> HSV-2 IgM antibodies",
+    "<strong>Sample:</strong> Finger-prick blood",
+    "<strong>Results in:</strong> 15 minutes"
+  ],
+  "shipping": "Ships within <strong>1 working day</strong>",
+  "bundleChoice": {
+    "heading": "Choose your test",
+    "intro": "If you may have been exposed to one STI, you may have been exposed to others.",
+    "options": [
+      {
+        "title": "Herpes (HSV-2) test",
+        "badge": null,
+        "includes": null,
+        "price": "£19.95",
+        "was": null,
+        "save": null,
+        "variantId": null,
+        "buttonLabel": null
+      },
+      {
+        "title": "7-in-1 bundle",
+        "badge": "Best value",
+        "includes": "Your herpes test plus HIV, syphilis, chlamydia, gonorrhoea, hepatitis B and hepatitis C.",
+        "price": "£64.95",
+        "was": "£98.75",
+        "save": "Save £33.80",
+        "variantId": 63780179870026,
+        "buttonLabel": "Get the 7-in-1 bundle"
+      }
+    ]
+  },
+  "variantId": 63780180656458,
+  "retest": {
+    "heading": "Select quantity",
+    "badge": "Test + retest",
+    "discount": 10,
+    "note": "There’s no reliable time after exposure when this IgM test becomes conclusive. If you have blisters or sores, a sexual health clinic can swab them."
+  },
+  "buyLabel": "Get my test",
+  "trust": "Secure checkout · Discreet UK delivery · Ships within 1 working day",
+  "reassurance": {
+    "title": "Discreet delivery",
+    "text": "Plain packaging with nothing on the outside to reveal what’s inside."
+  },
+  "accordions": [
+    {
+      "heading": "What is HSV-2?",
+      "open": false,
+      "content": "<p>HSV-2 is one of the two viruses that can cause genital herpes. The other is HSV-1. HSV-2 is associated with genital infection and is more likely to cause recurring outbreaks.</p><p>HSV-2 is passed on through skin-to-skin sexual contact. It can cause painful blisters or sores, but many people have no noticeable symptoms.</p><p>There is no cure for herpes, but outbreaks can be treated and managed with antiviral medicine.</p>",
+      "after": "",
+      "checklist": []
+    },
+    {
+      "heading": "Is this for you?",
+      "open": true,
+      "content": "<p><strong>You don’t need to have symptoms to be concerned about HSV-2.</strong> Some people have no noticeable symptoms.</p><p>It may be worth testing if:</p>",
+      "after": "<p>If you currently have blisters or sores, a sexual health clinic can take a swab directly from the affected area to check whether herpes is causing them.</p>",
+      "checklist": [
+        "You’ve been <strong>sexually active</strong> and want to check your sexual health",
+        "You have a <strong>new sexual partner</strong>",
+        "A <strong>sexual partner has told you</strong> they have herpes or another STI",
+        "You’ve had <strong>possible symptoms</strong> in the past, such as blisters, sores or tingling around the genitals",
+        "You’d rather <strong>test privately</strong> at home"
+      ]
+    }
+  ],
+  "benefits": {
+    "heading": "Test <em>privately</em>",
+    "text": "Everything you need to test for genital herpes (HSV-2) at home:",
+    "items": [
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "drop",
+        "label": "Simple finger-prick test"
+      },
+      {
+        "icon": "package",
+        "label": "Discreet packaging"
+      },
+      {
+        "icon": "home",
+        "label": "No clinic visit"
+      }
+    ]
+  },
+  "how": {
+    "heading": "How does the HSV-2 home test work?",
+    "intro": "<p>The test looks for HSV-2 IgM antibodies in a small finger-prick blood sample. IgM is an antibody your immune system makes in response to HSV-2. Your result appears on the test pad in around 15 minutes, with no sample to send to a lab.</p><p><strong>What this test can and can’t tell you:</strong></p><ul><li>It checks for HSV-2 only, not HSV-1 (the cold sore virus, which can also cause genital herpes).</li><li>It finds antibodies in your blood, not the virus in a sore. To confirm what’s causing a sore, a clinic needs to swab it.</li><li>IgM can show up early in an infection, but it can also come back during a repeat outbreak. So a positive result can’t tell you when you got herpes, or whether it’s new.</li></ul>",
+    "stepsHeading": "How to use the herpes test kit in 3 steps",
+    "steps": [
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-hsv-2-step-1.webp",
+          "alt": "Step 1 prick your finger"
+        },
+        "title": "Prick your finger",
+        "text": "Wash your hands and clean your fingertip with an alcohol pad. Let it dry, then use the lancet to prick your finger and form a drop of blood."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-hsv-2-step-2.webp",
+          "alt": "Step 2 add 3 drops of blood and 1 drop of diluent"
+        },
+        "title": "Add blood and diluent",
+        "text": "Use the pipette to add 3 drops of blood to the sample well marked S on the test pad. Then add 1 drop of diluent (test liquid) to the same well."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-hsv-2-step-3.webp",
+          "alt": "Step 3 read your HSV-2 test result"
+        },
+        "title": "Read your result",
+        "text": "Leave the test pad flat and read your result between 15 and 30 minutes. Don’t read it after 35 minutes, as the result won’t be valid."
+      }
+    ],
+    "link": {
+      "label": "How to test and read your results",
+      "href": "https://testdiscreet.co.uk/pages/how-to-test?utm_source=stitestkit&utm_medium=referral"
+    }
+  },
+  "windows": {
+    "heading": "When should I take a herpes <em>test?</em>",
+    "subheading": "<p>There isn’t a reliable number of days or weeks after exposure when this IgM test becomes conclusive. IgM antibodies can appear early after infection and may also appear during a recurrence, so the result cannot reliably tell you when an infection was acquired.</p><p>Herpes can cause no noticeable symptoms. A possible exposure or a partner having genital herpes can be a reason to consider testing. If you have blisters, sores or ulcers, contact a sexual health clinic while they’re present so they can take a swab directly from the affected area.</p>",
+    "days": 0,
+    "initialTitle": null,
+    "strings": null,
+    "notes": "<p><strong>Good to know:</strong> If your result is negative but you have blisters, sores or other possible genital herpes symptoms, contact a sexual health clinic or GP.</p>"
+  },
+  "results": {
+    "heading": "How to read your herpes test result",
+    "groups": [
+      {
+        "title": null,
+        "intro": "<p>Read your test between 15 and 30 minutes. Don’t read it after 35 minutes. C is the control line. T is the test line.</p>",
+        "items": [
+          {
+            "image": {
+              "src": "/images/products/results/cassette-herpes-negative.webp",
+              "alt": "HSV-2 test negative result, one line at C"
+            },
+            "title": "Negative",
+            "text": "<p>One line at C only. No HSV-2 IgM antibodies were detected.</p>"
+          },
+          {
+            "image": {
+              "src": "/images/products/results/cassette-herpes-positive.webp",
+              "alt": "HSV-2 test positive result, lines at C and T"
+            },
+            "title": "Positive",
+            "text": "<p>Lines at C and T, even if the T line is faint. HSV-2 IgM antibodies were detected. This can’t show when you were infected. Speak to a sexual health clinic.</p>"
+          },
+          {
+            "image": {
+              "src": "/images/products/results/cassette-herpes-invalid.webp",
+              "alt": "HSV-2 test invalid result, no line at C"
+            },
+            "title": "Invalid",
+            "text": "<p>No line at C. The test has not worked. Contact us and we’ll help.</p>"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "title": "Good to know",
+        "text": "<p>This test is designed for screening and doesn’t replace advice from a doctor or nurse. If you have blisters, sores or other possible symptoms, see a sexual health clinic or GP even if your result is negative.</p>"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Herpes (HSV-2) home test FAQs",
+    "tabs": [
+      {
+        "label": "About the test",
+        "questions": [
+          {
+            "question": "How soon after sex can I test for herpes?",
+            "answer": "<p>There’s no set number of days after sex when this test becomes conclusive, so it can’t rule herpes out at any one point. If you have blisters or sores, a sexual health clinic can swab them while they’re present.</p>"
+          },
+          {
+            "question": "How reliable is the HSV-2 home test?",
+            "answer": "<p>When used correctly, this is a reliable screening test. IgM results have limits: they can’t show when an infection started, and IgM can return during a repeat outbreak.</p>"
+          },
+          {
+            "question": "What does an IgM result tell me?",
+            "answer": "<p>IgM is an antibody your immune system makes in response to HSV-2. A positive result means the test detected IgM antibodies, which may be consistent with HSV infection. IgM can appear early after infection and may also appear again during a recurrence, so it cannot reliably tell you when the infection was acquired.</p>"
+          },
+          {
+            "question": "What does a negative result mean?",
+            "answer": "<p>A negative result means no HSV-2 IgM antibodies were detected. It doesn’t rule out herpes completely. If you have blisters, sores or other symptoms, or you’re still worried, see a sexual health clinic or GP.</p>"
+          },
+          {
+            "question": "What if my result is positive?",
+            "answer": "<p>A positive result is consistent with HSV-2 exposure, but it can’t show when you were infected. Speak to a sexual health clinic, and visit while any sores are present so they can confirm the cause. Antiviral medicine can help with outbreaks, and people with frequent outbreaks can take it longer term to reduce them.</p>"
+          },
+          {
+            "question": "Can I use this test if I’ve had herpes before?",
+            "answer": "<p>IgM antibodies can sometimes appear again during a recurrence, so a positive result doesn’t necessarily mean a new infection.</p>"
+          },
+          {
+            "question": "Can this test confirm genital herpes?",
+            "answer": "<p>No. It finds antibodies in your blood, not the virus in a sore. To confirm what’s causing a current sore, a clinic needs to swab it while it’s there.</p>"
+          },
+          {
+            "question": "Does this test check for HSV-1?",
+            "answer": "<p>No, this test checks for HSV-2 only. HSV-1 is the cold sore virus, and it can also cause genital herpes through oral sex. If you have genital sores, a clinic swab can show which type you have.</p>"
+          }
+        ]
+      },
+      {
+        "label": "About genital herpes",
+        "questions": [
+          {
+            "question": "What are the first signs of genital herpes?",
+            "answer": "<p>The first signs are often tingling, burning or itching around the genitals, followed by small blisters that burst and leave red, open sores. Some people also get a fever, flu-like symptoms or pain when peeing. Many people have no signs at all.</p>"
+          },
+          {
+            "question": "How soon do herpes symptoms appear after infection?",
+            "answer": "<p>Genital herpes symptoms usually appear 2 to 12 days after contact. Some people don’t notice anything for months or even years.</p>"
+          },
+          {
+            "question": "Can you have herpes and not know?",
+            "answer": "<p>Yes, and it’s very common. <a href=\"/blog/genital-herpes-symptoms#can-you-have-genital-herpes-with-no-symptoms\">Up to 90 in 100 people with the virus</a> have no symptoms, or symptoms so mild they barely notice them. Herpes can also look like other conditions, such as thrush.</p>"
+          },
+          {
+            "question": "What’s the difference between HSV-1 and HSV-2?",
+            "answer": "<p>The main difference is where they usually affect. HSV-1 mainly causes cold sores but can be passed to the genitals through oral sex. HSV-2 almost always affects the genitals.</p>"
+          },
+          {
+            "question": "Can herpes be passed on without symptoms?",
+            "answer": "<p>Yes. Herpes can be passed on through skin-to-skin contact even when there are no sores. The risk is highest in the first 6 months after infection and becomes rare after 2 years. It’s most likely to spread from the first tingle until sores have fully healed.</p>"
+          },
+          {
+            "question": "Is herpes curable?",
+            "answer": "<p>No, genital herpes isn’t curable, but it’s very manageable. Antivirals can shorten outbreaks, and outbreaks usually get milder and less frequent over time.</p>"
+          },
+          {
+            "question": "How is genital herpes treated?",
+            "answer": "<p>Not everyone needs treatment, as symptoms usually clear up on their own. <a href=\"/blog/genital-herpes-symptoms#how-is-genital-herpes-treated\">Antiviral tablets</a> can make outbreaks shorter. For a first outbreak, they work best started within 5 days of symptoms. People with more than 6 outbreaks a year may take a 6 to 12 month course.</p>"
+          },
+          {
+            "question": "How often do herpes outbreaks come back?",
+            "answer": "<p>It varies from person to person. Outbreaks usually become less frequent and less severe over time, and some people never have another one after the first.</p>"
+          },
+          {
+            "question": "What triggers a herpes outbreak?",
+            "answer": "<p>Common triggers include sunlight or sunbeds on the area, friction from sex or tight clothes, smoking, alcohol, stress, being unwell and periods. Keeping a note of outbreaks can help you spot your own triggers.</p>"
+          },
+          {
+            "question": "Can a herpes test show who I caught it from?",
+            "answer": "<p>No. Because the virus can stay hidden for months or years, a first outbreak doesn’t mean you caught it from your current partner. No test can tell you who you got it from.</p>"
+          },
+          {
+            "question": "Can you get herpes from towels or toilet seats?",
+            "answer": "<p>No. Herpes needs direct skin-to-skin contact to spread, so towels, toilet seats, saunas and swimming pools aren’t a risk.</p>"
+          },
+          {
+            "question": "How common is genital herpes in the UK?",
+            "answer": "<p>In 2025, sexual health services in England diagnosed 28,779 first episodes of genital herpes, up 3.1% on 2024. Many more people have it without knowing.</p>"
+          },
+          {
+            "question": "Can I take a herpes test while pregnant?",
+            "answer": "<p>Speak to your midwife, GP or a sexual health clinic, especially if you get new blisters or sores during pregnancy.</p>"
+          }
+        ]
+      },
+      {
+        "label": "Ordering and other tests",
+        "questions": [
+          {
+            "question": "Will anyone know what I ordered?",
+            "answer": "<p>No. Your order arrives in plain, discreet packaging with nothing on the outside to reveal what’s inside. Your bank statement won’t show “Test Discreet” or the name of the test. We ship within 1 working day.</p>"
+          },
+          {
+            "question": "Can I get a herpes test on the NHS?",
+            "answer": "<p>Yes, if you have symptoms. NHS sexual health clinics can swab blisters or sores for free. Herpes isn’t part of routine STI screening, so if you don’t have symptoms, a home blood test is one way to check for HSV-2 antibodies.</p>"
+          },
+          {
+            "question": "Does this test check for other STIs?",
+            "answer": "<p>No, this kit only tests for HSV-2. If you may have been exposed to one STI, you may have been exposed to others, such as <a href=\"/rapid-tests/hiv-home-test-kit\">HIV</a>, <a href=\"/rapid-tests/syphilis-home-test-kit\">syphilis</a> or <a href=\"/rapid-tests/chlamydia-gonorrhoea-home-test-kit\">chlamydia and gonorrhoea</a>. Many STIs have no symptoms, so it helps to know <a href=\"/blog/what-is-an-sti-test\">how STI testing works</a>. Our <a href=\"/rapid-tests/7-in-1-sti-test-kit\">7-in-1 STI test bundle</a> checks for 7 infections in one order.</p>"
+          }
+        ]
+      }
+    ],
+    "references": {
+      "heading": "References",
+      "items": [
+        "NHS. “Genital Herpes.” <em>NHS.uk</em>, 27 Jun. 2023, <a href=\"https://www.nhs.uk/conditions/genital-herpes/\">nhs.uk/conditions/genital-herpes</a>.",
+        "NHS Inform. “Genital Herpes.” <em>NHS 24</em>, 16 Apr. 2025, <a href=\"https://www.nhsinform.scot/illnesses-and-conditions/sexual-and-reproductive/genital-herpes/\">nhsinform.scot</a>.",
+        "Herpes Viruses Association. “Getting Diagnosed with Genital Herpes.” 21 Jul. 2026, <a href=\"https://herpes.org.uk/frequently-asked-questions/getting-diagnosed-genital-herpes/\">herpes.org.uk</a>.",
+        "UK Health Security Agency. “How Do You Catch Genital Herpes and Is There a Cure?” <em>UKHSA Blog</em>, 5 Jun. 2026, <a href=\"https://ukhsa.blog.gov.uk/2026/06/05/how-do-you-catch-genital-herpes-and-is-there-a-cure/\">ukhsa.blog.gov.uk</a>.",
+        "Institute for Quality and Efficiency in Health Care. “Overview: Genital Herpes.” <em>InformedHealth.org</em>, 24 Jan. 2025, <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK525769/\">ncbi.nlm.nih.gov</a>.",
+        "UK Health Security Agency. “Sexually Transmitted Infections and Screening for Chlamydia in England: 2025 Report.” <em>GOV.UK</em>, 2 Jun. 2026, <a href=\"https://www.gov.uk/government/statistics/sexually-transmitted-infections-stis-annual-data-tables/sexually-transmitted-infections-and-screening-for-chlamydia-in-england-2025-report\">gov.uk</a>."
+      ]
+    }
+  },
+  "otherProducts": [
+    "sti-bundle",
+    "core-4",
+    "chlamydia-gonorrhoea",
+    "hiv",
+    "syphilis",
+    "hep-b-c",
+    "psa"
+  ],
+  "otherTests": {
+    "heading": "Other home STI test kits and bundles",
+    "note": "All results in around 15 minutes.",
+    "highlight": "Genital herpes (HSV-2)",
+    "bundles": [
+      {
+        "handle": "sti-bundle",
+        "name": "7-in-1 STI Test Bundle"
+      },
+      {
+        "handle": "core-4",
+        "name": "Core 4 Bundle"
+      }
+    ],
+    "singles": [
+      {
+        "handle": "hep-b-c",
+        "name": "Hepatitis B & C Test Kit",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "chlamydia-gonorrhoea",
+        "name": "Chlamydia & Gonorrhoea Test Kit",
+        "sample": "Swab"
+      },
+      {
+        "handle": "psa",
+        "name": "PSA Prostate Test",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "hiv",
+        "name": "HIV Test Kit",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "syphilis",
+        "name": "Syphilis Test Kit",
+        "sample": "Finger-prick"
+      }
+    ]
+  }
+}

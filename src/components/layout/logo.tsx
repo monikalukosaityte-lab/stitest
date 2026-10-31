@@ -1,6 +1,5 @@
-import type { CSSProperties } from 'react';
-
 import Link from 'next/link';
+import type { CSSProperties } from 'react';
 
 import { cn } from '@/lib/utils';
 
@@ -17,10 +16,41 @@ export function Logo({ className }: { className?: string }) {
         className="text-accent shrink-0"
         style={{ width: 'clamp(2.8rem, 3vw, 4rem)', height: 'auto' }}
       />
-      <span className="font-display text-[0.9rem] leading-none tracking-[0.18em] uppercase text-foreground md:text-base">
+      <span className="font-display text-foreground text-[0.9rem] leading-none tracking-[0.18em] uppercase md:text-base">
         Test Discreet
       </span>
     </Link>
+  );
+}
+
+/** Text logo in the testdiscreet.co.uk style: "STI Test Kit" over a spaced "by Test Discreet". */
+export function BrandLockup({
+  inverted = false,
+  align = 'center',
+}: {
+  inverted?: boolean;
+  align?: 'center' | 'start';
+}) {
+  return (
+    <span
+      className={cn(
+        'font-logo inline-flex flex-col gap-1 font-medium',
+        align === 'center' ? 'items-center' : 'items-start',
+        inverted ? 'text-inherit' : 'text-foreground/85',
+      )}
+    >
+      <span
+        className={cn(
+          'text-xl leading-none tracking-tight whitespace-nowrap md:text-2xl',
+          !inverted && 'text-muted-foreground',
+        )}
+      >
+        STI Test Kit
+      </span>
+      <span className="-mr-[0.28em] text-[0.625rem] leading-none tracking-[0.28em] whitespace-nowrap uppercase">
+        by Test Discreet
+      </span>
+    </span>
   );
 }
 

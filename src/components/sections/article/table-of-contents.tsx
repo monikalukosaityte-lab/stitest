@@ -92,7 +92,7 @@ export function TableOfContents({ items }: { items: readonly TocItem[] }) {
   return (
     <div className="order-first lg:order-none">
       {/* Desktop — sticky sidebar with scrollspy */}
-      <nav className="sticky top-10 hidden max-h-[calc(100vh-5rem)] overflow-y-auto lg:block">
+      <nav className="sticky top-28 hidden max-h-[calc(100vh-8rem)] overflow-y-auto lg:block">
         <span className="text-muted-foreground mb-3 block text-xs">
           On this page
         </span>
@@ -161,7 +161,7 @@ function MobileSectionsSheet({
         onClick={onClose}
       />
       <motion.div
-        className="bg-blog border-accent fixed inset-x-0 bottom-0 z-50 rounded-t-3xl border-t-2 p-6 pb-8 lg:hidden"
+        className="bg-background border-accent fixed inset-x-0 bottom-0 z-50 rounded-t-3xl border-t-2 p-6 pb-8 lg:hidden"
         initial={{ y: '100%' }}
         animate={{ y: 0 }}
         exit={{ y: '100%' }}

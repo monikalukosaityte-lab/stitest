@@ -1,0 +1,422 @@
+{
+  "slug": "psa-prostate-home-test-kit",
+  "handle": "psa",
+  "seo": {
+    "title": "PSA Test Kit UK – Home Prostate Test, 15 Min | STI Test Kit",
+    "description": "Private PSA prostate home test. One finger-prick shows if your PSA is 4 ng/mL or above in 15 minutes. £19.95 with discreet UK delivery."
+  },
+  "gallery": [
+    {
+      "src": "/images/products/gallery/product-psa-grey.webp",
+      "alt": "Test Discreet PSA prostate home test kit"
+    },
+    {
+      "src": "/images/products/gallery/privacy-promise.webp",
+      "alt": "Test Discreet privacy promise: confidential, discreet delivery, private payment"
+    },
+    {
+      "src": "/images/products/gallery/benefits-psa.webp",
+      "alt": "PSA Prostate Test: what you get"
+    },
+    {
+      "src": "/images/products/gallery/value-prop-psa-benefits.webp",
+      "alt": "PSA Prostate Test - results in 15 minutes, no clinic visit, discreet packaging"
+    },
+    {
+      "src": "/images/products/gallery/how-to-test-psa.webp",
+      "alt": "How to use the PSA Prostate Test"
+    }
+  ],
+  "title": "PSA Prostate Test",
+  "hero": {
+    "breadcrumb": "PSA Prostate Test Kit",
+    "heading": "PSA Prostate Home Test Kit – Rapid Results in 15 Minutes",
+    "intro": "Check your PSA privately at home with one simple finger-prick blood test. This rapid PSA self-test shows whether your prostate specific antigen (PSA) level is 4 ng/mL or above, in around 15 minutes. No GP appointment, no sample to post, and discreet delivery across the UK.",
+    "highlights": [
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "drop",
+        "label": "Simple finger-prick test"
+      },
+      {
+        "icon": "lock",
+        "label": "Discreet packaging"
+      },
+      {
+        "icon": "home",
+        "label": "No appointment"
+      }
+    ],
+    "specs": [
+      {
+        "icon": "search",
+        "label": "Checks",
+        "value": "Whether PSA is at or above 4 ng/mL (not your exact level)"
+      },
+      {
+        "icon": "drop",
+        "label": "Sample",
+        "value": "Finger-prick blood"
+      },
+      {
+        "icon": "clock",
+        "label": "Results",
+        "value": "In around 15 minutes"
+      },
+      {
+        "icon": "package",
+        "label": "Delivery",
+        "value": "Ships within 1 working day"
+      }
+    ],
+    "inBox": "<p><strong>What’s in the box:</strong> test pad in a sealed pouch, 1 lancet, 2 alcohol pads, pipette, diluent (test liquid), waste bag and instruction leaflet.</p>"
+  },
+  "about": {
+    "heading": "About PSA and prostate testing",
+    "questions": [
+      {
+        "question": "What is PSA?",
+        "open": true,
+        "answer": "<p>PSA (prostate specific antigen) is a protein made by the prostate, a small gland below the bladder that helps make semen. It’s normal to have some PSA in your blood, and levels can rise as you get older. Checking your PSA can help spot changes that may need looking into.</p><p>A PSA home test kit lets you check privately. You use a small finger-prick of blood, and the test shows whether your PSA is at or above 4 ng/mL in around 15 minutes, with nothing to post to a lab.</p>"
+      },
+      {
+        "question": "What can raise your PSA level?",
+        "open": false,
+        "answer": "<p>A raised PSA doesn’t necessarily mean you have prostate cancer. It can go up for many reasons, including:</p><ul><li>An enlarged prostate, which is common as men get older</li><li>Inflammation or infection of the prostate, or a urine infection</li><li>Recent ejaculation or anal sex</li><li>Recent cycling or vigorous exercise</li></ul><p>Sometimes a raised PSA can be a sign of prostate cancer, which is why a raised result should always be checked by your GP.</p>"
+      },
+      {
+        "question": "What are the signs of a prostate problem?",
+        "open": false,
+        "answer": "<p>Many prostate problems cause no symptoms at first. Speak to your GP if you notice:</p><ul><li>Needing to pee more often, especially at night</li><li>A sudden urge to pee</li><li>Difficulty peeing</li><li>Blood in your pee</li><li>Problems getting or keeping an erection</li></ul><p>These symptoms are often caused by an enlarged prostate rather than cancer, but they’re worth getting checked.</p>"
+      },
+      {
+        "question": "Who should take a PSA test?",
+        "open": false,
+        "answer": "<p>You don’t need symptoms to test. It may be worth testing if:</p><ul><li>You want to know whether your PSA is raised</li><li>You’re worried about your prostate health</li><li>You’d prefer to test privately at home</li></ul><p><strong>Have symptoms?</strong> Speak to your GP, even if your home test is negative.</p>"
+      }
+    ],
+    "aside": {
+      "heading": "Why test your PSA at home?",
+      "items": [
+        {
+          "icon": "clock",
+          "title": "Fast answer",
+          "text": "Results in 15 minutes, not days."
+        },
+        {
+          "icon": "home",
+          "title": "No appointment",
+          "text": "Test when and where suits you."
+        },
+        {
+          "icon": "lock",
+          "title": "Completely private",
+          "text": "Plain parcel, and only you see your result."
+        }
+      ],
+      "buttonLabel": "Get my test"
+    }
+  },
+  "intro": "<p>Want to know where your PSA stands? Check privately at home with a simple finger-prick test.</p><p></p>",
+  "keyFacts": [
+    "<strong>Screens for:</strong> Prostate-specific antigen (PSA)",
+    "<strong>Checks for:</strong> PSA levels of 4 ng/mL or higher",
+    "<strong>Sample:</strong> Finger-prick blood",
+    "<strong>Results:</strong> in 15 minutes"
+  ],
+  "shipping": "Ships within <strong>1 working day</strong>",
+  "accordions": [
+    {
+      "heading": "What is PSA?",
+      "open": false,
+      "content": "<p>PSA (prostate-specific antigen) is a protein made by the prostate. It’s normal to have some PSA in your blood, and levels can increase as you get older.</p><p>Checking your PSA can help identify changes that may need further investigation. Raised levels can have several causes, including an enlarged prostate, inflammation or infection.</p><p>This home test checks whether your PSA level is around 4 ng/mL or higher. It doesn’t measure your exact PSA level.</p>",
+      "after": "",
+      "checklist": []
+    },
+    {
+      "heading": "Is this for you?",
+      "open": true,
+      "content": "<p>If any of these apply, you may want to consider testing:</p>",
+      "after": "",
+      "checklist": [
+        "You want to know if your PSA is <strong>raised</strong>",
+        "You’re <strong>concerned about your prostate health</strong>",
+        "You’d rather <strong>test privately</strong> at home"
+      ]
+    },
+    {
+      "heading": "When to test",
+      "open": false,
+      "content": "<p><strong>Any time:</strong> You can take a PSA test at any time, but some activities and health conditions can affect your result.</p><p><strong>Wait 48 hours:</strong> After ejaculation, anal sex, cycling or vigorous exercise.</p><p><strong>Wait 4–6 weeks:</strong> After a urine infection has cleared.</p><p>If you’ve recently had a prostate procedure, ask your GP when it’s appropriate to test.</p>",
+      "after": "",
+      "checklist": []
+    }
+  ],
+  "benefits": {
+    "heading": "Test <em>privately</em>",
+    "text": "Everything you need to test for PSA at home:",
+    "items": [
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "drop",
+        "label": "Fingerprick test"
+      },
+      {
+        "icon": "package",
+        "label": "Discreet packaging"
+      },
+      {
+        "icon": "home",
+        "label": "No clinic visit"
+      }
+    ]
+  },
+  "footnote": "",
+  "bundleChoice": null,
+  "variantId": 63780180820298,
+  "retest": {
+    "heading": "Select quantity",
+    "badge": "Test + retest",
+    "discount": 10,
+    "note": "For the most reliable result, avoid ejaculation, anal sex, cycling and vigorous exercise for 48 hours before testing."
+  },
+  "buyLabel": "Get my test",
+  "trust": "Secure checkout · Discreet UK delivery · Ships within 1 working day",
+  "reassurance": {
+    "title": "Discreet delivery",
+    "text": "Plain packaging with nothing on the outside to reveal what’s inside."
+  },
+  "how": {
+    "heading": "How does the PSA home test work?",
+    "intro": "<p>The test checks a small finger-prick blood sample to see whether your PSA level is at or above 4 ng/mL. It gives a yes-or-no style result, not your exact PSA number. Your result appears in around 15 minutes, with no sample to send to a lab. If you need your exact level, your GP can arrange a lab blood test.</p>",
+    "stepsHeading": "How to use the PSA test kit in 3 steps",
+    "steps": [
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-psa-step-1.webp",
+          "alt": "Step 1 prick the side of your fingertip"
+        },
+        "title": "Prick your finger",
+        "text": "Wash your hands and clean your fingertip with the alcohol pad. Let it dry, then use the lancet to prick the side of your fingertip."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-psa-step-2.webp",
+          "alt": "Step 2 add 3 drops of blood and 1 drop of diluent"
+        },
+        "title": "Add blood and diluent",
+        "text": "Use the pipette to add 3 drops of blood to the sample well, then straight away add 1 drop of diluent (test liquid)."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-psa-step-3.webp",
+          "alt": "Step 3 read your PSA test result"
+        },
+        "title": "Read your result",
+        "text": "Keep the test flat and read your result between 15 and 20 minutes. Results read after 20 minutes aren’t valid."
+      }
+    ],
+    "link": {
+      "label": "How to test and read your results",
+      "href": "https://testdiscreet.co.uk/pages/how-to-test?utm_source=stitestkit&utm_medium=referral"
+    }
+  },
+  "windows": {
+    "heading": "When should I take a PSA <em>test?</em>",
+    "subheading": "<p>You can test at any time of day, and you can eat and drink as normal. But some things can raise your PSA for a short time and give a misleading result, so it’s best to wait before testing.</p><table><thead><tr><th>If you’ve recently…</th><th>Wait before testing</th></tr></thead><tbody><tr><td>Ejaculated</td><td>48 hours</td></tr><tr><td>Had anal sex</td><td>48 hours</td></tr><tr><td>Been cycling</td><td>48 hours</td></tr><tr><td>Done vigorous exercise</td><td>48 hours</td></tr><tr><td>Had a urine infection</td><td>4 to 6 weeks after it clears</td></tr><tr><td>Had a prostate procedure</td><td>Ask your GP when to test</td></tr></tbody></table>",
+    "days": 0,
+    "initialTitle": null,
+    "strings": null,
+    "notes": "<p>If you have symptoms, such as needing to pee more often or difficulty peeing, speak to your GP. Don’t wait for a home test.</p>"
+  },
+  "results": {
+    "heading": "How to read your PSA test result",
+    "groups": [
+      {
+        "title": null,
+        "intro": "<p>Read your test between 15 and 20 minutes. Don’t read it after 20 minutes. C is the control line. T is the test line. With this test, it’s how dark the T line is that matters.</p>",
+        "items": [
+          {
+            "image": {
+              "src": "/images/products/results/psa-negative-pp.webp",
+              "alt": "PSA test negative result, C line only or T lighter than C"
+            },
+            "title": "Negative (below 4 ng/mL)",
+            "text": "<p>One line at C only, or two lines where the T line is lighter than the C line.</p>"
+          },
+          {
+            "image": {
+              "src": "/images/products/results/psa-positive.webp",
+              "alt": "PSA test positive result, T line as dark as or darker than C"
+            },
+            "title": "Positive (4 ng/mL or above)",
+            "text": "<p>Two lines where the T line is as dark as, or darker than, the C line. Book an appointment with your GP.</p>"
+          },
+          {
+            "image": {
+              "src": "/images/products/results/psa-invalis.webp",
+              "alt": "PSA test invalid result, no line at C"
+            },
+            "title": "Invalid",
+            "text": "<p>No line at C, even if a T line shows. The test has not worked. Contact us and we’ll help.</p>"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "title": "Good to know",
+        "text": "<p>A raised result doesn’t always mean a prostate problem, but it’s important to talk to your GP. A result below 4 ng/mL doesn’t rule out all prostate problems, so see your GP if you have symptoms. This test doesn’t replace advice from a doctor or nurse.</p>"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "PSA home test FAQs",
+    "tabs": [
+      {
+        "label": "About the test",
+        "questions": [
+          {
+            "question": "Does this test show my exact PSA level?",
+            "answer": "<p>No. It shows whether your PSA is below 4 ng/mL, or at or above it. A lab blood test arranged by your GP can measure your exact level.</p>"
+          },
+          {
+            "question": "When should I take the PSA test?",
+            "answer": "<p>You can test at any time of day. For the most reliable result, avoid ejaculation, anal sex, cycling and vigorous exercise for 48 hours before. If you’ve had a urine infection, wait 4 to 6 weeks after it clears. If you’ve had a recent prostate procedure, ask your GP when to test.</p>"
+          },
+          {
+            "question": "What if I see two lines?",
+            "answer": "<p>Compare the two lines. If the T line is lighter than the C line, the result is negative. If the T line is as dark as, or darker than, the C line, the result is positive.</p>"
+          },
+          {
+            "question": "What if my result is positive?",
+            "answer": "<p>Book an appointment with your GP. They may arrange another blood test and talk you through what happens next. A raised PSA doesn’t necessarily mean you have cancer.</p>"
+          },
+          {
+            "question": "Does a negative result mean my prostate is healthy?",
+            "answer": "<p>Not necessarily. A result below 4 ng/mL doesn’t rule out all prostate problems. If you have symptoms or are worried, speak to your GP.</p>"
+          },
+          {
+            "question": "How reliable is the PSA home test?",
+            "answer": "<p>This test provides a simple way to check whether your PSA may be around 4 ng/mL or higher. Follow the preparation instructions and read your result between 15 and 20 minutes. If your result is raised, speak to your GP for further testing. If your result is negative but you have symptoms or concerns, also speak to your GP.</p>"
+          },
+          {
+            "question": "What’s in the PSA test kit?",
+            "answer": "<p>The kit includes a test pad in a sealed pouch, 1 lancet, 2 alcohol pads, a pipette, diluent (test liquid), a waste bag and an instruction leaflet.</p>"
+          }
+        ]
+      },
+      {
+        "label": "About PSA and the prostate",
+        "questions": [
+          {
+            "question": "What is a PSA test?",
+            "answer": "<p>A PSA test is a blood test that checks the level of prostate specific antigen, a protein made by the prostate. A raised level can be a sign of a prostate problem, such as an enlarged prostate, inflammation, infection or, sometimes, prostate cancer.</p>"
+          },
+          {
+            "question": "What is a normal PSA level?",
+            "answer": "<p>There isn’t one number that’s normal for everyone, because PSA naturally rises with age. This home test uses 4 ng/mL as its cut-off. If your result is raised, your GP will look at it alongside your age and health.</p>"
+          },
+          {
+            "question": "What can raise PSA levels?",
+            "answer": "<p>PSA can be raised by an enlarged prostate, a prostate or urine infection, inflammation, recent ejaculation or anal sex, cycling and vigorous exercise. Sometimes it can be a sign of prostate cancer, which is why a raised result should be checked by your GP.</p>"
+          },
+          {
+            "question": "Does a high PSA mean cancer?",
+            "answer": "<p>No, not necessarily. Many things can raise PSA, and an enlarged prostate is a common cause. Your GP can arrange more tests to find out why your PSA is raised.</p>"
+          },
+          {
+            "question": "What happens after a raised PSA result?",
+            "answer": "<p>Your GP may offer a repeat PSA blood test. If your level is still high, they may refer you to a specialist for more tests, such as an MRI scan or a biopsy.</p>"
+          },
+          {
+            "question": "Can I get a PSA test on the NHS?",
+            "answer": "<p>Yes, you can ask your GP. Routine PSA screening isn’t offered on the NHS for most people, but anyone with a prostate can ask their GP about a test. Your GP will talk you through the benefits and downsides first.</p>"
+          },
+          {
+            "question": "Are there downsides to PSA testing?",
+            "answer": "<p>Yes. A PSA result isn’t always accurate. A raised level can lead to more tests that turn out not to be needed, and a normal level doesn’t rule out every prostate problem. That’s why it’s worth talking any result through with your GP.</p>"
+          },
+          {
+            "question": "What are the signs of a prostate problem?",
+            "answer": "<p>Signs can include needing to pee more often, especially at night, a sudden urge to pee, difficulty peeing, blood in your pee, and problems getting or keeping an erection. Many prostate problems cause no symptoms at first.</p>"
+          },
+          {
+            "question": "Can exercise affect a PSA test?",
+            "answer": "<p>Yes. Cycling and vigorous exercise can raise PSA for a short time. Avoid them for 48 hours before testing.</p>"
+          }
+        ]
+      },
+      {
+        "label": "Ordering and other tests",
+        "questions": [
+          {
+            "question": "Will anyone know what I ordered?",
+            "answer": "<p>No. Your order arrives in plain, discreet packaging with nothing on the outside to reveal what’s inside. Your bank statement won’t show “Test Discreet” or the name of the test. We ship within 1 working day.</p>"
+          },
+          {
+            "question": "What other home tests do you offer?",
+            "answer": "<p>As well as PSA, we offer private home tests for sexual health, including <a href=\"/rapid-tests/hiv-home-test-kit\">HIV</a>, <a href=\"/rapid-tests/syphilis-home-test-kit\">syphilis</a>, <a href=\"/rapid-tests/chlamydia-gonorrhoea-home-test-kit\">chlamydia and gonorrhoea</a>, <a href=\"/rapid-tests/herpes-hsv-2-home-test-kit\">genital herpes</a> and <a href=\"/rapid-tests/hepatitis-b-c-home-test-kit\">hepatitis B and C</a>. Our <a href=\"/rapid-tests/7-in-1-sti-test-kit\">7-in-1 STI test bundle</a> checks for 7 infections in one order.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "otherProducts": [
+    "sti-bundle",
+    "core-4",
+    "chlamydia-gonorrhoea",
+    "hiv",
+    "syphilis",
+    "hsv-2",
+    "hep-b-c"
+  ],
+  "otherTests": {
+    "heading": "Other private home test kits",
+    "note": "All results in around 15 minutes.",
+    "highlight": [],
+    "bundles": [
+      {
+        "handle": "sti-bundle",
+        "name": "7-in-1 STI Test Bundle"
+      },
+      {
+        "handle": "core-4",
+        "name": "Core 4 Bundle"
+      }
+    ],
+    "singles": [
+      {
+        "handle": "hep-b-c",
+        "name": "Hepatitis B & C Test Kit",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "chlamydia-gonorrhoea",
+        "name": "Chlamydia & Gonorrhoea Test Kit",
+        "sample": "Swab"
+      },
+      {
+        "handle": "hsv-2",
+        "name": "Herpes (HSV-2) Test Kit",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "hiv",
+        "name": "HIV Test Kit",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "syphilis",
+        "name": "Syphilis Test Kit",
+        "sample": "Finger-prick"
+      }
+    ]
+  }
+}

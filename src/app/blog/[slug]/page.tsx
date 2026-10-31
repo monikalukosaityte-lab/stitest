@@ -12,6 +12,7 @@ import {
   MoreEntries,
   TableOfContents,
 } from '@/components/sections/article';
+import ProductGrid from '@/components/sections/product-grid';
 import {
   getAllArticles,
   getArticleBySlug,
@@ -39,7 +40,7 @@ function MdxImage(props: ImageProps) {
 function H2({ className, children, ...props }: ComponentPropsWithoutRef<'h2'>) {
   const text = typeof children === 'string' ? children : '';
   return (
-    <h2 id={slugify(text)} className={cn('scroll-mt-10', className)} {...props}>
+    <h2 id={slugify(text)} className={cn('scroll-mt-28', className)} {...props}>
       {children}
     </h2>
   );
@@ -90,6 +91,8 @@ export async function generateMetadata({
     },
     description:
       article.frontmatter.metaDescription ?? article.frontmatter.description,
+    alternates: { canonical: `/blog/${slug}` },
+    robots: { index: true, follow: true },
   };
 }
 
@@ -143,7 +146,7 @@ export default async function ArticlePage({
         >
           {/* Article body */}
           <div className="grid gap-8 lg:grid-cols-[1fr_220px] lg:gap-12">
-            <div className="prose prose-base prose-neutral dark:prose-invert prose-a:text-accent prose-a:underline prose-li:marker:text-foreground max-w-none [&>h2]:mt-14 [&>h2]:text-2xl [&>h2]:leading-tight [&>h2]:tracking-tight [&>h2:first-child]:mt-0 [&>p]:text-muted-foreground [&>ul]:mt-4 [&>ul]:text-muted-foreground [&>p+p]:mt-4">
+            <div className="prose prose-base prose-headings:font-display prose-headings:text-foreground prose-h2:font-extrabold prose-h3:font-bold prose-p:text-foreground prose-li:text-foreground prose-strong:text-foreground prose-a:text-primary prose-a:font-medium prose-a:underline prose-a:underline-offset-3 hover:prose-a:text-primary-hover prose-li:marker:text-primary max-w-none [&>h2]:mt-14 [&>h2]:text-2xl [&>h2]:leading-tight [&>h2:first-child]:mt-0 [&>p+p]:mt-4 [&>ul]:mt-4">
               {content}
             </div>
             <TableOfContents items={article.frontmatter.toc ?? []} />
@@ -152,6 +155,7 @@ export default async function ArticlePage({
       </article>
 
       <MoreEntries articles={otherArticles} />
+      <ProductGrid heading="Ready to test?" />
     </>
   );
 }

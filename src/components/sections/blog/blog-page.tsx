@@ -1,151 +1,114 @@
-import { ShieldCheck, Star } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+import ProductGrid from '@/components/sections/product-grid';
 import { ArticleFrontmatter } from '@/lib/types';
-import { cn, formatPublishDate } from '@/lib/utils';
-
-const CARD_GRADIENTS = [
-  'linear-gradient(135deg, rgba(133,146,131,0.28), rgba(244,236,220,0.75))',
-  'linear-gradient(135deg, rgba(133,146,131,0.3), rgba(235,234,224,0.8))',
-  'linear-gradient(135deg, rgba(224,207,171,0.3), rgba(133,146,131,0.24))',
-] as const;
+import { formatPublishDate } from '@/lib/utils';
 
 export function BlogListing({ articles }: { articles: ArticleFrontmatter[] }) {
-  const [featured, ...rest] = articles;
-
   return (
-    <div className="bg-blog">
-      <section
-        className="relative overflow-hidden pt-8 pb-8 md:pt-10 md:pb-12 lg:pt-12 lg:pb-16"
-        id="home"
-      >
-        <div className="container relative">
-          <span className="text-muted-foreground mb-4 block text-sm">
-            STI Test Kits
-          </span>
-          <h1 className="max-w-2xl text-4xl leading-none tracking-tighter md:text-5xl lg:text-6xl">
-            Everything you need to know about STI
-          </h1>
-          <p className="text-muted-foreground mt-6 max-w-xl text-lg leading-relaxed">
-            Straightforward guides to STI testing, infection symptoms and
-            more — what to know, what to look for, and what to do next.
-          </p>
-        </div>
-      </section>
+    <>
+      <BlogHero />
 
-      {(featured || rest.length > 0) && (
-        <section className="section-padding pt-0">
+      {articles.length > 0 && (
+        <section className="section-padding">
           <div className="container">
-            {featured && (
-              <div className="mb-5">
-                <ArticleCard article={featured} featured index={0} />
-              </div>
-            )}
-            {rest.length > 0 && (
-              <div className="grid gap-5 md:grid-cols-2">
-                {rest.map((article, index) => (
-                  <ArticleCard
-                    key={article.slug}
-                    article={article}
-                    index={index + 1}
-                  />
-                ))}
-              </div>
-            )}
+            <h2 className="mb-8 text-3xl md:text-4xl">
+              Latest <em>guides</em>
+            </h2>
+            <ul className="grid gap-5 md:grid-cols-3">
+              {articles.map((article) => (
+                <li key={article.slug}>
+                  <PostCard article={article} />
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
       )}
-    </div>
+
+      <ProductGrid />
+    </>
   );
 }
 
-function ArticleCard({
-  article,
-  featured = false,
-  index,
-}: {
-  article: ArticleFrontmatter;
-  featured?: boolean;
-  index: number;
-}) {
-  const Heading = featured ? 'h2' : 'h3';
+// The testdiscreet.co.uk hero: navy band with a soft glow and the kit in hand.
+function BlogHero() {
+  return (
+    <section
+      id="home"
+      className="bg-accent-deep text-accent-foreground relative flex min-h-130 items-start overflow-hidden md:min-h-112 md:items-center"
+    >
+      <div className="from-primary absolute inset-0 bg-radial-[90%_50%_at_50%_35%] to-transparent md:bg-radial-[45%_85%_at_72%_50%]" />
+      <Image
+        src="/images/home/hero-mobile.webp"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover md:hidden"
+      />
+      <div className="absolute inset-0 container hidden pt-6 md:block">
+        <div className="relative size-full">
+          <Image
+            src="/images/home/hero-desktop.webp"
+            alt=""
+            fill
+            priority
+            sizes="(min-width: 1248px) 1200px, 100vw"
+            className="object-contain object-right-bottom"
+          />
+        </div>
+      </div>
 
+      <div className="relative z-10 container py-8 md:py-12">
+        <div className="max-w-3xl text-center md:text-left">
+          <h1 className="mb-6 text-4xl leading-none md:text-5xl lg:text-6xl">
+            <span className="block font-normal">
+              Everything you need to know
+            </span>
+            <span className="mt-2 block font-serif text-2xl font-bold md:text-3xl">
+              about STI
+            </span>
+          </h1>
+          <p className="max-w-xl text-lg">
+            Straightforward guides to STI testing, infection symptoms and more —
+            what to know, what to look for, and what to do next.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function PostCard({ article }: { article: ArticleFrontmatter }) {
   return (
     <Link
       href={`/blog/${article.slug}`}
-      className={cn(
-        'group bg-card border-border block overflow-hidden rounded-[1.5rem] border shadow-sm no-underline',
-        featured && 'md:flex md:items-stretch',
-      )}
+      className="group flex flex-col no-underline"
     >
-      <div
-        className={cn(
-          'relative',
-          featured
-            ? 'aspect-video md:aspect-auto md:w-2/5 md:shrink-0 lg:w-[42%]'
-            : 'aspect-3/2',
-        )}
-      >
-        {featured && (
-          <span className="bg-accent text-accent-foreground absolute top-4 left-4 z-10 inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium">
-            <Star className="size-3 fill-current" />
-            Featured guide
-          </span>
-        )}
-        {article.image ? (
+      <div className="bg-secondary relative mb-3.5 aspect-3/2 overflow-hidden rounded-lg">
+        {article.image && (
           <Image
             src={article.image}
             alt={article.title}
             fill
-            sizes={
-              featured
-                ? '(min-width: 768px) 40vw, 100vw'
-                : '(min-width: 768px) 45vw, 100vw'
-            }
+            sizes="(min-width: 750px) 33vw, 100vw"
             className="object-cover"
           />
-        ) : (
-          <div
-            className="size-full"
-            style={{ background: CARD_GRADIENTS[index % CARD_GRADIENTS.length] }}
-          />
         )}
       </div>
-      <div
-        className={cn(
-          'p-5',
-          featured && 'md:flex md:flex-1 md:flex-col md:justify-center md:p-10',
-        )}
+      <time
+        dateTime={article.date}
+        className="text-muted-foreground mb-1 text-xs"
       >
-        <p className="text-muted-foreground text-sm">
-          {formatPublishDate(article.date)}
-        </p>
-        <Heading
-          className={cn(
-            'mt-3 leading-tight tracking-tight transition-colors group-hover:text-accent',
-            featured ? 'max-w-2xl text-3xl md:text-4xl' : 'text-2xl',
-          )}
-        >
-          {article.title}
-        </Heading>
-        <p
-          className={cn(
-            'text-muted-foreground mt-3 leading-relaxed',
-            featured && 'max-w-2xl',
-          )}
-        >
-          {article.description}
-        </p>
-        <p className="text-muted-foreground mt-4 flex items-center gap-1.5 text-xs">
-          <ShieldCheck className="text-accent size-3.5" />
-          Medically reviewed
-        </p>
-        <span className="text-accent mt-4 inline-flex items-center gap-1 text-sm font-medium">
-          Read article
-          <span aria-hidden>&rarr;</span>
-        </span>
-      </div>
+        {formatPublishDate(article.date)}
+      </time>
+      <h3 className="mb-1.5 text-lg">{article.title}</h3>
+      <p className="text-muted-foreground mb-2">{article.description}</p>
+      <span className="text-primary group-hover:text-primary-hover text-sm font-bold transition-colors">
+        Read more
+      </span>
     </Link>
   );
 }

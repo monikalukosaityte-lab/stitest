@@ -1,0 +1,469 @@
+{
+  "slug": "7-in-1-sti-test-kit",
+  "handle": "sti-bundle",
+  "seo": {
+    "title": "7-in-1 STI Test Kit UK – Full Home STI Test | STI Test Kit",
+    "description": "Test for 7 STIs at home: HIV, syphilis, chlamydia, gonorrhoea, herpes, hepatitis B and C. Results in 15 minutes. £64.95, save £33.80.",
+    "itemList": [
+      {
+        "name": "HIV-1 and HIV-2",
+        "url": "/rapid-tests/hiv-home-test-kit"
+      },
+      {
+        "name": "Syphilis",
+        "url": "/rapid-tests/syphilis-home-test-kit"
+      },
+      {
+        "name": "Chlamydia",
+        "url": "/rapid-tests/chlamydia-gonorrhoea-home-test-kit"
+      },
+      {
+        "name": "Gonorrhoea",
+        "url": "/rapid-tests/chlamydia-gonorrhoea-home-test-kit"
+      },
+      {
+        "name": "Genital herpes (HSV-2)",
+        "url": "/rapid-tests/herpes-hsv-2-home-test-kit"
+      },
+      {
+        "name": "Hepatitis B",
+        "url": "/rapid-tests/hepatitis-b-c-home-test-kit"
+      },
+      {
+        "name": "Hepatitis C",
+        "url": "/rapid-tests/hepatitis-b-c-home-test-kit"
+      }
+    ],
+    "related": [
+      "core-4",
+      "hiv",
+      "syphilis",
+      "chlamydia-gonorrhoea",
+      "hsv-2",
+      "hep-b-c"
+    ]
+  },
+  "gallery": [
+    {
+      "src": "/images/products/gallery/product-sti-bundle-grey.webp",
+      "alt": "Test Discreet 7-in-1 STI home test kit with all 5 tests laid out"
+    },
+    {
+      "src": "/images/products/gallery/privacy-promise.webp",
+      "alt": "Test Discreet privacy promise: confidential, discreet delivery, private payment"
+    },
+    {
+      "src": "/images/products/gallery/benefits-sti-bundle.webp",
+      "alt": "7-in-1 STI Test Bundle: what you get"
+    },
+    {
+      "src": "/images/products/gallery/value-prop-sti-bundle-benefits.webp",
+      "alt": "7-in-1 STI Test Bundle - results in 15 minutes, no clinic visit, discreet packaging"
+    },
+    {
+      "src": "/images/products/gallery/how-to-test-sti-bundle.webp",
+      "alt": "How to use the 7-in-1 STI Test Bundle"
+    }
+  ],
+  "title": "7-in-1 STI Test Kit",
+  "hero": {
+    "breadcrumb": "7-in-1 STI Test Kit",
+    "badge": "Best value · Our most complete test",
+    "heading": "7-in-1 STI Test Kit – Test for 7 STIs at Home in 15 Minutes",
+    "intro": "Our most complete home STI test kit. Check for HIV, syphilis, chlamydia, gonorrhoea, genital herpes, hepatitis B and hepatitis C in one private order, with results in around 15 minutes. No clinic, no lab, no waiting days for results.",
+    "highlights": [
+      {
+        "icon": "verified",
+        "label": "7 STIs in one kit"
+      },
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "home",
+        "label": "No lab, nothing to post"
+      },
+      {
+        "icon": "lock",
+        "label": "Discreet packaging"
+      }
+    ],
+    "specs": [
+      {
+        "icon": "search",
+        "label": "Tests for",
+        "value": "HIV 1/2, syphilis, chlamydia, gonorrhoea, genital herpes (HSV-2), hepatitis B, hepatitis C"
+      },
+      {
+        "icon": "package",
+        "label": "What’s in the box",
+        "value": "5 rapid tests: 4 finger-prick blood tests and 1 swab test"
+      },
+      {
+        "icon": "clock",
+        "label": "Results",
+        "value": "Each test in around 15 minutes, at home"
+      },
+      {
+        "icon": "users",
+        "label": "Suitable for",
+        "value": "Anyone aged 16 and over"
+      },
+      {
+        "icon": "package",
+        "label": "Delivery",
+        "value": "Ships within 1 working day"
+      }
+    ],
+    "priceNote": "Save £33.80 compared with buying each test separately.",
+    "after": "<table><thead><tr><th></th><th>7-in-1 kit</th><th>Buying all 5 tests separately</th></tr></thead><tbody><tr><td>Infections covered</td><td>7</td><td>7</td></tr><tr><td>Price</td><td>£64.95</td><td>£98.75</td></tr><tr><td>Orders and parcels</td><td>1</td><td>Up to 5</td></tr></tbody></table>"
+  },
+  "about": {
+    "questions": [
+      {
+        "question": "What STIs does the 7-in-1 kit test for?",
+        "open": true,
+        "answer": "<p>The kit contains 5 rapid tests that check for 7 infections between them. Every test gives its own result, so you’ll know exactly what was and wasn’t detected.</p><table><thead><tr><th>Infection</th><th>Test in the kit</th><th>Sample</th><th>Bought alone</th></tr></thead><tbody><tr><td>HIV-1 and HIV-2</td><td><a href=\"/rapid-tests/hiv-home-test-kit\">HIV test</a></td><td>Finger-prick</td><td>£15.95</td></tr><tr><td>Syphilis</td><td><a href=\"/rapid-tests/syphilis-home-test-kit\">Syphilis test</a></td><td>Finger-prick</td><td>£14.95</td></tr><tr><td>Chlamydia and gonorrhoea</td><td><a href=\"/rapid-tests/chlamydia-gonorrhoea-home-test-kit\">Chlamydia &amp; gonorrhoea test</a></td><td>Vaginal or urethral swab</td><td>£19.95</td></tr><tr><td>Genital herpes (HSV-2)</td><td><a href=\"/rapid-tests/herpes-hsv-2-home-test-kit\">Herpes (HSV-2) test</a></td><td>Finger-prick</td><td>£19.95</td></tr><tr><td>Hepatitis B and hepatitis C</td><td><a href=\"/rapid-tests/hepatitis-b-c-home-test-kit\">Hepatitis B &amp; C test</a></td><td>Finger-prick</td><td>£27.95</td></tr><tr><td><strong>All 7</strong></td><td><strong>7-in-1 kit</strong></td><td><strong>4 finger-pricks + 1 swab</strong></td><td><strong>£64.95 (save £33.80)</strong></td></tr></tbody></table><h3>HIV</h3><p>HIV attacks the immune system and can cause no symptoms for years. Treatment is free on the NHS and highly effective. Learn about <a href=\"/blog/hiv-symptoms-stages\">the symptoms and stages of HIV</a>.</p><h3>Syphilis</h3><p>Syphilis is a bacterial STI that often starts with a painless sore that’s easy to miss. It’s curable with antibiotics. Learn about <a href=\"/blog/syphilis-symptoms-stages\">the four stages of syphilis</a>.</p><h3>Chlamydia and gonorrhoea</h3><p>These are two of the most common STIs in the UK, and most people with chlamydia have no symptoms. Both are treated with antibiotics. Learn about <a href=\"/blog/chlamydia-gonorrhoea-symptoms\">chlamydia and gonorrhoea symptoms</a>.</p><h3>Genital herpes (HSV-2)</h3><p>Herpes is a virus passed on through skin-to-skin contact. Most people with it have no symptoms. There’s no cure, but outbreaks can be managed. Learn about <a href=\"/blog/genital-herpes-symptoms\">genital herpes symptoms and outbreaks</a>.</p><h3>Hepatitis B and C</h3><p>These viruses infect the liver and can spread through blood, and hepatitis B through sex. Many people have no symptoms. Hepatitis C is usually curable with tablets. Find out more on our <a href=\"/rapid-tests/hepatitis-b-c-home-test-kit\">hepatitis B and C test page</a>.</p>"
+      },
+      {
+        "question": "Can you have an STI without knowing?",
+        "open": false,
+        "answer": "<p>Yes, and it’s very common. Most people with chlamydia have no symptoms. HIV and hepatitis can cause no symptoms for years. Up to 90 in 100 people with herpes don’t notice any signs. Syphilis can start with a painless sore that heals by itself. <a href=\"/blog/what-is-an-sti-test\">Testing is the only way to know</a>, even if you feel completely well.</p>"
+      },
+      {
+        "question": "Who is the 7-in-1 kit for?",
+        "open": false,
+        "answer": "<p>You don’t need symptoms to test. The 7-in-1 kit is a good choice if:</p><ul><li>You want a full sexual health check in one go</li><li>You’ve had sex without a condom, or with a new partner</li><li>You have more than one partner and want to test regularly</li><li>A partner has told you they have an STI, and you’re not sure which tests you need</li><li>You’re starting a new relationship and want peace of mind</li><li>You’d prefer a private home test to a clinic visit</li></ul><p><strong>Need help now?</strong> If you have symptoms or a partner has tested positive, contact a sexual health clinic now.</p><p><strong>Possible HIV exposure in the last 72 hours?</strong> Contact a sexual health clinic or A&amp;E as soon as possible and ask about PEP, medicine that can help prevent HIV after exposure. Don’t wait for a test result.</p>"
+      }
+    ],
+    "aside": {
+      "heading": "Why choose a full STI test kit?",
+      "text": "If you’ve been exposed to one STI, you may have been exposed to others. Many STIs have no symptoms, and the ones that do often look alike. Testing for one infection can leave the rest unchecked. A full STI test kit gives you the complete picture in one go.",
+      "items": [
+        {
+          "icon": "verified",
+          "title": "The complete picture",
+          "text": "7 infections, 5 tests, 1 order. No guessing which test you need."
+        },
+        {
+          "icon": "clock",
+          "title": "Results in 15 minutes",
+          "text": "Read every result at home, the same day. No posting samples to a lab, no waiting days."
+        },
+        {
+          "icon": "tag",
+          "title": "Save £33.80",
+          "text": "Pay £64.95 instead of £98.75 for the same 5 tests bought separately."
+        },
+        {
+          "icon": "lock",
+          "title": "Completely private",
+          "text": "Plain parcel, discreet bank statement, and only you see your results."
+        }
+      ],
+      "buttonLabel": "Get the 7-in-1 kit"
+    }
+  },
+  "intro": "<p>Test privately at home for seven infections: chlamydia, gonorrhoea, HIV, syphilis, genital herpes (HSV-2), and hepatitis B and C. Five rapid tests using a swab and finger-prick blood samples, with results in around 15 minutes each.</p>",
+  "keyFacts": [
+    "<strong>Screens for:</strong> Chlamydia, gonorrhoea, HIV-1 and HIV-2, syphilis, genital herpes (HSV-2), hepatitis B and hepatitis C",
+    "<strong>Samples:</strong> 1 swab test and 4 finger-prick blood tests",
+    "<strong>Results:</strong> Around 15 minutes"
+  ],
+  "shipping": "Ships within <strong>1 working day</strong>",
+  "accordions": [
+    {
+      "heading": "What does the 7-in-1 bundle test for?",
+      "open": false,
+      "content": "<p><strong>Chlamydia and gonorrhoea</strong> are bacterial infections that often cause no symptoms. Both can be cured with antibiotics.</p><p><strong>HIV</strong> is a virus that affects the immune system. It cannot be cured, but treatment is highly effective.</p><p><strong>Syphilis</strong> is a bacterial infection that can cause a painless sore or rash, or no symptoms at all. It can be cured with antibiotics.</p><p><strong>Genital herpes (HSV-2)</strong> is a virus that can cause genital blisters or sores. There is no cure, but outbreaks can be treated with antiviral medicine.</p><p><strong>Hepatitis B and C</strong> are viruses that affect the liver. Many adults recover from a new hepatitis B infection naturally, while hepatitis C can usually be cured with antiviral tablets.</p>",
+      "after": "",
+      "checklist": []
+    },
+    {
+      "heading": "Is this for you?",
+      "open": true,
+      "content": "<p><strong>You don’t need to have symptoms to test.</strong> All seven infections can cause no noticeable symptoms.</p><p>It may be worth testing if:</p>",
+      "after": "<p><strong>Had a possible HIV exposure in the last 72 hours?</strong> Don’t wait for a test result. Contact a sexual health clinic or go to A&E as soon as possible and ask about PEP, medication that can help prevent HIV after exposure.</p>",
+      "checklist": [
+        "You’ve had <strong>sex without a condom</strong>",
+        "You have a <strong>new sexual partner</strong>, or more than one",
+        "A <strong>sexual partner has told you</strong> they have an STI",
+        "You’ve had <strong>possible symptoms</strong>, such as unusual discharge, pain when peeing, blisters, sores or a rash",
+        "You want to check for <strong>seven infections</strong> in one go",
+        "You’d rather <strong>test privately</strong> at home"
+      ]
+    }
+  ],
+  "benefits": {
+    "heading": "Test <em>privately</em>",
+    "text": "Everything you need to test for seven infections at home:",
+    "items": [
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "swab",
+        "label": "1 swab and 4 finger-prick tests"
+      },
+      {
+        "icon": "package",
+        "label": "Discreet packaging"
+      },
+      {
+        "icon": "home",
+        "label": "No clinic visit"
+      }
+    ]
+  },
+  "footnote": "",
+  "bundleChoice": null,
+  "variantId": 63780179870026,
+  "retest": {
+    "heading": "Select quantity",
+    "badge": "Test + retest",
+    "discount": 10,
+    "unit": "kit",
+    "note": "Testing soon after sex? An early negative may need to be repeated. See when to retest each infection below."
+  },
+  "buyLabel": "Get the 7-in-1 kit – __PRICE__",
+  "trust": "Secure checkout · Discreet UK delivery · Ships within 1 working day",
+  "reassurance": {
+    "title": "Discreet delivery",
+    "text": "Plain packaging with nothing on the outside to reveal what’s inside. Your bank statement won’t show “Test Discreet” or the name of the test."
+  },
+  "how": {
+    "heading": "How does the 7-in-1 STI test kit work?",
+    "intro": "<p>You’ll find 5 rapid tests in the box, each with its own instructions. Four use a small finger-prick of blood and one uses a swab. You read every result at home, with no sample to send to a lab.</p>",
+    "stepsHeading": "How to use the 7-in-1 kit in 3 steps",
+    "steps": [
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-sti-bundle-step-1.webp",
+          "alt": "Step 1 start with the swab test"
+        },
+        "title": "Start with the swab test",
+        "text": "Take a vaginal or urethral swab following the collection instructions. If taking a urethral swab, don’t pee for at least 2 hours beforehand."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-sti-bundle-step-2.webp",
+          "alt": "Step 2 do the 4 finger-prick tests"
+        },
+        "title": "Do the 4 finger-prick tests",
+        "text": "Clean and prick your fingertip, then add blood and test liquid to each blood test as its leaflet shows. The HIV, syphilis, herpes and hepatitis tests each need their own drops."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-sti-bundle-step-3.webp",
+          "alt": "Step 3 read each result in its time window"
+        },
+        "title": "Read each result in its time window",
+        "text": "Each test has its own reading time, shown below. Set a timer so you don’t miss one."
+      }
+    ],
+    "after": "<table><thead><tr><th>Test</th><th>Read between</th><th>Don’t read after</th></tr></thead><tbody><tr><td>HIV</td><td>15 and 20 minutes</td><td>20 minutes</td></tr><tr><td>Syphilis</td><td>10 and 20 minutes</td><td>20 minutes</td></tr><tr><td>Chlamydia &amp; gonorrhoea</td><td>15 and 20 minutes</td><td>20 minutes</td></tr><tr><td>Herpes (HSV-2)</td><td>15 and 30 minutes</td><td>35 minutes</td></tr><tr><td>Hepatitis B &amp; C</td><td>15 and 20 minutes</td><td>30 minutes</td></tr></tbody></table><p>Step-by-step guides with pictures are on each test’s own page: <a href=\"/rapid-tests/hiv-home-test-kit\">HIV</a>, <a href=\"/rapid-tests/syphilis-home-test-kit\">syphilis</a>, <a href=\"/rapid-tests/chlamydia-gonorrhoea-home-test-kit\">chlamydia and gonorrhoea</a>, <a href=\"/rapid-tests/herpes-hsv-2-home-test-kit\">herpes</a> and <a href=\"/rapid-tests/hepatitis-b-c-home-test-kit\">hepatitis B and C</a>.</p>",
+    "link": {
+      "label": "How to test and read your results",
+      "href": "https://testdiscreet.co.uk/pages/how-to-test?utm_source=stitestkit&utm_medium=referral"
+    }
+  },
+  "windows": {
+    "heading": "How soon after sex can I take a full STI <em>test?</em>",
+    "subheading": "<p>You can test straight away, but testing too early can give a negative result even if you have an infection. An early negative may need repeating: chlamydia and gonorrhoea at 2 weeks, syphilis and hepatitis B at 12 weeks, HIV at 90 days and hepatitis C at six months after your last possible exposure. There isn’t a reliable number of days or weeks when the herpes IgM test becomes conclusive.</p><table><thead><tr><th>Infection</th><th>Retest an early negative at</th></tr></thead><tbody><tr><td>Chlamydia and gonorrhoea</td><td>2 weeks after possible exposure</td></tr><tr><td>Syphilis</td><td>12 weeks</td></tr><tr><td>Hepatitis B</td><td>12 weeks</td></tr><tr><td>HIV</td><td>90 days</td></tr><tr><td>Hepatitis C</td><td>6 months</td></tr><tr><td>Genital herpes (HSV-2)</td><td>No set time. If you have sores, a clinic can swab them</td></tr></tbody></table>",
+    "days": 182,
+    "initialTitle": "Test now. If anything is negative, check the table above for when to retest.",
+    "strings": {
+      "today": "Today",
+      "days_ago_one": "__COUNT__ day ago",
+      "days_ago_other": "__COUNT__ days ago",
+      "interval": "2 weeks, 12 weeks, 90 days and 6 months",
+      "retest_title": "",
+      "retest_body": "",
+      "now_title": "",
+      "now_body": "",
+      "unsure_title": "Contact a sexual health clinic for advice about when to test.",
+      "unsure_body": "",
+      "retest": "",
+      "privacy": "This checker runs on your device. The date never leaves it: we don’t see it, store it or send it anywhere."
+    },
+    "stages": [
+      {
+        "until": 3,
+        "title": "Contact a sexual health clinic or A&E as soon as possible and ask about PEP.",
+        "body": "Don’t wait for a home test result. The clinic will advise when to test."
+      },
+      {
+        "until": 14,
+        "title": "You can test now.",
+        "body": "If negative, repeat chlamydia and gonorrhoea on __DATE_14__, syphilis and hepatitis B on __DATE_84__, HIV on __DATE_90__ and hepatitis C on __DATE_182__."
+      },
+      {
+        "until": 84,
+        "title": "You can test now.",
+        "body": "If negative, repeat syphilis and hepatitis B on __DATE_84__, HIV on __DATE_90__ and hepatitis C on __DATE_182__."
+      },
+      {
+        "until": 90,
+        "title": "You can test now.",
+        "body": "If negative, repeat HIV on __DATE_90__ and hepatitis C on __DATE_182__."
+      },
+      {
+        "until": 182,
+        "title": "You can test now.",
+        "body": "If negative, repeat hepatitis C on __DATE_182__."
+      },
+      {
+        "until": null,
+        "title": "You can test now.",
+        "body": "There is no reliable conclusive window period for the herpes IgM test. If you have symptoms or concerns, contact a sexual health clinic."
+      }
+    ],
+    "notes": "<p><strong>PEP alert:</strong> Possible HIV exposure in the last 72 hours? Contact a sexual health clinic or A&amp;E now and ask about PEP. Don’t wait for a test result.</p>",
+    "after": "<p><strong>Planning to retest?</strong> Choose the 2-kit Test + retest pack for £116.91 and save 10%, or our <a href=\"/rapid-tests/core-4-sti-test-kit\">Core 4 bundle</a> covers chlamydia, gonorrhoea, HIV and syphilis for a lower price.</p>"
+  },
+  "results": {
+    "heading": "How to read your 7-in-1 STI test results",
+    "groups": [
+      {
+        "title": null,
+        "intro": "<p>Every test has a C (control) line and a T (test) line. The C line shows the test worked. A T line, even a faint one, means something was detected. Two of the tests have two windows, so you get a separate result for each infection.</p><table><thead><tr><th>Test</th><th>Window(s)</th><th>Negative</th><th>Positive</th></tr></thead><tbody><tr><td>HIV</td><td>One</td><td>C line only</td><td>C and T lines</td></tr><tr><td>Syphilis</td><td>One</td><td>C line only</td><td>C and T lines</td></tr><tr><td>Chlamydia &amp; gonorrhoea</td><td>Ct (chlamydia) and Ng (gonorrhoea)</td><td>C line only in both</td><td>C and T lines in the Ct and/or Ng window</td></tr><tr><td>Herpes (HSV-2)</td><td>One</td><td>C line only</td><td>C and T lines</td></tr><tr><td>Hepatitis B &amp; C</td><td>HBsAg (hepatitis B) and HCV (hepatitis C)</td><td>C line only in both</td><td>C and T lines in the HBsAg and/or HCV window</td></tr></tbody></table><p><strong>Invalid:</strong> No C line in a window means that test hasn’t worked, even if a T line shows. Contact us and we’ll help.</p>",
+        "items": []
+      }
+    ],
+    "notes": [
+      {
+        "title": "What if a result is positive?",
+        "text": "<p>Don’t panic. Every infection in this kit can be treated or managed, and NHS sexual health services are free and confidential. Contact a sexual health clinic or your GP for a confirmation test and treatment. Your recent partners may need testing too.</p><p>A few results need extra care:</p><ul><li><strong>Herpes (HSV-2):</strong> a positive can’t show when you were infected, and IgM can return during a repeat outbreak.</li><li><strong>Hepatitis C:</strong> antibodies can stay after the infection has cleared, so a positive may mean a past infection.</li><li><strong>Syphilis:</strong> antibodies can stay after treatment, so tell the clinic if you’ve had syphilis before.</li></ul>"
+      },
+      {
+        "title": "Good to know",
+        "text": "<p>These tests are designed for screening and don’t replace advice from a doctor or nurse. For ages 16 and over.</p>"
+      }
+    ],
+    "buttonLabel": "Get the 7-in-1 kit – £64.95"
+  },
+  "faq": {
+    "heading": "7-in-1 STI test kit FAQs",
+    "tabs": [
+      {
+        "label": "About the kit",
+        "questions": [
+          {
+            "question": "What STIs does the 7-in-1 kit test for?",
+            "answer": "<p>It tests for 7 infections: HIV (types 1 and 2), syphilis, chlamydia, gonorrhoea, genital herpes (HSV-2), hepatitis B and hepatitis C. There are 5 tests in the box, and each gives its own result.</p>"
+          },
+          {
+            "question": "How long do the results take?",
+            "answer": "<p>Each test gives a result in around 15 minutes, read at home. The herpes test can be read up to 30 minutes. Doing all 5 tests usually fits into a single sitting.</p>"
+          },
+          {
+            "question": "Do I need to send a sample to a lab?",
+            "answer": "<p>No. These are rapid tests you read yourself at home. There’s nothing to post and no waiting days for results.</p>"
+          },
+          {
+            "question": "How accurate is the 7-in-1 STI test kit?",
+            "answer": "<p>When used correctly, each test is a reliable screening test. In clinical evaluations, 99.81% of syphilis results matched a lab test. Testing too soon after exposure can affect results, and any positive result should be confirmed by a clinic or GP.</p>"
+          },
+          {
+            "question": "Is the 7-in-1 kit cheaper than buying tests separately?",
+            "answer": "<p>Yes. The same 5 tests cost £98.75 bought separately. The 7-in-1 kit is £64.95, so you save £33.80. If you plan to retest, the 2-kit Test + retest pack is £116.91, saving a further 10%.</p>"
+          },
+          {
+            "question": "What’s the difference between the 7-in-1 kit and the Core 4 bundle?",
+            "answer": "<p>The <a href=\"/rapid-tests/core-4-sti-test-kit\">Core 4 bundle</a> tests for chlamydia, gonorrhoea, HIV and syphilis for £44.95. The 7-in-1 kit adds genital herpes, hepatitis B and hepatitis C for £64.95. Choose the 7-in-1 for the most complete check.</p>"
+          },
+          {
+            "question": "Can men and women use the 7-in-1 kit?",
+            "answer": "<p>Yes. The kit is for anyone aged 16 and over. The swab test works with a vaginal swab or a swab from the urethra (the tube you pee from).</p>"
+          },
+          {
+            "question": "Does it test for throat or anal infections?",
+            "answer": "<p>No. The chlamydia and gonorrhoea test uses a genital swab only. If you’ve had oral or anal sex, ask a sexual health clinic about throat or rectal testing.</p>"
+          },
+          {
+            "question": "Does it test for HSV-1?",
+            "answer": "<p>No. The herpes test checks for HSV-2 only. HSV-1 is the cold sore virus, which can also cause genital herpes through oral sex. A clinic can swab any sores to find out which type it is.</p>"
+          },
+          {
+            "question": "How soon after sex can I use the kit?",
+            "answer": "<p>You can test straight away, but each infection takes a different time to show up. If you test early and get negative results, retest at 2 weeks, 90 days and 6 months. See the window periods in “When to test”.</p>"
+          },
+          {
+            "question": "What if one of my results is positive?",
+            "answer": "<p>Contact a sexual health clinic or your GP for a confirmation test and treatment. Every infection in the kit can be treated or managed, and NHS sexual health services are free and confidential. Your recent partners may need testing too.</p>"
+          },
+          {
+            "question": "What does a negative result mean?",
+            "answer": "<p>It means that infection wasn’t detected. If you tested soon after possible exposure, you may have tested too early, so retest once its window period has passed. If you have symptoms, speak to a sexual health clinic.</p>"
+          },
+          {
+            "question": "Can I use the kit while pregnant?",
+            "answer": "<p>The swab test is not recommended if you are pregnant. If you’re pregnant and concerned about STIs, speak to your midwife, GP or a sexual health clinic. HIV, syphilis and hepatitis B testing is routinely offered during pregnancy through the NHS, and they can advise on testing for the other infections.</p>"
+          }
+        ]
+      },
+      {
+        "label": "About STIs and testing",
+        "questions": [
+          {
+            "question": "Which STI tests do I need?",
+            "answer": "<p>If you’re not sure, a full STI test is the simplest choice. Many STIs have no symptoms and they often look alike, so testing for one can miss another. The 7-in-1 kit covers the most common STIs and blood-borne infections in one order. Read more about <a href=\"/blog/what-is-an-sti-test\">how STI testing works</a>.</p>"
+          },
+          {
+            "question": "How often should I get an STI test?",
+            "answer": "<p>Test after sex without a condom or with a new partner, and regularly if you have more than one partner. Testing before sex with a new partner is also a good idea. A sexual health clinic can advise how often is right for you.</p>"
+          },
+          {
+            "question": "Can you have an STI without symptoms?",
+            "answer": "<p>Yes. Most people with chlamydia have no symptoms, and HIV, hepatitis and herpes can cause no symptoms for years. You can still pass an infection on, so testing is the only way to know.</p>"
+          },
+          {
+            "question": "What are the most common STIs in the UK?",
+            "answer": "<p>Chlamydia is the most commonly diagnosed STI in England, with 151,163 diagnoses in 2025. There were also 63,943 gonorrhoea diagnoses, 28,779 first episodes of genital herpes and 8,262 syphilis diagnoses.</p>"
+          },
+          {
+            "question": "Are STIs curable?",
+            "answer": "<p>Many are. Chlamydia, gonorrhoea and syphilis are cured with antibiotics, and hepatitis C is usually cured with tablets. Most adults clear hepatitis B on their own. HIV and herpes can’t be cured, but treatment works very well and lets people live long, healthy lives.</p>"
+          },
+          {
+            "question": "What’s the difference between an STI and an STD?",
+            "answer": "<p>They mean the same thing. STI stands for sexually transmitted infection, and STD stands for sexually transmitted disease. STI is the term used most in the UK, because you can have an infection without any signs of disease.</p>"
+          },
+          {
+            "question": "Can I get a free STI test on the NHS?",
+            "answer": "<p>Yes. NHS sexual health clinics offer free, confidential testing, and some areas offer free postal kits that you send to a lab. Many people choose a rapid home test for 7 results in around 15 minutes, with no appointment and no sample to post.</p>"
+          }
+        ]
+      },
+      {
+        "label": "Ordering and delivery",
+        "questions": [
+          {
+            "question": "Will anyone know what I ordered?",
+            "answer": "<p>No. Your kit arrives in plain, discreet packaging with nothing on the outside to reveal what’s inside. Your bank statement won’t show “Test Discreet” or the name of the test.</p>"
+          },
+          {
+            "question": "How fast is delivery?",
+            "answer": "<p>We ship within 1 working day, with discreet delivery across the UK.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "otherProducts": [
+    "core-4",
+    "chlamydia-gonorrhoea",
+    "hiv",
+    "syphilis",
+    "hsv-2",
+    "hep-b-c",
+    "psa"
+  ],
+  "compare": {
+    "heading": "Which STI test kit is right for me?",
+    "html": "<table><thead><tr><th></th><th>7-in-1 kit</th><th>Core 4 bundle</th><th>Single tests</th></tr></thead><tbody><tr><td>HIV</td><td>Yes</td><td>Yes</td><td><a href=\"/rapid-tests/hiv-home-test-kit\">£15.95</a></td></tr><tr><td>Syphilis</td><td>Yes</td><td>Yes</td><td><a href=\"/rapid-tests/syphilis-home-test-kit\">£14.95</a></td></tr><tr><td>Chlamydia &amp; gonorrhoea</td><td>Yes</td><td>Yes</td><td><a href=\"/rapid-tests/chlamydia-gonorrhoea-home-test-kit\">£19.95</a></td></tr><tr><td>Genital herpes (HSV-2)</td><td>Yes</td><td>No</td><td><a href=\"/rapid-tests/herpes-hsv-2-home-test-kit\">£19.95</a></td></tr><tr><td>Hepatitis B &amp; C</td><td>Yes</td><td>No</td><td><a href=\"/rapid-tests/hepatitis-b-c-home-test-kit\">£27.95</a></td></tr><tr><td>Price</td><td><strong>£64.95</strong></td><td><a href=\"/rapid-tests/core-4-sti-test-kit\">£44.95</a></td><td>£98.75 for all 5</td></tr><tr><td>Best for</td><td>The most complete check</td><td>The 4 most common STIs</td><td>Checking one thing</td></tr></tbody></table><p>All results in around 15 minutes.</p><p><strong>Also available:</strong> <a href=\"/rapid-tests/psa-prostate-home-test-kit\">PSA Prostate Test</a>, £19.95, for checking prostate health.</p>",
+    "buttonLabel": "Get the 7-in-1 kit – £64.95"
+  }
+}

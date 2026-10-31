@@ -4,40 +4,39 @@ import { Slot } from 'radix-ui';
 
 import { cn } from '@/lib/utils';
 
-const shimmer =
-  'relative overflow-hidden after:pointer-events-none after:absolute after:inset-0 after:-translate-x-full after:bg-linear-to-r after:from-transparent after:via-white/20 after:to-transparent after:transition-transform after:duration-700 after:ease-out hover:after:translate-x-full';
-
 const buttonVariants = cva(
-  "group/button inline-flex shrink-0 cursor-pointer items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none active:scale-[0.97] focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
+  "group/button inline-flex shrink-0 cursor-pointer items-center justify-center gap-2 rounded-full border-2 border-transparent font-display leading-tight font-extrabold tracking-wide whitespace-nowrap uppercase transition-colors outline-none select-none active:translate-y-px focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring disabled:pointer-events-none disabled:opacity-55 aria-invalid:border-destructive [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
   {
     variants: {
       variant: {
-        default: `bg-primary text-primary-foreground hover:bg-primary-hover ${shimmer}`,
-        brand: `bg-accent text-accent-foreground font-semibold hover:bg-accent-hover ${shimmer}`,
-        'brand-deep': `bg-accent-deep text-accent-foreground font-semibold hover:bg-accent ${shimmer}`,
+        default:
+          'border-primary bg-primary text-primary-foreground hover:border-primary-hover hover:bg-primary-hover',
+        brand:
+          'border-accent bg-accent text-accent-foreground hover:border-accent-deep hover:bg-accent-deep',
+        'brand-deep':
+          'border-accent-deep bg-accent-deep text-accent-foreground hover:border-primary hover:bg-primary',
+        light:
+          'border-background bg-background text-accent-deep hover:border-muted hover:bg-muted',
         outline:
-          'border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50',
+          'border-primary bg-transparent text-primary hover:bg-primary hover:text-primary-foreground',
         secondary:
-          'bg-secondary text-secondary-foreground hover:bg-secondary/80 aria-expanded:bg-secondary aria-expanded:text-secondary-foreground',
+          'border-muted bg-muted text-foreground hover:border-secondary hover:bg-secondary',
         ghost:
-          'hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50',
+          'font-text font-medium tracking-normal normal-case hover:bg-muted hover:text-foreground aria-expanded:bg-muted',
         destructive:
-          'bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40',
+          'bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:outline-destructive',
         'outline-invert':
-          'border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10',
-        link: 'text-primary underline-offset-4 hover:underline',
+          'border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10',
+        link: 'border-0 font-text font-bold tracking-normal text-primary normal-case underline-offset-4 hover:underline',
       },
       size: {
-        default:
-          'h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2',
-        xs: "h-6 gap-1 rounded-[min(var(--radius-md),10px)] px-2 text-xs in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3",
-        sm: "h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-sm in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5",
-        lg: 'h-auto gap-1.5 px-7 py-3 text-base',
+        default: 'min-h-12 px-9 py-3 text-base',
+        xs: "min-h-7 px-3 text-xs [&_svg:not([class*='size-'])]:size-3",
+        sm: "min-h-9 px-5 py-1.5 text-sm [&_svg:not([class*='size-'])]:size-3.5",
+        lg: 'min-h-13 px-9 py-3 text-lg tracking-normal normal-case',
         icon: 'size-8',
-        'icon-xs':
-          "size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&_svg:not([class*='size-'])]:size-3",
-        'icon-sm':
-          'size-7 rounded-[min(var(--radius-md),12px)] in-data-[slot=button-group]:rounded-lg',
+        'icon-xs': "size-6 [&_svg:not([class*='size-'])]:size-3",
+        'icon-sm': 'size-7',
         'icon-lg': 'size-9',
       },
     },

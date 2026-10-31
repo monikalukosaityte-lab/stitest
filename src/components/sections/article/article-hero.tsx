@@ -1,8 +1,8 @@
-import { ArrowLeft, Check } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { formatDate } from '@/lib/utils';
+import { CheckIcon } from '@/components/icons/shop';
+import { formatPublishDate } from '@/lib/utils';
 
 interface ArticleHeroProps {
   title: string;
@@ -20,55 +20,57 @@ export function ArticleHero({
   children,
 }: ArticleHeroProps) {
   return (
-    <section className="hero-padding bg-blog">
+    <section className="hero-padding">
       <div className="container max-w-5xl">
-        <Link
-          href="/blog"
-          className="text-accent hover:text-accent-hover inline-flex items-center gap-1.5 text-xs no-underline transition-colors"
-        >
-          <ArrowLeft className="size-3" />
-          Back to blog
-        </Link>
+        <nav aria-label="Breadcrumb" className="text-muted-foreground text-sm">
+          <Link href="/" className="no-underline hover:underline">
+            Home
+          </Link>
+          <span className="mx-1.5">/</span>
+          <Link href="/blog" className="no-underline hover:underline">
+            STI guides
+          </Link>
+        </nav>
 
-        <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start lg:gap-12">
+        <div className="mt-6 grid gap-8 md:grid-cols-[1fr_280px] md:items-center lg:grid-cols-[1fr_340px] lg:gap-12">
           <div>
-            <h1 className="text-4xl leading-none tracking-tighter md:text-5xl">
-              {title}
-            </h1>
-            <p className="text-muted-foreground mt-5 text-lg leading-relaxed">
-              {description}
-            </p>
-            <div className="text-muted-foreground mt-5 flex flex-col gap-2 text-sm">
-              <span className="flex items-center gap-1.5">
-                <Check className="text-accent size-4" />
-                Published {formatDate(date)}
-              </span>
-              <span className="flex items-center gap-1.5">
-                <Check className="text-accent size-4" />
-                Medically reviewed
-              </span>
-            </div>
+            <h1 className="text-4xl md:text-5xl">{title}</h1>
+            <p className="text-muted-foreground mt-4 text-lg">{description}</p>
+            <ul className="mt-5 flex flex-wrap gap-2">
+              <MetaPill>Published {formatPublishDate(date)}</MetaPill>
+              <MetaPill>Medically reviewed</MetaPill>
+            </ul>
           </div>
 
           {image && (
-            <div className="relative aspect-3/2 w-full shrink-0">
+            <div className="bg-secondary relative aspect-3/2 w-full overflow-hidden rounded-lg">
               <Image
                 src={image}
                 alt={title}
                 fill
-                sizes="(min-width: 1024px) 320px, (min-width: 640px) 60vw, 100vw"
-                className="object-contain"
+                priority
+                sizes="(min-width: 1024px) 340px, (min-width: 768px) 280px, 100vw"
+                className="object-cover"
               />
             </div>
           )}
         </div>
 
-        <div className="border-accent mt-10 border-t" />
+        <div className="mt-10 border-t" />
 
-        <div className="max-w-5xl">
-          {children && <div className="pt-10">{children}</div>}
-        </div>
+        {children && <div className="pt-10">{children}</div>}
       </div>
     </section>
+  );
+}
+
+function MetaPill({ children }: { children: React.ReactNode }) {
+  return (
+    <li className="text-muted-foreground inline-flex items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-sm">
+      <span className="bg-primary text-primary-foreground grid size-4 place-items-center rounded-xs">
+        <CheckIcon className="size-3" />
+      </span>
+      {children}
+    </li>
   );
 }

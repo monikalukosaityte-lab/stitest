@@ -27,3 +27,14 @@ export function formatPublishDate(date: string) {
   const year = d.toLocaleDateString('en-GB', { year: 'numeric' });
   return `${day} ${month}, ${year}`;
 }
+
+const SHOP_URL = 'https://testdiscreet.co.uk';
+
+/** Link into the Test Discreet Shopify store, tagged so sales are credited to this site. */
+export function shopUrl(path = '/', hash?: string) {
+  const url = new URL(path, SHOP_URL);
+  url.searchParams.set('utm_source', 'stitestkit');
+  url.searchParams.set('utm_medium', 'referral');
+  if (hash) url.hash = hash;
+  return url.toString();
+}

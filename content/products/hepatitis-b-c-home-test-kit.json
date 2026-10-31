@@ -1,0 +1,506 @@
+{
+  "slug": "hepatitis-b-c-home-test-kit",
+  "handle": "hep-b-c",
+  "seo": {
+    "title": "Hepatitis B & C Test Kit UK – 15 Min Results | STI Test Kit",
+    "description": "Private hepatitis B and C home test. One finger-prick, a separate result for each in 15 minutes. £27.95 with discreet UK delivery."
+  },
+  "gallery": [
+    {
+      "src": "/images/products/gallery/product-hep-b-c-grey.webp",
+      "alt": "Test Discreet hepatitis B and C home test kit"
+    },
+    {
+      "src": "/images/products/gallery/privacy-promise.webp",
+      "alt": "Test Discreet privacy promise: confidential, discreet delivery, private payment"
+    },
+    {
+      "src": "/images/products/gallery/benefits-hep-b-c.webp",
+      "alt": "Hepatitis B & C Rapid Test Kit: what you get"
+    },
+    {
+      "src": "/images/products/gallery/value-prop-hep-b-c-benefits.webp",
+      "alt": "Hepatitis B & C Rapid Test Kit - results in 15 minutes, no clinic visit, discreet packaging"
+    },
+    {
+      "src": "/images/products/gallery/how-to-test-hep-b-c.webp",
+      "alt": "How to use the Hepatitis B & C Rapid Test Kit"
+    }
+  ],
+  "title": "Hepatitis B & C Rapid Test Kit",
+  "hero": {
+    "breadcrumb": "Hepatitis B & C Test Kit",
+    "heading": "Hepatitis B & C Home Test Kit – Rapid Results in 15 Minutes",
+    "intro": "Test for hepatitis B and hepatitis C privately at home with one simple finger-prick blood test. This rapid 2-in-1 self-test checks for both and shows each result separately in around 15 minutes. No clinic visit, no sample to post, and discreet delivery across the UK.",
+    "highlights": [
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "drop",
+        "label": "Simple finger-prick test"
+      },
+      {
+        "icon": "lock",
+        "label": "Discreet packaging"
+      },
+      {
+        "icon": "home",
+        "label": "No clinic visit"
+      }
+    ],
+    "specs": [
+      {
+        "icon": "search",
+        "label": "Detects",
+        "value": "Hepatitis B surface antigen (HBsAg) and hepatitis C antibodies, with a separate result for each"
+      },
+      {
+        "icon": "drop",
+        "label": "Sample",
+        "value": "Finger-prick blood"
+      },
+      {
+        "icon": "clock",
+        "label": "Results",
+        "value": "In around 15 minutes"
+      },
+      {
+        "icon": "users",
+        "label": "Suitable for",
+        "value": "Anyone aged 16 and over"
+      },
+      {
+        "icon": "package",
+        "label": "Delivery",
+        "value": "Dispatched within 1 working day"
+      }
+    ]
+  },
+  "about": {
+    "heading": "About hepatitis B, hepatitis C and testing",
+    "questions": [
+      {
+        "question": "What are hepatitis B and hepatitis C?",
+        "open": true,
+        "answer": "<p>Hepatitis B and hepatitis C are viruses that infect the liver. Both can spread through blood, and hepatitis B can also be passed on through sex, which is why it’s often included in <a href=\"/blog/what-is-an-sti-test\">STI testing</a>. Many people with either virus have no symptoms, so they don’t know they have it.</p><p>A hepatitis B and C home test kit lets you check for both at once. You use a small finger-prick of blood, and the test shows a separate result for each in around 15 minutes, with nothing to post to a lab.</p>"
+      },
+      {
+        "question": "What’s the difference between hepatitis B and C?",
+        "open": false,
+        "answer": "<table><thead><tr><th></th><th>Hepatitis B</th><th>Hepatitis C</th></tr></thead><tbody><tr><td>Main ways it spreads</td><td>Sex without a condom, sharing needles or other injecting equipment, mother to baby, sharing razors or toothbrushes</td><td>Blood-to-blood contact, mostly sharing needles or injecting equipment, also razors or toothbrushes. Spread through sex is rare</td></tr><tr><td>Symptoms</td><td>Often none. Can cause tiredness, fever, tummy pain, feeling sick and yellow skin or eyes (jaundice)</td><td>Often none for years. Can cause tiredness, tummy pain, loss of appetite and feeling sick</td></tr><tr><td>Does it go away?</td><td>Most adults clear it within a few months. Some develop long-term (chronic) infection</td><td>Can become long term. Antiviral tablets cure it in most people</td></tr><tr><td>Treatment</td><td>Short-term infection often clears without antiviral treatment; medical monitoring and symptom management may be needed. Chronic infection is treated with medicine to control the virus</td><td>Antiviral tablets taken for 8 to 12 weeks</td></tr><tr><td>Vaccine</td><td>Yes</td><td>No</td></tr></tbody></table>"
+      },
+      {
+        "question": "How are hepatitis B and C passed on?",
+        "open": false,
+        "answer": "<p>Both viruses spread through infected blood. Hepatitis B is also found in semen and vaginal fluid, so it can be passed on through sex without a condom. Hepatitis C is rarely passed on through sex, but the risk is higher if blood is present, such as during anal sex. Neither virus spreads through kissing, hugging, coughing or sharing cups.</p>"
+      },
+      {
+        "question": "What are the symptoms of hepatitis?",
+        "open": false,
+        "answer": "<p>Many people have no symptoms, sometimes for years. When symptoms do appear, they can include:</p><ul><li>Tiredness and flu-like symptoms</li><li>Pain in the upper tummy</li><li>Feeling or being sick, and loss of appetite</li><li>Yellowing of the skin or whites of the eyes (jaundice), which can be harder to see on brown or black skin</li><li>Dark pee and pale poo</li></ul><p>Because symptoms are often missing, a blood test is the only way to know.</p>"
+      },
+      {
+        "question": "Can hepatitis B and C be treated?",
+        "open": false,
+        "answer": "<p>Yes. Most adults clear hepatitis B on their own, and long-term hepatitis B can be managed with medicine and regular check-ups. Hepatitis C can be cured in most people with antiviral tablets taken for 8 to 12 weeks. Left untreated for many years, both can cause liver scarring (cirrhosis) and raise the risk of liver cancer, so finding them early matters.</p>"
+      },
+      {
+        "question": "Who should take a hepatitis B and C test?",
+        "open": false,
+        "answer": "<p>You don’t need symptoms to test. It may be worth testing if:</p><ul><li>You’ve had sex without a condom</li><li>You have a new sexual partner, or more than one partner</li><li>A sexual partner has told you they have hepatitis B, hepatitis C or another STI</li><li>You’ve ever shared needles or other injecting equipment</li><li>You’d prefer to test privately at home</li></ul><p><strong>Have symptoms, or a partner has tested positive?</strong> Contact your GP or a sexual health clinic now.</p>"
+      }
+    ],
+    "link": {
+      "label": "Testing for other STIs too? See our 7-in-1 STI test bundle",
+      "href": "/rapid-tests/7-in-1-sti-test-kit"
+    },
+    "aside": {
+      "heading": "Why test for hepatitis at home?",
+      "items": [
+        {
+          "icon": "clock",
+          "title": "Fast answer",
+          "text": "Results in 15 minutes, not days."
+        },
+        {
+          "icon": "home",
+          "title": "No clinic visit",
+          "text": "Test when and where suits you."
+        },
+        {
+          "icon": "lock",
+          "title": "Completely private",
+          "text": "Plain parcel, and only you see your result."
+        }
+      ],
+      "buttonLabel": "Get my test"
+    }
+  },
+  "intro": "<p>Test privately at home with a simple finger-prick test that checks for hepatitis B surface antigen and hepatitis C antibodies. Results in around 15 minutes.</p>",
+  "keyFacts": [
+    "<strong>Screens for:</strong> Hepatitis B surface antigen and hepatitis C antibodies",
+    "<strong>Sample:</strong> Finger-prick blood",
+    "<strong>Results:</strong> 15 minutes"
+  ],
+  "shipping": "Order by <strong>2pm</strong>, ships today",
+  "accordions": [
+    {
+      "heading": "What are hepatitis B and C?",
+      "open": false,
+      "content": "<p>Hepatitis B and hepatitis C are viruses that affect the liver. Hepatitis B can be passed on through sex without a condom, and both can be passed on through blood, for example by sharing needles. They can cause symptoms such as tiredness, a high temperature or yellowing of the skin and eyes, but many people have no noticeable symptoms at all.</p><p>Many adults recover from a new hepatitis B infection on their own within a few months. Some develop a long-term infection that needs monitoring or treatment. Hepatitis C can usually be cured with antiviral tablets.</p>",
+      "after": "",
+      "checklist": []
+    },
+    {
+      "heading": "Is this for you?",
+      "open": true,
+      "content": "<p><strong>You don’t need to have symptoms to test.</strong> Hepatitis B and C can cause no noticeable symptoms.</p><p>It may be worth testing if:</p>",
+      "after": "",
+      "checklist": [
+        "You’ve had <strong>sex without a condom</strong>",
+        "You have a <strong>new sexual partner</strong>, or more than one",
+        "A <strong>sexual partner has told you</strong> they have hepatitis B, hepatitis C or another STI",
+        "You’ve <strong>shared needles</strong> or other equipment for injecting drugs",
+        "You’d rather <strong>test privately</strong> at home"
+      ]
+    }
+  ],
+  "benefits": {
+    "heading": "Test <em>privately</em>",
+    "text": "Everything you need to test for hepatitis B and C at home:",
+    "items": [
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "drop",
+        "label": "Simple finger-prick test"
+      },
+      {
+        "icon": "package",
+        "label": "Discreet packaging"
+      },
+      {
+        "icon": "home",
+        "label": "No clinic visit"
+      }
+    ]
+  },
+  "footnote": "",
+  "bundleChoice": {
+    "heading": "Choose your test",
+    "intro": "If you may have been exposed to one STI, you may have been exposed to others.",
+    "options": [
+      {
+        "title": "Hepatitis B & C test",
+        "badge": null,
+        "includes": null,
+        "price": "£27.95",
+        "was": null,
+        "save": null,
+        "variantId": null,
+        "buttonLabel": null
+      },
+      {
+        "title": "7-in-1 bundle",
+        "badge": "Best value",
+        "includes": "Your hepatitis B and C test plus HIV, syphilis, chlamydia, gonorrhoea and genital herpes (HSV-2).",
+        "price": "£64.95",
+        "was": "£98.75",
+        "save": "Save £33.80",
+        "variantId": 63780179870026,
+        "buttonLabel": "Get the 7-in-1 bundle"
+      }
+    ]
+  },
+  "variantId": 63780180787530,
+  "retest": {
+    "heading": "Select quantity",
+    "badge": "Test + retest",
+    "discount": 10,
+    "note": "Testing soon after a possible exposure? An early negative may need repeating at 12 weeks for hepatitis B and six months for hepatitis C."
+  },
+  "buyLabel": "Get my test",
+  "trust": "Secure checkout · Discreet UK delivery · Dispatched within 1 working day",
+  "reassurance": {
+    "title": "Discreet delivery",
+    "text": "Plain packaging with nothing on the outside to reveal what’s inside."
+  },
+  "how": {
+    "heading": "How does the hepatitis B and C home test work?",
+    "intro": "<p>The test checks a small finger-prick blood sample for two things, and shows each in its own window:</p><ul><li><strong>Hepatitis B (HBsAg window):</strong> looks for hepatitis B surface antigen, a part of the virus. A positive may mean a current infection.</li><li><strong>Hepatitis C (HCV window):</strong> looks for hepatitis C antibodies, which your body makes after contact with the virus. These can stay in your blood even after the infection has cleared or been treated.</li></ul><p>Your results appear in around 15 minutes, with no sample to send to a lab.</p>",
+    "stepsHeading": "How to use the hepatitis B and C test kit in 3 steps",
+    "steps": [
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-hep-b-c-step-1.webp",
+          "alt": "Step 1 prick your finger"
+        },
+        "title": "Prick your finger",
+        "text": "Wash your hands and clean your fingertip with an alcohol pad. Let it dry, then use the lancet to prick your finger and form a drop of blood."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-hep-b-c-step-2.webp",
+          "alt": "Step 2 add blood and diluent to each well"
+        },
+        "title": "Add blood and diluent",
+        "text": "Use the pipette to collect your blood. Add 3 drops of blood to each sample well on the test pad, then 2 drops of diluent (test liquid) to each well."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-hep-b-c-step-3.webp",
+          "alt": "Step 3 read your hepatitis B and C results"
+        },
+        "title": "Read your results",
+        "text": "Read both windows between 15 and 20 minutes. Don’t read them after 30 minutes, as the results may no longer be reliable."
+      }
+    ],
+    "link": {
+      "label": "How to test and read your results",
+      "href": "https://testdiscreet.co.uk/pages/how-to-test?utm_source=stitestkit&utm_medium=referral"
+    }
+  },
+  "windows": {
+    "heading": "When should I take a hepatitis B and C <em>test?</em>",
+    "subheading": "<p>You can test at any time, but testing too soon after exposure can give a negative result even if you have an infection. An early negative may need repeating at 12 weeks after exposure for hepatitis B and six months for hepatitis C.</p>",
+    "days": 84,
+    "secondDays": 182,
+    "initialTitle": "Select your possible exposure date to see when to test.",
+    "strings": {
+      "today": "Today",
+      "days_ago_one": "__COUNT__ day ago",
+      "days_ago_other": "__COUNT__ days ago",
+      "interval": "12 weeks and 6 months",
+      "retest_title": "You can test now.",
+      "retest_body": "If negative, you may need to test again on __DATE__ for hepatitis B and __DATE2__ for hepatitis C.",
+      "middle_title": "You can test now.",
+      "middle_body": "If your hepatitis C result is negative, you may need to test again on __DATE2__.",
+      "now_title": "You can test now.",
+      "now_body": "If you have symptoms or remain concerned, speak to your GP or a sexual health clinic even if your result is negative.",
+      "unsure_title": "You can test now.",
+      "unsure_body": "If negative, test again at 12 weeks for hepatitis B and 6 months for hepatitis C.",
+      "retest": "",
+      "privacy": "This checker runs on your device. The date never leaves it: we don’t see it, store it or send it anywhere."
+    },
+    "notes": "<p>If you have symptoms, a partner has tested positive, or you’d like advice on timing, contact your GP or a sexual health clinic.</p><p><strong>Exposure in the last few days?</strong> Contact your GP, a sexual health clinic or A&amp;E straight away for advice. Don’t wait for a home test result.</p>"
+  },
+  "results": {
+    "heading": "How to read your hepatitis B and C test result",
+    "groups": [
+      {
+        "title": null,
+        "intro": "<p>Read both windows between 15 and 20 minutes. Don’t read them after 30 minutes. The HBsAg window shows hepatitis B and the HCV window shows hepatitis C. In each window, C is the control line and T is the test line.</p>",
+        "items": [
+          {
+            "image": {
+              "src": "/images/products/results/hbsag-hcv-negative.webp",
+              "alt": "Negative result, C line only in both windows"
+            },
+            "title": "Negative for both",
+            "text": "<p>One line at C only in both windows. No hepatitis B surface antigen or hepatitis C antibodies were detected.</p>"
+          },
+          {
+            "image": {
+              "src": "/images/products/results/hbsag-hcv-hepatitis-b-positive.webp",
+              "alt": "Hepatitis B positive, C and T lines in the HBsAg window"
+            },
+            "title": "Hepatitis B positive",
+            "text": "<p>Lines at C and T in the HBsAg window, even if the T line is faint. Hepatitis B surface antigen was detected, which may indicate a current infection.</p>"
+          },
+          {
+            "image": {
+              "src": "/images/products/results/hbsag-hcv-hepatitis-c-positive.webp",
+              "alt": "Hepatitis C positive, C and T lines in the HCV window"
+            },
+            "title": "Hepatitis C positive",
+            "text": "<p>Lines at C and T in the HCV window, even if the T line is faint. Hepatitis C antibodies were detected, which may indicate a current or past infection.</p>"
+          },
+          {
+            "image": {
+              "src": "/images/products/results/hbsag-hcv-invalid-2.webp",
+              "alt": "Invalid result, no C line"
+            },
+            "title": "Invalid",
+            "text": "<p>No line at C in one or both windows, even if a T line appears. The test has not worked. Contact us and we’ll help.</p>"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "<p><strong>If both windows show lines at C and T, both results are positive.</strong></p><p>A positive result always needs a follow-up test with your GP or a sexual health clinic to confirm it.</p>"
+      },
+      {
+        "title": "Good to know",
+        "text": "<p>This test is designed for screening and doesn’t replace advice from a healthcare professional.</p>"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Hepatitis B and C home test FAQs",
+    "tabs": [
+      {
+        "label": "About the test",
+        "questions": [
+          {
+            "question": "How soon after exposure can I test for hepatitis B and C?",
+            "answer": "<p>You can test now, but an early negative may need repeating at 12 weeks after exposure for hepatitis B and six months for hepatitis C. If you have symptoms, know you’ve been exposed or want advice about testing sooner, contact your GP or a sexual health clinic.</p>"
+          },
+          {
+            "question": "How reliable is the hepatitis B and C home test?",
+            "answer": "<p>When used correctly, this is a reliable screening test. Testing too soon after exposure can affect your result. A positive result needs a follow-up test with your GP or a sexual health clinic to confirm it.</p>"
+          },
+          {
+            "question": "How do I use the hepatitis B and C home test kit?",
+            "answer": "<p>Clean and prick your fingertip, then add 3 drops of blood and 2 drops of diluent to each sample well. Read both windows between 15 and 20 minutes. Everything you need is in the box.</p>"
+          },
+          {
+            "question": "Does this test show hepatitis B and C separately?",
+            "answer": "<p>Yes. The test has two windows: HBsAg for hepatitis B and HCV for hepatitis C. Each gives its own result, so you’ll know which one, if either, was detected.</p>"
+          },
+          {
+            "question": "What does a negative result mean?",
+            "answer": "<p>A negative result means hepatitis B surface antigen and hepatitis C antibodies were not detected. If your possible exposure was recent, an early negative may need repeating at 12 weeks for hepatitis B and six months for hepatitis C, counted from your last possible exposure. If you have symptoms or concerns, speak to your GP or a sexual health clinic.</p>"
+          },
+          {
+            "question": "What if my result is positive?",
+            "answer": "<p>You’ll need a follow-up test with your GP or a sexual health clinic to understand what it means. A hepatitis B positive may mean a current infection. A hepatitis C positive may mean a current or past infection. NHS sexual health services are free and confidential.</p>"
+          },
+          {
+            "question": "Can I use this test if I’ve had the hepatitis B vaccine?",
+            "answer": "<p>Yes. The vaccine shouldn’t cause a positive result, because the test looks for a part of the virus, not the antibodies the vaccine makes. This also means the test can’t show whether you’re immune.</p>"
+          },
+          {
+            "question": "Can I use this test if I’ve had hepatitis C before?",
+            "answer": "<p>You can, but the HCV result may still be positive, because hepatitis C antibodies can stay in your blood after the infection has gone. Your GP or a clinic can arrange an HCV RNA test to check for active virus.</p>"
+          },
+          {
+            "question": "Can I take this test while pregnant?",
+            "answer": "<p>Speak to your midwife, GP or a sexual health clinic. Hepatitis B testing is routinely offered during pregnancy through the NHS.</p>"
+          }
+        ]
+      },
+      {
+        "label": "About hepatitis B and C",
+        "questions": [
+          {
+            "question": "What are the first signs of hepatitis B?",
+            "answer": "<p>Many people have no signs at all. When symptoms do appear, they can include tiredness, fever, pain in the upper tummy, feeling sick, dark pee and yellowing of the skin or eyes (jaundice).</p>"
+          },
+          {
+            "question": "What are the first signs of hepatitis C?",
+            "answer": "<p>Most people have no signs for years. Some get flu-like symptoms, tiredness, tummy pain, loss of appetite or feel sick. Because signs are often missing, a blood test is the only way to know.</p>"
+          },
+          {
+            "question": "What’s the difference between hepatitis B and C?",
+            "answer": "<p>Both infect the liver, but hepatitis B spreads more easily through sex, while hepatitis C spreads mainly through blood. There’s a vaccine for hepatitis B but not for hepatitis C. Hepatitis C can be cured with tablets in most people, and most adults clear hepatitis B on their own.</p>"
+          },
+          {
+            "question": "How is hepatitis C spread?",
+            "answer": "<p>Hepatitis C spreads mainly through blood-to-blood contact. The most common way is sharing needles or other injecting equipment. It can also spread by sharing razors or toothbrushes, and from mother to baby.</p>"
+          },
+          {
+            "question": "Can you get hepatitis C from sex?",
+            "answer": "<p>It’s possible but rare. The risk is higher if blood is present, such as during anal sex. Using condoms with new partners and for anal sex lowers the risk.</p>"
+          },
+          {
+            "question": "Is hepatitis C curable?",
+            "answer": "<p>Yes. Antiviral tablets taken every day for 8 to 12 weeks can cure hepatitis C in most people. Treatment is available on the NHS.</p>"
+          },
+          {
+            "question": "Can you get hepatitis C more than once?",
+            "answer": "<p>Yes. Being cured doesn’t stop you catching hepatitis C again, so it’s still important to avoid sharing needles, razors or toothbrushes.</p>"
+          },
+          {
+            "question": "Can hepatitis B be cured?",
+            "answer": "<p>Most adults clear hepatitis B on their own within a few months and are then usually immune. If the infection lasts longer than 6 months, it’s called chronic hepatitis B. This can’t usually be cured, but medicine can control the virus and protect the liver.</p>"
+          },
+          {
+            "question": "Is there a vaccine for hepatitis?",
+            "answer": "<p>There’s a vaccine for hepatitis B, which is part of the UK childhood vaccination programme and is offered to people at higher risk. There’s no vaccine for hepatitis C.</p>"
+          },
+          {
+            "question": "What happens if hepatitis is left untreated?",
+            "answer": "<p>Over many years, long-term hepatitis B or C can scar the liver (cirrhosis) and raise the risk of liver failure and liver cancer. Testing and treating early lowers these risks.</p>"
+          },
+          {
+            "question": "Can you catch hepatitis from kissing?",
+            "answer": "<p>No. Hepatitis B and C don’t spread through kissing, hugging, holding hands, coughing or sharing cups and cutlery.</p>"
+          }
+        ]
+      },
+      {
+        "label": "Ordering and other tests",
+        "questions": [
+          {
+            "question": "Will anyone know what I ordered?",
+            "answer": "<p>No. Your order arrives in plain, discreet packaging with nothing on the outside to reveal what’s inside. Your bank statement won’t show “Test Discreet” or the name of the test.</p>"
+          },
+          {
+            "question": "Can I get a free hepatitis test on the NHS?",
+            "answer": "<p>Yes. Your GP or an NHS sexual health clinic can test you for free and confidentially. Many people choose a rapid home test for a result in 15 minutes, with no appointment and no sample to post.</p>"
+          },
+          {
+            "question": "Does this test check for other STIs?",
+            "answer": "<p>No, this kit only tests for hepatitis B and C. If you may have been exposed to one infection, you may have been exposed to others, such as <a href=\"/rapid-tests/hiv-home-test-kit\">HIV</a>, which can also spread through shared needles, or <a href=\"/rapid-tests/syphilis-home-test-kit\">syphilis</a>, <a href=\"/rapid-tests/chlamydia-gonorrhoea-home-test-kit\">chlamydia and gonorrhoea</a> and <a href=\"/rapid-tests/herpes-hsv-2-home-test-kit\">genital herpes</a>. Our <a href=\"/rapid-tests/7-in-1-sti-test-kit\">7-in-1 STI test bundle</a> checks for 7 infections in one order.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "otherProducts": [
+    "sti-bundle",
+    "core-4",
+    "chlamydia-gonorrhoea",
+    "hiv",
+    "syphilis",
+    "hsv-2",
+    "psa"
+  ],
+  "otherTests": {
+    "heading": "Other home STI test kits and bundles",
+    "note": "All results in around 15 minutes.",
+    "highlight": ["Hepatitis B", "Hepatitis C"],
+    "bundles": [
+      {
+        "handle": "sti-bundle",
+        "name": "7-in-1 STI Test Bundle"
+      },
+      {
+        "handle": "core-4",
+        "name": "Core 4 Bundle"
+      }
+    ],
+    "singles": [
+      {
+        "handle": "chlamydia-gonorrhoea",
+        "name": "Chlamydia & Gonorrhoea Test Kit",
+        "sample": "Swab"
+      },
+      {
+        "handle": "hsv-2",
+        "name": "Herpes (HSV-2) Test Kit",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "psa",
+        "name": "PSA Prostate Test",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "hiv",
+        "name": "HIV Test Kit",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "syphilis",
+        "name": "Syphilis Test Kit",
+        "sample": "Finger-prick"
+      }
+    ]
+  }
+}

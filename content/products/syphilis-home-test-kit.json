@@ -1,0 +1,510 @@
+{
+  "slug": "syphilis-home-test-kit",
+  "handle": "syphilis",
+  "seo": {
+    "title": "Syphilis Home Test Kit UK – 15 Min Results | STI Test Kit",
+    "description": "Private syphilis home test kit. One finger-prick, results in 15 minutes, 99.81% match with lab testing. £14.95 with discreet UK delivery."
+  },
+  "gallery": [
+    {
+      "src": "/images/products/gallery/product-syphilis-grey.webp",
+      "alt": "Test Discreet syphilis home test kit"
+    },
+    {
+      "src": "/images/products/gallery/privacy-promise.webp",
+      "alt": "Test Discreet privacy promise: confidential, discreet delivery, private payment"
+    },
+    {
+      "src": "/images/products/gallery/benefits-syphilis.webp",
+      "alt": "Syphilis Rapid Test Kit: what you get"
+    },
+    {
+      "src": "/images/products/gallery/value-prop-syphilis-benefits.webp",
+      "alt": "Syphilis Rapid Test Kit - results in 15 minutes, no clinic visit, discreet packaging"
+    },
+    {
+      "src": "/images/products/gallery/how-to-test-syphilis.webp",
+      "alt": "How to use the Syphilis Rapid Test Kit"
+    }
+  ],
+  "title": "Syphilis Rapid Test Kit",
+  "hero": {
+    "breadcrumb": "Syphilis Test Kit",
+    "heading": "Syphilis Home Test Kit – Rapid Results in 15 Minutes",
+    "intro": "Test for syphilis privately at home with one simple finger-prick blood test. This rapid syphilis self-test checks for Treponema pallidum antibodies and gives you a result in around 15 minutes. No clinic visit, no sample to post, and discreet delivery across the UK.",
+    "highlights": [
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "drop",
+        "label": "Simple finger-prick test"
+      },
+      {
+        "icon": "lock",
+        "label": "Discreet packaging"
+      },
+      {
+        "icon": "home",
+        "label": "No clinic visit"
+      }
+    ],
+    "specs": [
+      {
+        "icon": "search",
+        "label": "Detects",
+        "value": "Syphilis (Treponema pallidum) antibodies"
+      },
+      {
+        "icon": "drop",
+        "label": "Sample",
+        "value": "Finger-prick blood"
+      },
+      {
+        "icon": "clock",
+        "label": "Results",
+        "value": "In around 15 minutes"
+      },
+      {
+        "icon": "verified",
+        "label": "Accuracy",
+        "value": "99.81% match with laboratory testing"
+      },
+      {
+        "icon": "users",
+        "label": "Suitable for",
+        "value": "Anyone aged 16 and over"
+      },
+      {
+        "icon": "package",
+        "label": "Delivery",
+        "value": "Ships within 1 working day"
+      }
+    ]
+  },
+  "about": {
+    "heading": "About syphilis and testing",
+    "questions": [
+      {
+        "question": "What is syphilis?",
+        "open": true,
+        "answer": "<p>Syphilis is a bacterial <a href=\"/blog/what-is-an-sti-test\">sexually transmitted infection (STI)</a> caused by Treponema pallidum. It can cause a painless sore or a rash, but many people have no noticeable symptoms. Symptoms can come and go while the infection stays in the body, so testing is the only way to know for sure.</p><p>A syphilis home test kit lets you check privately. You use a small finger-prick of blood, the test looks for syphilis antibodies, and your result shows in around 15 minutes, with nothing to post to a lab.</p>"
+      },
+      {
+        "question": "How is syphilis passed on?",
+        "open": false,
+        "answer": "<p>Syphilis is passed on mainly through vaginal, anal or oral sex without a condom with someone who has it. It spreads most easily in the early stages, which can last up to 2 years. It can also pass from a pregnant person to their baby. Using condoms for every type of sex lowers your risk.</p>"
+      },
+      {
+        "question": "What are the first signs of syphilis?",
+        "open": false,
+        "answer": "<p>The first sign is usually a single, painless sore (a chancre), around 3 weeks after infection. It can appear on the penis, vagina, anus or mouth, and it’s easy to miss if it’s hidden. The sore heals by itself within 3 to 6 weeks, but <a href=\"/blog/syphilis-symptoms-stages#what-is-primary-syphilis\">the infection is still there</a> until it’s treated.</p>"
+      },
+      {
+        "question": "What are the stages of syphilis?",
+        "open": false,
+        "answer": "<p>Without treatment, syphilis can move through <a href=\"/blog/syphilis-symptoms-stages#how-does-syphilis-progress-through-the-four-stages\">four stages</a>:</p><table><thead><tr><th>Stage</th><th>When</th><th>What you might notice</th></tr></thead><tbody><tr><td>Primary</td><td>Around 3 weeks after infection</td><td>A painless sore on the genitals, anus or mouth</td></tr><tr><td>Secondary</td><td>Up to 3 months after the sore</td><td>A rash, often on the palms of the hands and soles of the feet, plus fever, tiredness, swollen glands, sore throat or patchy hair loss</td></tr><tr><td>Latent</td><td>Can last for years</td><td>No symptoms, but the infection is still in the body</td></tr><tr><td>Tertiary</td><td>Usually 10 to 30 years after infection</td><td>Rare. Can damage the heart, brain, nerves, eyes and hearing</td></tr></tbody></table><p>The <a href=\"/blog/syphilis-symptoms-stages#what-is-secondary-syphilis\">secondary syphilis rash</a> rarely itches and can be too faint to notice. Although serious complications are often associated with later syphilis, the infection can affect the brain, nerves, eyes or hearing at any stage. You can also have <a href=\"/blog/syphilis-symptoms-stages#can-you-have-syphilis-with-no-symptoms\">syphilis with no symptoms at all</a>, so testing matters even if you feel well.</p>"
+      },
+      {
+        "question": "Is syphilis curable?",
+        "open": false,
+        "answer": "<p>Yes. <a href=\"/blog/syphilis-symptoms-stages#is-syphilis-curable\">Syphilis is curable</a> with antibiotics, usually a single injection or a course of tablets. Some cases need a course of injections, depending on the stage. Treatment is free at NHS sexual health clinics. You’ll be retested at 6 and 12 weeks, and further follow-up may be needed. The earlier it’s found, the simpler it is to treat.</p>"
+      },
+      {
+        "question": "Who should take a syphilis test?",
+        "open": false,
+        "answer": "<p>You don’t need symptoms to test. It may be worth taking a syphilis test if:</p><ul><li>You’ve had sex without a condom, including oral sex</li><li>You have a new sexual partner, or more than one partner</li><li>A sexual partner has told you they have syphilis or another STI</li><li>You have possible symptoms, such as a painless sore or a rash</li><li>You’d prefer to test privately</li></ul><p><strong>Have symptoms, or a partner has tested positive?</strong> Don’t wait. Contact a sexual health clinic now.</p>"
+      }
+    ],
+    "link": {
+      "label": "Testing for other STIs too? See our Core 4 STI test bundle",
+      "href": "/rapid-tests/core-4-sti-test-kit"
+    },
+    "aside": {
+      "heading": "Why test for syphilis at home?",
+      "items": [
+        {
+          "icon": "clock",
+          "title": "Fast answer",
+          "text": "Results in 15 minutes, not days."
+        },
+        {
+          "icon": "home",
+          "title": "No clinic visit",
+          "text": "Test when and where suits you."
+        },
+        {
+          "icon": "lock",
+          "title": "Completely private",
+          "text": "Plain parcel, and only you see your result."
+        }
+      ],
+      "buttonLabel": "Get my test"
+    }
+  },
+  "intro": "<p>Test privately at home with a simple finger-prick test for syphilis antibodies. Results in as little as 10 minutes, with over 99% match with laboratory testing.*</p>",
+  "footnote": "",
+  "keyFacts": [
+    "<strong>Screens for:</strong> Syphilis (Treponema pallidum) antibodies",
+    "<strong>Sample:</strong> Finger-prick blood",
+    "<strong>Results:</strong> 15 minutes"
+  ],
+  "shipping": "Ships within <strong>1 working day</strong>",
+  "bundleChoice": {
+    "heading": "Choose your test",
+    "intro": "If you may have been exposed to one STI, you may have been exposed to others.",
+    "options": [
+      {
+        "title": "Syphilis test",
+        "badge": null,
+        "includes": null,
+        "price": "£14.95",
+        "was": null,
+        "save": null,
+        "variantId": null,
+        "buttonLabel": null
+      },
+      {
+        "title": "Core 4 bundle",
+        "badge": "Most popular",
+        "includes": "Your syphilis test plus HIV, chlamydia and gonorrhoea.",
+        "price": "£44.95",
+        "was": "£50.85",
+        "save": "Save £5.90",
+        "variantId": 63780180492618,
+        "buttonLabel": "Get the Core 4 bundle"
+      },
+      {
+        "title": "7-in-1 bundle",
+        "badge": "Best value",
+        "includes": "Your syphilis test plus HIV, chlamydia, gonorrhoea, genital herpes (HSV-2), hepatitis B and hepatitis C.",
+        "price": "£64.95",
+        "was": "£98.75",
+        "save": "Save £33.80",
+        "variantId": 63780179870026,
+        "buttonLabel": "Get the 7-in-1 bundle"
+      }
+    ]
+  },
+  "variantId": 63780180623690,
+  "retest": {
+    "heading": "Select quantity",
+    "badge": "Test + retest",
+    "discount": 10,
+    "note": "Testing before 12 weeks? An early negative may need to be repeated at 12 weeks."
+  },
+  "buyLabel": "Get my test",
+  "trust": "Secure checkout · Discreet UK delivery · Ships within 1 working day",
+  "reassurance": {
+    "title": "Discreet delivery",
+    "text": "Plain packaging with nothing on the outside to reveal what’s inside."
+  },
+  "accordions": [
+    {
+      "heading": "What is syphilis?",
+      "open": false,
+      "content": "<p>Syphilis is a sexually transmitted bacterial infection. It can cause symptoms such as a painless sore or rash, but some people have no noticeable symptoms at all. Symptoms can also disappear even though the infection is still present.</p><p>Syphilis can be treated and cured with antibiotics.</p>",
+      "after": "",
+      "checklist": []
+    },
+    {
+      "heading": "Is this for you?",
+      "open": true,
+      "content": "<p><strong>You don’t need to have symptoms to test.</strong> Syphilis can cause no noticeable symptoms.</p><p>It may be worth testing if:</p>",
+      "after": "",
+      "checklist": [
+        "You’ve had <strong>sex without a condom</strong>",
+        "You have a <strong>new sexual partner</strong>, or more than one",
+        "A <strong>sexual partner has told you</strong> they have syphilis or another STI",
+        "You have <strong>possible symptoms</strong>, such as a painless sore or rash",
+        "You’d rather <strong>test privately</strong> at home"
+      ]
+    }
+  ],
+  "benefits": {
+    "heading": "Test <em>privately</em>",
+    "text": "Everything you need to test for syphilis at home:",
+    "items": [
+      {
+        "icon": "clock",
+        "label": "Results in 15 minutes"
+      },
+      {
+        "icon": "shield",
+        "label": "Over 99% match with lab testing"
+      },
+      {
+        "icon": "package",
+        "label": "Discreet packaging"
+      },
+      {
+        "icon": "home",
+        "label": "No clinic visit"
+      }
+    ]
+  },
+  "how": {
+    "heading": "How does the syphilis home test work?",
+    "intro": "<p>The test looks for antibodies your body makes in response to Treponema pallidum, the bacteria that cause syphilis, using a small finger-prick blood sample. Your result appears on the test pad in around 15 minutes, with no sample to send to a laboratory. In a clinical evaluation, 99.81% of results matched a laboratory test.</p>",
+    "stepsHeading": "How to use the syphilis test kit in 3 steps",
+    "steps": [
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-syphilis-step-1.webp",
+          "alt": "Step 1 prick your finger"
+        },
+        "title": "Prick your finger",
+        "text": "Wash your hands and clean your fingertip with an alcohol pad. Let it dry, then use the lancet to prick your finger and form a drop of blood."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-syphilis-step-2.webp",
+          "alt": "Step 2 add 3 drops of blood and 1 drop of diluent"
+        },
+        "title": "Add blood and diluent",
+        "text": "Use the pipette to add 3 drops of blood to the sample well marked S on the test pad. Then add 1 drop of diluent (test liquid) to the same well."
+      },
+      {
+        "image": {
+          "src": "/images/products/steps/how-it-works-syphilis-step-3.webp",
+          "alt": "Step 3 read your syphilis test result"
+        },
+        "title": "Read your result",
+        "text": "Leave the test pad flat and read your result between 10 and 20 minutes. Don’t read the test after 20 minutes, as the result may no longer be reliable."
+      }
+    ],
+    "link": {
+      "label": "How to test and read your results",
+      "href": "https://testdiscreet.co.uk/pages/how-to-test?utm_source=stitestkit&utm_medium=referral"
+    }
+  },
+  "windows": {
+    "heading": "When should I take a syphilis <em>test?</em>",
+    "subheading": "You can test at any time, but testing too early can give a negative result even if you have syphilis. This antibody test has a 12-week window period, so an early negative should be repeated 12 weeks after your last possible exposure.",
+    "days": 84,
+    "initialTitle": "Test now. If negative, test again in 12 weeks.",
+    "strings": {
+      "today": "Today",
+      "days_ago_one": "__COUNT__ day ago",
+      "days_ago_other": "__COUNT__ days ago",
+      "interval": "12 weeks",
+      "retest_title": "Test now. If negative, test again on __DATE__.",
+      "retest_body": "An early negative may miss syphilis from this exposure.",
+      "now_title": "You can test now, as 12 weeks have passed since this exposure.",
+      "now_body": "",
+      "unsure_title": "Test now. If negative, test again in __INTERVAL__.",
+      "unsure_body": "",
+      "retest": "",
+      "privacy": "This checker runs on your device. The date never leaves it: we don’t see it, store it or send it anywhere."
+    },
+    "notes": "<p>If you have symptoms, such as a sore or rash, or a partner has tested positive, contact a sexual health clinic now. Don’t wait for a test result.</p>"
+  },
+  "results": {
+    "heading": "How to read your syphilis test result",
+    "groups": [
+      {
+        "title": null,
+        "intro": "<p>Read your test between 10 and 20 minutes. Don’t read it after 20 minutes. C is the control line. T is the test line.</p>",
+        "items": [
+          {
+            "image": {
+              "src": "/images/products/results/cassette-syphilis-negative.webp",
+              "alt": "Syphilis test negative result, one line at C"
+            },
+            "title": "Negative",
+            "text": "<p>One line at C only. No syphilis antibodies were detected.</p>"
+          },
+          {
+            "image": {
+              "src": "/images/products/results/cassette-syphilis-positive.webp",
+              "alt": "Syphilis test positive result, lines at C and T"
+            },
+            "title": "Positive",
+            "text": "<p>Lines at C and T, even if the T line is faint. Syphilis antibodies were detected. Contact a sexual health clinic for further testing.</p>"
+          },
+          {
+            "image": {
+              "src": "/images/products/results/cassette-syphilis-invalid.webp",
+              "alt": "Syphilis test invalid result, no line at C"
+            },
+            "title": "Invalid",
+            "text": "<p>No line at C. The test has not worked. Contact us and we’ll help.</p>"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "title": "Good to know",
+        "text": "<p>This test is designed for screening and doesn’t replace advice from a doctor or nurse. If you’ve had syphilis before, the test may still show positive, because antibodies can stay in your blood after treatment. For ages 16 and over.</p>"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Syphilis home test FAQs",
+    "tabs": [
+      {
+        "label": "About the test",
+        "questions": [
+          {
+            "question": "How soon after sex can I test for syphilis?",
+            "answer": "<p>You can test at any time, but a test taken too early may not pick up syphilis. This antibody test has a 12-week window period. If your result is negative and it’s been less than 12 weeks, test again 12 weeks after your last possible exposure. If you have symptoms or a partner has tested positive, contact a sexual health clinic now.</p>"
+          },
+          {
+            "question": "How reliable is the syphilis home test?",
+            "answer": "<p>When used correctly, this is a reliable screening test. In a clinical evaluation, 99.81% of results matched a laboratory test. Testing too soon after exposure can affect your result, and a positive result should be followed up with a sexual health clinic.</p>"
+          },
+          {
+            "question": "How do I use the syphilis home test kit?",
+            "answer": "<p>Clean your fingertip, prick it with the lancet, add 3 drops of blood to the well marked S, then add 1 drop of diluent. Read your result between 10 and 20 minutes. Everything you need is in the box.</p>"
+          },
+          {
+            "question": "How do I read my syphilis test result?",
+            "answer": "<p>One line at C only means negative. Lines at C and T mean positive, even if the T line is faint. No line at C means the test is invalid and hasn’t worked. Contact us and we’ll help.</p>"
+          },
+          {
+            "question": "What does a negative syphilis test result mean?",
+            "answer": "<p>A negative result means no syphilis antibodies were detected. If you may have been exposed within the last 12 weeks, you may have tested too early, so test again at 12 weeks. If you still have symptoms or are worried, speak to a sexual health clinic.</p>"
+          },
+          {
+            "question": "What if my syphilis test result is positive?",
+            "answer": "<p>A positive result means syphilis antibodies were detected, but it doesn’t necessarily mean you have an active infection. Contact a sexual health clinic as soon as possible for further testing. Syphilis can be cured with antibiotics, and NHS sexual health services are free and confidential. Tell the clinic if you’ve had syphilis before.</p>"
+          },
+          {
+            "question": "Can I use this test if I’ve had syphilis before?",
+            "answer": "<p>This test may still show positive after successful treatment, because syphilis antibodies can stay in your blood. If you’ve had syphilis before, speak to a sexual health clinic about the right test for you.</p>"
+          }
+        ]
+      },
+      {
+        "label": "About syphilis",
+        "questions": [
+          {
+            "question": "What are the first signs of syphilis?",
+            "answer": "<p>The first sign of syphilis is usually a small, painless sore around 3 weeks after infection. It often appears on the penis, vagina, anus or mouth. Because it doesn’t hurt and may be hidden, many people don’t notice it. <a href=\"/blog/syphilis-symptoms-stages#what-is-primary-syphilis\">Learn what a syphilis sore looks like</a>.</p>"
+          },
+          {
+            "question": "What does a syphilis rash look like?",
+            "answer": "<p>The syphilis rash often appears on the palms of the hands and the soles of the feet, and can spread to other parts of the body. It rarely itches and can be faint. It may come with fever, tiredness, swollen glands or patchy hair loss. This is called <a href=\"/blog/syphilis-symptoms-stages#what-is-secondary-syphilis\">secondary syphilis</a>.</p>"
+          },
+          {
+            "question": "Can you have syphilis without knowing?",
+            "answer": "<p>Yes. Many people with syphilis have no symptoms, or symptoms so mild they don’t notice them. During <a href=\"/blog/syphilis-symptoms-stages#what-is-latent-syphilis\">the latent stage</a> there are no signs at all, sometimes for years. A test is the only way to know.</p>"
+          },
+          {
+            "question": "Can syphilis go away on its own?",
+            "answer": "<p>No. The sore and rash can heal by themselves, but the infection stays in your body until it’s treated with antibiotics. Without treatment, it can cause serious health problems later.</p>"
+          },
+          {
+            "question": "Is syphilis curable?",
+            "answer": "<p>Yes. Syphilis is curable with antibiotics. The treatment and its length depend on the stage of infection. You’ll be retested at 6 and 12 weeks to check treatment has worked, and further follow-up may be needed.</p>"
+          },
+          {
+            "question": "Can you get syphilis from oral sex?",
+            "answer": "<p>Yes. Syphilis can be passed on through oral, vaginal or anal sex without a condom. A sore can also appear in or around the mouth. Using condoms for every type of sex lowers your risk.</p>"
+          },
+          {
+            "question": "Can you get syphilis more than once?",
+            "answer": "<p>Yes. Being treated for syphilis doesn’t protect you from catching it again. Regular STI testing is important if you have new sexual partners.</p>"
+          },
+          {
+            "question": "What happens if syphilis is left untreated?",
+            "answer": "<p>Untreated syphilis can stay hidden for years. In rare cases it reaches <a href=\"/blog/syphilis-symptoms-stages#what-is-tertiary-syphilis\">the tertiary stage</a>, usually 10 to 30 years after infection, and can damage the heart, brain, nerves, eyes and hearing. Early testing and treatment prevent this.</p>"
+          },
+          {
+            "question": "Should my partner get tested for syphilis?",
+            "answer": "<p>If your home test is positive, contact a sexual health clinic for further testing. They’ll advise whether your recent partners need testing or treatment and can contact them confidentially.</p>"
+          },
+          {
+            "question": "How common is syphilis in the UK?",
+            "answer": "<p>In 2025, there were <a href=\"https://www.gov.uk/government/statistics/sexually-transmitted-infections-stis-annual-data-tables/sexually-transmitted-infections-and-screening-for-chlamydia-in-england-2025-report\">8,262 infectious syphilis diagnoses</a> in England, a 13.5% fall from the year before. Cases among heterosexual women rose, so anyone who is sexually active can be at risk.</p>"
+          },
+          {
+            "question": "Can I take a syphilis test while pregnant?",
+            "answer": "<p>If you’re pregnant and worried about syphilis, speak to your midwife, GP or a sexual health clinic. Syphilis testing is routinely offered during pregnancy through the NHS, because syphilis can pass to your baby. Early treatment protects both of you.</p>"
+          }
+        ]
+      },
+      {
+        "label": "Ordering and other tests",
+        "questions": [
+          {
+            "question": "Will anyone know what I ordered?",
+            "answer": "<p>No. Your order arrives in plain, discreet packaging with nothing on the outside to reveal what’s inside. Your bank statement won’t show “Test Discreet” or the name of the test. We ship within 1 working day.</p>"
+          },
+          {
+            "question": "Can I get a free syphilis test on the NHS?",
+            "answer": "<p>Yes. Syphilis tests are free and confidential at NHS sexual health clinics, and some areas offer free home sampling kits that you post to a lab. Many people choose a rapid syphilis home test for a result in 15 minutes, with no appointment and no sample to post.</p>"
+          },
+          {
+            "question": "Does this test check for other STIs?",
+            "answer": "<p>No, this kit only tests for syphilis. If you may have been exposed to syphilis, you may have been exposed to other STIs too, such as <a href=\"/rapid-tests/hiv-home-test-kit\">HIV</a>, <a href=\"/blog/chlamydia-gonorrhoea-symptoms\">chlamydia and gonorrhoea</a>. Many STIs have no symptoms, so it helps to know <a href=\"/blog/what-is-an-sti-test\">how STI testing works</a>. Our <a href=\"/rapid-tests/core-4-sti-test-kit\">Core 4 bundle</a> and <a href=\"/rapid-tests/7-in-1-sti-test-kit\">7-in-1 STI test bundle</a> check for several in one order.</p>"
+          }
+        ]
+      }
+    ],
+    "references": {
+      "heading": "References",
+      "items": [
+        "Centers for Disease Control and Prevention. “About Syphilis.” <em>CDC</em>, 23 Feb. 2026, <a href=\"https://www.cdc.gov/syphilis/about/index.html\">https://www.cdc.gov/syphilis/about/index.html</a>.",
+        "NHS. “Syphilis.” <em>NHS.uk</em>, 17 Mar. 2026, <a href=\"https://www.nhs.uk/conditions/syphilis/\">https://www.nhs.uk/conditions/syphilis/</a>.",
+        "UK Health Security Agency. “Sexually Transmitted Infections and Screening for Chlamydia in England: 2025 Report.” <em>GOV.UK</em>, 2 June 2026, <a href=\"https://www.gov.uk/government/statistics/sexually-transmitted-infections-stis-annual-data-tables/sexually-transmitted-infections-and-screening-for-chlamydia-in-england-2025-report\">https://www.gov.uk/government/statistics/sexually-transmitted-infections-stis-annual-data-tables/sexually-transmitted-infections-and-screening-for-chlamydia-in-england-2025-report</a>.",
+        "UK Health Security Agency. “STIs Fall with Syphilis among Gay and Bisexual Men Lowest in a Decade.” <em>GOV.UK</em>, 2 June 2026, <a href=\"https://www.gov.uk/government/news/stis-fall-with-syphilis-among-gay-and-bisexual-men-lowest-in-a-decade\">https://www.gov.uk/government/news/stis-fall-with-syphilis-among-gay-and-bisexual-men-lowest-in-a-decade</a>.",
+        "UK Health Security Agency. “What Is Syphilis? A Quick Guide to Its Symptoms and Treatment.” <em>UKHSA Blog</em>, 2 June 2026, <a href=\"https://ukhsa.blog.gov.uk/2026/06/02/what-is-syphilis-a-quick-guide-to-its-symptoms-and-treatment/\">https://ukhsa.blog.gov.uk/2026/06/02/what-is-syphilis-a-quick-guide-to-its-symptoms-and-treatment/</a>.",
+        "World Health Organization. “Syphilis.” <em>WHO</em>, 29 May 2025, <a href=\"https://www.who.int/news-room/fact-sheets/detail/syphilis\">https://www.who.int/news-room/fact-sheets/detail/syphilis</a>."
+      ]
+    }
+  },
+  "otherProducts": [
+    "sti-bundle",
+    "core-4",
+    "chlamydia-gonorrhoea",
+    "hiv",
+    "hsv-2",
+    "hep-b-c",
+    "psa"
+  ],
+  "otherTests": {
+    "heading": "Other home STI test kits and bundles",
+    "note": "All results in around 15 minutes.",
+    "highlight": "Syphilis",
+    "bundles": [
+      {
+        "handle": "sti-bundle",
+        "name": "7-in-1 STI Test Bundle"
+      },
+      {
+        "handle": "core-4",
+        "name": "Core 4 Bundle"
+      }
+    ],
+    "singles": [
+      {
+        "handle": "hep-b-c",
+        "name": "Hepatitis B & C Test Kit",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "chlamydia-gonorrhoea",
+        "name": "Chlamydia & Gonorrhoea Test Kit",
+        "sample": "Swab"
+      },
+      {
+        "handle": "hsv-2",
+        "name": "Herpes (HSV-2) Test Kit",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "psa",
+        "name": "PSA Prostate Test",
+        "sample": "Finger-prick"
+      },
+      {
+        "handle": "hiv",
+        "name": "HIV Test Kit",
+        "sample": "Finger-prick"
+      }
+    ]
+  }
+}

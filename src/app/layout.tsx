@@ -1,25 +1,40 @@
 import './globals.css';
 
 import type { Metadata } from 'next';
-import { DM_Sans, DM_Serif_Display, JetBrains_Mono } from 'next/font/google';
+import {
+  JetBrains_Mono,
+  Libre_Baskerville,
+  Montserrat,
+} from 'next/font/google';
+import localFont from 'next/font/local';
 import Script from 'next/script';
+
 import Footer from '@/components/layout/footer';
 import Navbar from '@/components/layout/navbar';
 import { StyleGlideProvider } from '@/components/providers/styleglide-provider';
 import { ThemeProvider } from '@/components/providers/theme-provider';
+import { cn } from '@/lib/utils';
 
 const GA_MEASUREMENT_ID = 'G-90V3D10GNM';
 
-const dmSans = DM_Sans({
-  subsets: ['latin'],
-  variable: '--font-dm-sans',
-});
-
-const dmSerif = DM_Serif_Display({
-  weight: '400',
+const montserrat = Montserrat({
   subsets: ['latin'],
   style: ['normal', 'italic'],
-  variable: '--font-dm-serif',
+  variable: '--font-montserrat',
+});
+
+const libreBaskerville = Libre_Baskerville({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+  variable: '--font-libre-baskerville',
+});
+
+// Logo font (OFL), self-hosted from the Test Discreet storefront theme.
+const interTight = localFont({
+  src: '../fonts/inter-tight-latin.woff2',
+  weight: '500 600',
+  variable: '--font-inter-tight',
 });
 
 const jetbrainsMono = JetBrains_Mono({
@@ -30,30 +45,14 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://stitestkit.co.uk'),
   title: {
-    default: 'Test Discreet | Fast STD & STI Test Kits',
-    template: '%s | Test Discreet',
+    default: 'Home STI Test Kits UK – 15 Minute Results | STI Test Kit',
+    template: '%s | STI Test Kit',
   },
   description:
-    'Private, rapid STD and STI test kits from Test Discreet. Discreet delivery, clear results, and trusted support for confident health decisions.',
-  keywords: [
-    'STD test kit',
-    'STI test kit',
-    'discreet STI testing',
-    'rapid STD testing UK',
-    'private home test kit',
-    'sexual health test',
-  ],
-  authors: [{ name: 'Test Discreet' }],
-  creator: 'Test Discreet',
-  publisher: 'Test Discreet',
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
-  },
+    'Private home STI test kits for HIV, syphilis, chlamydia, gonorrhoea, herpes and hepatitis. Results in 15 minutes, discreet UK delivery.',
+  authors: [{ name: 'STI Test Kit' }],
+  creator: 'STI Test Kit',
+  publisher: 'STI Test Kit',
   icons: {
     icon: [
       { url: '/favicon/favicon.ico', sizes: '48x48' },
@@ -71,24 +70,24 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_GB',
     url: 'https://stitestkit.co.uk',
-    siteName: 'Test Discreet',
-    title: 'Test Discreet | Fast STD & STI Test Kits',
+    siteName: 'STI Test Kit',
+    title: 'Home STI Test Kits UK – 15 Minute Results | STI Test Kit',
     description:
-      'Private, rapid STD and STI test kits from Test Discreet. Discreet delivery, clear results, and trusted support for confident health decisions.',
+      'Private home STI test kits for HIV, syphilis, chlamydia, gonorrhoea, herpes and hepatitis. Results in 15 minutes, discreet UK delivery.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Test Discreet',
+        alt: 'STI Test Kit',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Test Discreet | Fast STD & STI Test Kits',
+    title: 'Home STI Test Kits UK – 15 Minute Results | STI Test Kit',
     description:
-      'Private, rapid STD and STI test kits from Test Discreet. Discreet delivery, clear results, and trusted support for confident health decisions.',
+      'Private home STI test kits for HIV, syphilis, chlamydia, gonorrhoea, herpes and hepatitis. Results in 15 minutes, discreet UK delivery.',
     images: ['/og-image.jpg'],
     creator: '@testdiscreet',
   },
@@ -102,7 +101,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`flex min-h-screen flex-col antialiased ${dmSans.variable} ${dmSerif.variable} ${jetbrainsMono.variable}`}
+        className={cn(
+          'flex min-h-screen flex-col antialiased',
+          montserrat.variable,
+          libreBaskerville.variable,
+          interTight.variable,
+          jetbrainsMono.variable,
+        )}
       >
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
@@ -120,6 +125,7 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
+          forcedTheme="light"
           disableTransitionOnChange
         >
           <StyleGlideProvider />
