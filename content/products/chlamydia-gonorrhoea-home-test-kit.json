@@ -69,21 +69,22 @@
       {
         "icon": "verified",
         "label": "Accuracy",
-        "value": "100% match with another lab-approved test in a 1,000-sample evaluation"
+        "value": "100% match with another commercially available test in a 1,000-sample evaluation"
       },
       {
         "icon": "users",
         "label": "Suitable for",
-        "value": "Anyone aged 16 and over"
+        "value": "Men and women"
       },
       {
         "icon": "package",
         "label": "Delivery",
-        "value": "Ships within 1 working day"
+        "value": "Dispatched within 1 working day"
       }
     ]
   },
   "about": {
+    "heading": "About chlamydia, gonorrhoea and testing",
     "questions": [
       {
         "question": "What are chlamydia and gonorrhoea?",
@@ -245,7 +246,7 @@
   },
   "how": {
     "heading": "How does the chlamydia and gonorrhoea home test work?",
-    "intro": "<p>The test uses a swab you take yourself: a vaginal swab, or a swab from just inside the urethra (the tube you pee from). It checks the sample for chlamydia and gonorrhoea, and shows a separate result for each in around 15 minutes, with no sample to send to a lab. In a clinical evaluation of 1,000 samples, results matched another commercially available test 100% of the time.</p><p>This kit tests genital samples only. It doesn’t test the throat or bottom. If you’ve had oral or anal sex, ask a sexual health clinic about testing those areas.</p><p><strong>Before you start:</strong> Don’t pee for at least 2 hours before taking your swab.</p>",
+    "intro": "<p>The test uses a swab you take yourself: a vaginal swab, or a swab from just inside the urethra (the tube you pee from). It checks the sample for chlamydia and gonorrhoea, and shows a separate result for each in around 15 minutes, with no sample to send to a lab. In a clinical evaluation of 1,000 samples, results matched another commercially available test 100% of the time.</p><p>This kit tests genital samples only. It doesn’t test the throat or bottom. If you’ve had oral or anal sex, ask a sexual health clinic about testing those areas.</p><p><strong>Before you start:</strong> For a urethral swab, don’t pee for at least 2 hours beforehand.</p>",
     "stepsHeading": "How to use the chlamydia and gonorrhoea test kit in 4 steps",
     "steps": [
       {
@@ -278,7 +279,7 @@
           "alt": "Step 4 read your chlamydia and gonorrhoea result"
         },
         "title": "Read your result",
-        "text": "Read both windows between 15 and 20 minutes."
+        "text": "Read both windows between 15 and 20 minutes. Don’t interpret the results after 25 minutes as it may be invalid."
       }
     ],
     "link": {
@@ -299,7 +300,7 @@
       "retest_title": "Test now. If negative, test again on __DATE__.",
       "retest_body": "An early negative may miss an infection from this exposure.",
       "now_title": "You can test now.",
-      "now_body": "A negative result covers this exposure.",
+      "now_body": "",
       "unsure_title": "Test now. If negative, test again in __INTERVAL__.",
       "unsure_body": "",
       "retest": "",
@@ -312,7 +313,7 @@
     "groups": [
       {
         "title": null,
-        "intro": "<p>Read both windows between 15 and 20 minutes. The Ct window shows chlamydia and the Ng window shows gonorrhoea. In each window, C is the control line and T is the test line.</p>",
+        "intro": "<p>Read both windows between 15 and 20 minutes. Don’t interpret results after 25 minutes.</p><p>The Ct window shows chlamydia and the Ng window shows gonorrhoea. In each window, C is the control line and T is the test line.</p>",
         "items": [
           {
             "image": {
@@ -356,7 +357,7 @@
       },
       {
         "title": "Good to know",
-        "text": "<p>This test is designed for screening and doesn’t replace advice from a doctor or nurse. It tests genital swabs only, not the throat or bottom. For ages 16 and over.</p>"
+        "text": "<p>This screening test checks for genital chlamydia and gonorrhoea only. It doesn’t check for infections in the throat or bottom or replace advice from a healthcare professional.</p>"
       }
     ]
   },
@@ -392,7 +393,7 @@
           },
           {
             "question": "Can I use this test again after treatment?",
-            "answer": "<p>You may be able to, but timing matters. Testing too soon after treatment can sometimes still show positive. Follow the advice of the clinic that treated you about when to retest.</p>"
+            "answer": "<p>You may be able to, but timing matters. Testing too soon after treatment can sometimes still show positive results. Follow the advice of the clinic that treated you about when to retest.</p>"
           }
         ]
       },
@@ -421,7 +422,7 @@
           },
           {
             "question": "Can chlamydia or gonorrhoea go away on their own?",
-            "answer": "<p>No. Symptoms can settle by themselves, but the infection stays and you can still pass it on until you’re treated with antibiotics. Without treatment, it can cause long-term health problems.</p>"
+            "answer": "<p>Don’t rely on either infection clearing on its own. Symptoms can settle while an infection remains, and delaying treatment can cause complications and you can still pass it on to others. Both infections can be treated with antibiotics.</p>"
           },
           {
             "question": "Can you get chlamydia or gonorrhoea in your throat?",
@@ -437,7 +438,7 @@
           },
           {
             "question": "Should my partner get tested?",
-            "answer": "<p>Yes. If you test positive, your recent sexual partners should be tested and treated too, even if they feel well. A sexual health clinic can contact partners for you confidentially.</p>"
+            "answer": "<p>Yes. If you test positive, your recent sexual partners should be tested too, even if they feel well. A sexual health clinic can contact partners for you confidentially.</p>"
           },
           {
             "question": "How common are chlamydia and gonorrhoea in the UK?",
@@ -445,7 +446,7 @@
           },
           {
             "question": "Can I take this test while pregnant?",
-            "answer": "<p>If you’re pregnant and worried about chlamydia or gonorrhoea, speak to your midwife, GP or a sexual health clinic. Chlamydia can pass to your baby during birth, and gonorrhoea raises the risk of premature birth, so it’s important to get tested and treated.</p>"
+            "answer": "<p>This test is not recommended if you are pregnant. If you’re pregnant and worried about chlamydia or gonorrhoea, speak to your midwife, GP or a sexual health clinic before doing a test yourself. Chlamydia can pass to your baby during birth, and gonorrhoea raises the risk of premature birth, so it’s important to get tested and treated.</p>"
           }
         ]
       },
