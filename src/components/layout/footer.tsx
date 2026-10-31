@@ -1,13 +1,8 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 
 import { BrandLockup } from '@/components/layout/logo';
 import { shopUrl } from '@/lib/utils';
-
-const AUTH_ROUTES = ['/login', '/signup'];
 
 // Order and names from the homepage SEO doc.
 const FOOTER_TESTS = [
@@ -79,9 +74,6 @@ const PAYMENT_ICONS = [
 ];
 
 export default function Footer() {
-  const pathname = usePathname();
-  if (AUTH_ROUTES.includes(pathname)) return null;
-
   return (
     <footer className="bg-accent-deep text-accent-foreground pt-14 pb-6">
       <div className="container">

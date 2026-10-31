@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 
 import {
   AccountIcon,
@@ -21,8 +20,6 @@ import {
 } from '@/components/ui/sheet';
 import { shopUrl } from '@/lib/utils';
 
-const AUTH_ROUTES = ['/login', '/signup'];
-
 // Same menu as testdiscreet.co.uk: two bundle tiles, then every single test.
 const BUNDLE_HANDLES = ['sti-bundle', 'core-4'];
 
@@ -32,11 +29,6 @@ const MENU_LINKS = [
 ];
 
 export default function Navbar() {
-  const pathname = usePathname();
-  const isAuthPage = AUTH_ROUTES.includes(pathname);
-
-  if (isAuthPage) return null;
-
   return (
     <header className="bg-background sticky top-0 z-20">
       <div className="container grid min-h-14 grid-cols-[1fr_auto_1fr] items-center md:min-h-22">
