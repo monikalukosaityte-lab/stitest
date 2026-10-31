@@ -43,7 +43,7 @@ export function ArticleHero({
           </div>
 
           {image && (
-            <div className="bg-secondary relative aspect-square w-full overflow-hidden rounded-lg">
+            <div className="bg-secondary relative aspect-3/2 w-full overflow-hidden rounded-lg">
               <Image
                 src={image}
                 alt={title}

@@ -125,25 +125,25 @@ const GUIDES = [
     title: 'What are the symptoms of HIV?',
     text: 'The 3 stages of HIV, and why most people on treatment never develop AIDS.',
     href: '/blog/hiv-symptoms-stages',
-    image: '/images/blog/hiv-symptoms-stages-td.webp',
+    image: '/images/blog/hiv-symptoms-stages.webp',
   },
   {
     title: 'What is an STI test?',
     text: 'How STI testing works, what it checks for and what happens next.',
     href: '/blog/what-is-an-sti-test',
-    image: '/images/blog/what-is-sti-test-td.webp',
+    image: '/images/blog/what-is-sti-test.webp',
   },
   {
     title: 'What are the symptoms of chlamydia and gonorrhoea?',
     text: 'Symptoms in men and women, and why most people have none.',
     href: '/blog/chlamydia-gonorrhoea-symptoms',
-    image: '/images/blog/chlamydia-gonorrhoea-symptoms-td.webp',
+    image: '/images/blog/chlamydia-gonorrhoea-symptoms.webp',
   },
   {
     title: 'What are the symptoms of syphilis?',
     text: 'The 4 stages, how soon symptoms appear and how it’s cured.',
     href: '/blog/syphilis-symptoms-stages',
-    image: '/images/blog/syphilis-symptoms-stages-td.webp',
+    image: '/images/blog/syphilis-symptoms-stages.webp',
   },
 ];
 
@@ -587,7 +587,7 @@ function Guides() {
               key={guide.href}
               className="bg-card relative flex flex-col overflow-hidden rounded-lg border"
             >
-              <div className="bg-muted relative aspect-16/9">
+              <div className="bg-muted relative aspect-3/2">
                 <Image
                   src={guide.image}
                   alt=""

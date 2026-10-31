@@ -91,7 +91,7 @@ export function PostCard({ article }: { article: ArticleFrontmatter }) {
       href={`/blog/${article.slug}`}
       className="group flex flex-col no-underline"
     >
-      <div className="bg-secondary relative mb-3.5 aspect-4/3 overflow-hidden rounded-lg">
+      <div className="bg-secondary relative mb-3.5 aspect-3/2 overflow-hidden rounded-lg">
         {article.image && (
           <Image
             src={article.image}
