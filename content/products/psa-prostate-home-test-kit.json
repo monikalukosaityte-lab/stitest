@@ -75,6 +75,7 @@
     "inBox": "<p><strong>What’s in the box:</strong> test pad in a sealed pouch, 1 lancet, 2 alcohol pads, pipette, diluent (test liquid), waste bag and instruction leaflet.</p>"
   },
   "about": {
+    "heading": "About PSA and prostate testing",
     "questions": [
       {
         "question": "What is PSA?",
