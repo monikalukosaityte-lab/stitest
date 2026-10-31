@@ -115,7 +115,6 @@ function structuredData(product: ProductPageData) {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { name: 'Home', item: SITE_URL },
-          { name: 'All tests', item: `${SITE_URL}/#tests` },
           { name: product.hero?.breadcrumb ?? product.title, item: url },
         ].map((crumb, index) => ({
           '@type': 'ListItem',

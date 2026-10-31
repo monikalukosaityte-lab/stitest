@@ -282,9 +282,6 @@ function Hero() {
             <Button asChild variant="light">
               <Link href={BUNDLE_URL}>Get the full 7-in-1 kit – £64.95</Link>
             </Button>
-            <Button asChild variant="outline-invert">
-              <a href="#tests">See all tests</a>
-            </Button>
           </div>
           <p className="text-sm opacity-85">
             Free, confidential testing is also available from NHS sexual health
@@ -321,7 +318,7 @@ function WhyTestAtHome() {
             schedule.
           </p>
         </div>
-        <ul className="mb-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {BENEFITS.map(({ icon: Icon, title, text }) => (
             <li
               key={title}
@@ -335,11 +332,6 @@ function WhyTestAtHome() {
             </li>
           ))}
         </ul>
-        <div className="grid sm:flex sm:justify-center">
-          <Button asChild>
-            <a href="#tests">Shop all tests</a>
-          </Button>
-        </div>
       </div>
     </section>
   );

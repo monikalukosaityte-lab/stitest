@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import ProductGrid from '@/components/sections/product-grid';
-import { Button } from '@/components/ui/button';
 import { ArticleFrontmatter } from '@/lib/types';
 import { formatPublishDate } from '@/lib/utils';
 
@@ -72,13 +71,10 @@ function BlogHero() {
               about STI
             </span>
           </h1>
-          <p className="mb-6 max-w-xl text-lg">
+          <p className="max-w-xl text-lg">
             Straightforward guides to STI testing, infection symptoms and more —
             what to know, what to look for, and what to do next.
           </p>
-          <Button asChild variant="light">
-            <Link href="/#tests">Shop now</Link>
-          </Button>
         </div>
       </div>
     </section>

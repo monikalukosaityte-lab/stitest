@@ -413,10 +413,6 @@ function Breadcrumb({ current }: { current: string }) {
         Home
       </Link>
       <span className="mx-1.5">/</span>
-      <Link href="/#tests" className="no-underline hover:underline">
-        All tests
-      </Link>
-      <span className="mx-1.5">/</span>
       <span aria-current="page">{current}</span>
     </nav>
   );

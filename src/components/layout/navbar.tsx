@@ -29,7 +29,6 @@ const BUNDLE_HANDLES = ['sti-bundle', 'core-4'];
 const MENU_LINKS = [
   { label: 'Home', href: '/' },
   { label: 'STI guides', href: '/blog' },
-  { label: 'All tests', href: '/#tests' },
 ];
 
 export default function Navbar() {
