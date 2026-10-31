@@ -31,7 +31,7 @@
   "hero": {
     "breadcrumb": "PSA Prostate Test Kit",
     "heading": "PSA Prostate Home Test Kit – Rapid Results in 15 Minutes",
-    "intro": "Check your prostate health privately at home with one simple finger-prick blood test. This rapid PSA self-test shows whether your prostate specific antigen (PSA) level is 4 ng/mL or above, in around 15 minutes. No GP appointment, no sample to post, and discreet delivery across the UK.",
+    "intro": "Check your PSA privately at home with one simple finger-prick blood test. This rapid PSA self-test shows whether your prostate specific antigen (PSA) level is 4 ng/mL or above, in around 15 minutes. No GP appointment, no sample to post, and discreet delivery across the UK.",
     "highlights": [
       {
         "icon": "clock",
@@ -67,17 +67,12 @@
         "value": "In around 15 minutes"
       },
       {
-        "icon": "users",
-        "label": "Suitable for",
-        "value": "Men aged 16 and over"
-      },
-      {
         "icon": "package",
         "label": "Delivery",
         "value": "Ships within 1 working day"
       }
     ],
-    "inBox": "<p><strong>What’s in the box:</strong> test cassette in a sealed foil pouch, buffer solution, 2 sterile lancets, pipette, alcohol pad and plaster, and instructions.</p>"
+    "inBox": "<p><strong>What’s in the box:</strong> test pad in a sealed pouch, 1 lancet, 2 alcohol pads, pipette, diluent (test liquid), waste bag and instruction leaflet.</p>"
   },
   "about": {
     "questions": [
@@ -99,7 +94,7 @@
       {
         "question": "Who should take a PSA test?",
         "open": false,
-        "answer": "<p>You don’t need symptoms to test. It may be worth testing if:</p><ul><li>You want to know whether your PSA is raised</li><li>You’re worried about your prostate health</li><li>You’d prefer to check privately at home before speaking to your GP</li></ul><p><strong>Have symptoms?</strong> Speak to your GP, even if your home test is negative.</p>"
+        "answer": "<p>You don’t need symptoms to test. It may be worth testing if:</p><ul><li>You want to know whether your PSA is raised</li><li>You’re worried about your prostate health</li><li>You’d prefer to test privately at home</li></ul><p><strong>Have symptoms?</strong> Speak to your GP, even if your home test is negative.</p>"
       }
     ],
     "aside": {
@@ -308,11 +303,11 @@
           },
           {
             "question": "How reliable is the PSA home test?",
-            "answer": "<p>When used correctly and read at the right time, this is a reliable way to check if your PSA is raised. Things like recent exercise or ejaculation can affect PSA, so follow the 48-hour advice. It’s a screening test, so any raised result should be checked by your GP.</p>"
+            "answer": "<p>This test provides a simple way to check whether your PSA may be around 4 ng/mL or higher. Follow the preparation instructions and read your result between 15 and 20 minutes. If your result is raised, speak to your GP for further testing. If your result is negative but you have symptoms or concerns, also speak to your GP.</p>"
           },
           {
             "question": "What’s in the PSA test kit?",
-            "answer": "<p>The kit includes a test cassette in a sealed foil pouch, buffer solution, 2 sterile lancets, a pipette, an alcohol pad, a plaster and instructions. Everything you need is in the box.</p>"
+            "answer": "<p>The kit includes a test pad in a sealed pouch, 1 lancet, 2 alcohol pads, a pipette, diluent (test liquid), a waste bag and an instruction leaflet.</p>"
           }
         ]
       },
