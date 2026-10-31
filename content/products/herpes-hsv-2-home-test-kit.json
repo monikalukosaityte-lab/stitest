@@ -74,7 +74,7 @@
       {
         "icon": "users",
         "label": "Suitable for",
-        "value": "Anyone aged 16 and over"
+        "value": "Men and women"
       },
       {
         "icon": "package",
@@ -84,6 +84,7 @@
     ]
   },
   "about": {
+    "heading": "About genital herpes and testing",
     "questions": [
       {
         "question": "What is genital herpes?",
@@ -181,7 +182,7 @@
     "heading": "Select quantity",
     "badge": "Test + retest",
     "discount": 10,
-    "note": "There’s no set waiting time after sex for this test. If you have blisters or sores, a sexual health clinic can swab them."
+    "note": "There’s no reliable time after exposure when this IgM test becomes conclusive. If you have blisters or sores, a sexual health clinic can swab them."
   },
   "buyLabel": "Get my test",
   "trust": "Secure checkout · Discreet UK delivery · Ships within 1 working day",
@@ -270,25 +271,11 @@
   },
   "windows": {
     "heading": "When should I take a herpes <em>test?</em>",
-    "subheading": "Unlike other STI tests, there’s no set number of days after sex when this test becomes conclusive. It can’t rule herpes out at any one point, and it can’t tell you when you caught it. <a href=\"/blog/genital-herpes-symptoms#when-should-you-get-tested-for-herpes\">When to test for herpes</a> depends on whether you have symptoms right now.",
+    "subheading": "<p>There isn’t a reliable number of days or weeks after exposure when this IgM test becomes conclusive. IgM antibodies can appear early after infection and may also appear during a recurrence, so the result cannot reliably tell you when an infection was acquired.</p><p>Herpes can cause no noticeable symptoms. A possible exposure or a partner having genital herpes can be a reason to consider testing. If you have blisters, sores or ulcers, contact a sexual health clinic while they’re present so they can take a swab directly from the affected area.</p>",
     "days": 0,
     "initialTitle": null,
     "strings": null,
-    "cards": [
-      {
-        "title": "I have blisters or sores now",
-        "text": "Go to a sexual health clinic or your GP while the sores are there. A swab of the sore is the best way to find out if it’s herpes. Don’t wait for them to heal."
-      },
-      {
-        "title": "I’ve had symptoms in the past",
-        "text": "You can use this test to check for HSV-2 antibodies. A positive result can’t show when you were infected."
-      },
-      {
-        "title": "I have no symptoms",
-        "text": "You can test at any time. If a partner has told you they have herpes, speak to a sexual health clinic for advice."
-      }
-    ],
-    "notes": "<p>Herpes isn’t part of routine NHS STI screening, so a home test can be a simple way to check if you’re worried.</p>"
+    "notes": "<p><strong>Good to know:</strong> If your result is negative but you have blisters, sores or other possible genital herpes symptoms, contact a sexual health clinic or GP.</p>"
   },
   "results": {
     "heading": "How to read your herpes test result",
@@ -327,7 +314,7 @@
     "notes": [
       {
         "title": "Good to know",
-        "text": "<p>This test is designed for screening and doesn’t replace advice from a doctor or nurse. If you have blisters, sores or other possible symptoms, see a sexual health clinic or GP even if your result is negative. For ages 16 and over.</p>"
+        "text": "<p>This test is designed for screening and doesn’t replace advice from a doctor or nurse. If you have blisters, sores or other possible symptoms, see a sexual health clinic or GP even if your result is negative.</p>"
       }
     ]
   },
@@ -339,7 +326,7 @@
         "questions": [
           {
             "question": "How soon after sex can I test for herpes?",
-            "answer": "<p>There’s no set number of days after sex when this test becomes conclusive, so it can’t rule herpes out at any one point. If you’ve had possible exposure or a partner has told you they have HSV-2, speak to a sexual health clinic for advice. If you have sores, a clinic can swab them.</p>"
+            "answer": "<p>There’s no set number of days after sex when this test becomes conclusive, so it can’t rule herpes out at any one point. If you have blisters or sores, a sexual health clinic can swab them while they’re present.</p>"
           },
           {
             "question": "How reliable is the HSV-2 home test?",
@@ -347,7 +334,7 @@
           },
           {
             "question": "What does an IgM result tell me?",
-            "answer": "<p>IgM is an antibody your immune system makes in response to HSV-2. It can appear early in an infection, but it can also come back during a repeat outbreak. So it can show you’ve had HSV-2, but it can’t date the infection.</p>"
+            "answer": "<p>IgM is an antibody your immune system makes in response to HSV-2. A positive result means the test detected IgM antibodies, which may be consistent with HSV infection. IgM can appear early after infection and may also appear again during a recurrence, so it cannot reliably tell you when the infection was acquired.</p>"
           },
           {
             "question": "What does a negative result mean?",
@@ -359,7 +346,7 @@
           },
           {
             "question": "Can I use this test if I’ve had herpes before?",
-            "answer": "<p>Yes, but a positive result doesn’t necessarily mean a new infection, because IgM can come back during a repeat outbreak. If you have a sore now, a clinic can swab it.</p>"
+            "answer": "<p>IgM antibodies can sometimes appear again during a recurrence, so a positive result doesn’t necessarily mean a new infection.</p>"
           },
           {
             "question": "Can this test confirm genital herpes?",

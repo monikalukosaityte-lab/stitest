@@ -76,7 +76,7 @@
   1. Hero: gallery (product shot first, privacy promise second), breadcrumb, H1, intro, pills, spec table, "Choose your test" (single, Core 4, 7-in-1, with the "exposed to one STI" note after the single), quantity (test + retest), "Get my test", trust line, discreet delivery
   2. About: four questions as H2 accordions (first open), a link to a bundle, and the "Why test for ... at home?" card with a buy button
   3. How the test works: H2, intro, H3 over the steps, link to the test's Shopify how-to-test page
-  4. When to test: the window calculator, with notes. HIV and PSA have no date checker (`days: 0`, `strings: null`): HIV shows its text and the PEP message only. Tests with no window period (herpes) use `windows.cards` instead of the date checker; tests with two windows (hepatitis B and C) add `windows.secondDays` and `middle_*` strings
+  4. When to test: the window calculator, with notes. HIV and PSA have no date checker (`days: 0`, `strings: null`): HIV shows its text and the PEP message only. Tests with no window period can use `windows.cards` instead of the date checker (herpes now uses text and a note only); tests with two windows (hepatitis B and C) add `windows.secondDays` and `middle_*` strings
   5. How to read your result
   6. FAQs, with references underneath
   7. Other tests: bundles first, then single tests with short names, leaving out the page's own test
