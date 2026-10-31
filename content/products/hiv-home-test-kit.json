@@ -69,7 +69,7 @@
       {
         "icon": "users",
         "label": "Suitable for",
-        "value": "Anyone aged 16 and over"
+        "value": "Men and women"
       },
       {
         "icon": "package",
@@ -79,6 +79,7 @@
     ]
   },
   "about": {
+    "heading": "About HIV and testing",
     "questions": [
       {
         "question": "What is HIV?",
@@ -176,7 +177,7 @@
     "heading": "Select quantity",
     "badge": "Test + retest",
     "discount": 10,
-    "note": "Testing before 90 days? An early negative may need to be repeated at 90 days."
+    "note": "Testing before 90 days? If your result is negative, test again 90 days after your last possible exposure."
   },
   "buyLabel": "Get my test",
   "trust": "Secure checkout · Discreet UK delivery · Ships within 1 working day",
@@ -266,24 +267,9 @@
   "windows": {
     "heading": "When should I take an HIV <em>test?</em>",
     "subheading": "You can test at any time, but <a href=\"/blog/hiv-symptoms-stages#when-should-you-get-tested-for-hiv\">when you get tested for HIV</a> matters. Testing too early can give a negative result even if you have HIV. This antibody test has a 90-day window period, so an early negative should be repeated 90 days after your last possible exposure.",
-    "days": 90,
-    "initialTitle": "Test now. If negative, test again in 90 days.",
-    "strings": {
-      "today": "Today",
-      "days_ago_one": "__COUNT__ day ago",
-      "days_ago_other": "__COUNT__ days ago",
-      "interval": "90 days",
-      "retest_title": "Test now. If negative, test again on __DATE__.",
-      "retest_body": "An early negative may miss HIV from this exposure.",
-      "now_title": "You can test now.",
-      "now_body": "A negative result covers this exposure.",
-      "unsure_title": "Test now. If negative, test again in __INTERVAL__.",
-      "unsure_body": "",
-      "retest": "",
-      "pep_title": "Contact a sexual health clinic or A&E today and ask about PEP.",
-      "pep_body": "Then test now, and again at __DATE__.",
-      "privacy": "This checker runs on your device. The date never leaves it: we don’t see it, store it or send it anywhere."
-    },
+    "days": 0,
+    "initialTitle": null,
+    "strings": null,
     "notes": "<p>If you have symptoms or a partner has tested positive, contact a sexual health clinic now.</p><p><strong>Possible exposure in the last 72 hours?</strong> Contact a sexual health clinic or A&amp;E now and ask about PEP. Don’t wait for a test result.</p>"
   },
   "results": {
@@ -307,7 +293,7 @@
               "alt": "HIV test showing a positive result: lines at C and T"
             },
             "title": "Positive",
-            "text": "<p>Lines at C and T, even if the T line is faint. HIV antibodies were detected. Contact a sexual health clinic for a confirmation test.</p>"
+            "text": "<p>Lines at C and T, even if the T line is faint. HIV antibodies may have been detected. Contact a sexual health clinic for further testing to confirm your result.</p>"
           },
           {
             "image": {
@@ -323,7 +309,7 @@
     "notes": [
       {
         "title": "Good to know",
-        "text": "<p>This test is designed for screening and doesn’t replace advice from a doctor or nurse. For ages 16 and over.</p>"
+        "text": "<p>This test is designed for screening and doesn’t replace advice from a healthcare professional.</p>"
       }
     ]
   },
@@ -335,11 +321,11 @@
         "questions": [
           {
             "question": "How soon after sex can I test for HIV?",
-            "answer": "<p>You can test straight away, but a test taken very soon after exposure may not pick up a new HIV infection. This antibody-only rapid test has a 90-day window period. If your result is negative before 90 days, test again 90 days after your last possible exposure. A sexual health clinic can offer tests that detect HIV earlier.</p>"
+            "answer": "<p>You can test straight away, but testing too soon may not detect a new HIV infection. This antibody-only rapid test has a 90-day window period. If you test negative before then, test again at least 90 days after your last possible exposure. A sexual health clinic can offer tests that detect HIV earlier.</p>"
           },
           {
             "question": "It’s been less than 72 hours since I may have been exposed to HIV. What should I do?",
-            "answer": "<p>Contact a sexual health clinic or go to A&amp;E as soon as possible and ask about PEP (post-exposure prophylaxis). PEP is medication that can help prevent HIV after exposure. It must be started within 72 hours and works best when started as soon as possible. A home test can’t show an infection this early, so test again at 90 days.</p>"
+            "answer": "<p>Contact a sexual health clinic or go to A&amp;E as soon as possible and ask about PEP (post-exposure prophylaxis), medication that can help prevent HIV after exposure. It must be started within 72 hours and works best when started as soon as possible. Don’t wait for a home test result. The clinic will advise you when to test and arrange any follow-up testing.</p>"
           },
           {
             "question": "What are the first signs of HIV?",
@@ -347,19 +333,19 @@
           },
           {
             "question": "How reliable is the HIV home test?",
-            "answer": "<p>When used correctly, this test is a reliable way to check for HIV antibodies at home. Testing too soon after exposure can affect your result, so an early negative may need repeating at 90 days. This is a screening test, so a positive result should be followed up with a sexual health clinic.</p>"
+            "answer": "<p>When used correctly, this test provides a reliable way to check for HIV-1 and HIV-2 antibodies at home. Testing too soon after exposure can affect your result, so a negative result before 90 days should be repeated at least 90 days after your last possible exposure. A positive result isn’t a confirmed HIV diagnosis and needs further testing at a sexual health clinic.</p>"
           },
           {
             "question": "How do I use the HIV home test kit?",
-            "answer": "<p>Clean your fingertip, prick it with the lancet, add 1 drop of blood to the well marked S, then add 4 drops of diluent. Read your result between 15 and 20 minutes. Everything you need is in the box.</p>"
+            "answer": "<p>Clean your fingertip with an alcohol pad and let it dry, then prick it with the lancet. Add 1 drop of blood to the well marked S, immediately followed by 4 drops of diluent (test liquid). Leave the test pad flat and read your result between 15 and 20 minutes. Don’t read it after 20 minutes.</p>"
           },
           {
             "question": "How do I read my HIV test result?",
-            "answer": "<p>One line at C means negative. Lines at C and T mean positive, even if the T line is faint. No line at C means the test is invalid and hasn’t worked. Contact us and we’ll help.</p>"
+            "answer": "<p>One line at C only means negative. Lines at C and T mean positive, even if the T line is faint, and need confirmation at a sexual health clinic. No line at C means the test is invalid and hasn’t worked. Contact us and we’ll help.</p>"
           },
           {
             "question": "What does a negative HIV test result mean?",
-            "answer": "<p>A negative result means no HIV antibodies were detected. If it’s been 90 days or more since your last possible exposure, this result covers that exposure. If it’s been less than 90 days, test again at the 90-day mark. If you have symptoms or are worried, contact a sexual health clinic about testing sooner.</p>"
+            "answer": "<p>A negative result means no HIV antibodies were detected. If you tested within 90 days of your last possible exposure, test again at least 90 days after that exposure. If you have symptoms or concerns, contact a sexual health clinic for advice about further testing.</p>"
           },
           {
             "question": "What if my HIV test result is positive?",
@@ -371,7 +357,7 @@
           },
           {
             "question": "Can I use this test if I take PrEP or PEP?",
-            "answer": "<p><mark>[Confirm with the kit leaflet before publishing.]</mark> HIV medicines such as PrEP, PEP or HIV treatment can affect antibody test results. If you take PrEP, your clinic will give you regular HIV tests as part of your care.</p>"
+            "answer": "<p>If you take or have recently taken PrEP or PEP, speak to your sexual health clinic about testing. These medicines can affect HIV test results, so follow your clinic’s testing schedule rather than relying on this home test alone.</p>"
           },
           {
             "question": "What’s the difference between HIV and AIDS?",
@@ -400,7 +386,7 @@
         "NHS. “HIV and AIDS.” <em>NHS.uk</em>, 9 Jul. 2025, <a href=\"https://www.nhs.uk/conditions/hiv-and-aids/\">nhs.uk/conditions/hiv-and-aids</a>.",
         "Terrence Higgins Trust (aidsmap). “Early HIV Infection.” <em>aidsmap</em>, Nov. 2025, <a href=\"https://www.aidsmap.com/about-hiv/early-hiv-infection\">aidsmap.com/about-hiv/early-hiv-infection</a>.",
         "Terrence Higgins Trust (aidsmap). “The Stages of HIV Infection.” <em>aidsmap</em>, Jun. 2025, <a href=\"https://www.aidsmap.com/about-hiv/stages-hiv-infection\">aidsmap.com/about-hiv/stages-hiv-infection</a>.",
-        "Terrence Higgins Trust. “PEP (Post-Exposure Prophylaxis for HIV).” <em>tht.org.uk</em>, 11 Jun. 2026, <a href=\"https://www.tht.org.uk/hiv/protection/pep-post-exposure-prophylaxis-hiv\">tht.org.uk/hiv/protection/pep-post-exposure-prophylaxis-hiv</a>."
+        "Terrence Higgins Trust. “PEP (Post-Exposure Prophylaxis for HIV).” <em>tht.org.uk</em>, 11 Jun. 2026, <a href=\"https://tht.org.uk/hiv/protection/pep-post-exposure-prophylaxis-hiv\">tht.org.uk/hiv/protection/pep-post-exposure-prophylaxis-hiv</a>."
       ]
     }
   },
