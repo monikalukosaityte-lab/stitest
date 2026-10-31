@@ -26,4 +26,4 @@ A category page listing every test is planned. Until it exists, these links to t
 
 ## Leftover template code
 
-Unused starter-template code is still in the repo (for example `src/components/sections/hero.tsx` and `cta.tsx`, which link to the deleted `/login` and `/signup`), and `package.json` is still named `kinto-nextjs-template`. Clean up when convenient.
+Unused starter-template code is still in the repo (for example `src/components/sections/hero.tsx` and `cta.tsx`, which link to the deleted `/login` and `/signup`). Clean up when convenient.
