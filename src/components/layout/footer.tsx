@@ -48,7 +48,6 @@ const FOOTER_COLUMNS = [
   {
     heading: 'About',
     links: [
-      { label: 'About us', href: '/about' },
       { label: 'Privacy policy', href: shopUrl('/policies/privacy-policy') },
       {
         label: 'Terms of service',
