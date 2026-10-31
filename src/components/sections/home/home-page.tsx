@@ -113,7 +113,8 @@ const WINDOWS = [
   {
     infection: 'Genital herpes (HSV-2)',
     href: '/rapid-tests/herpes-hsv-2-home-test-kit',
-    retest: 'No set time. If you have sores, a clinic can swab them',
+    retest:
+      'No reliable conclusive window. If you have sores, a clinic can swab them.',
   },
 ];
 
@@ -181,12 +182,12 @@ export const HOME_FAQ: ProductPageData['faq'] = {
         {
           question: 'How do I read my result?',
           answer:
-            '<p>Most tests have a C (control) line and a T (test) line. C only means negative. C and T mean positive, even if T is faint. No C line means the test hasn’t worked. Read within the time shown on your test’s leaflet.</p>',
+            '<p>For the STI tests, C only means negative. Lines at C and T mean positive, even if T is faint. No C line means the test hasn’t worked. Read within the time shown in your test’s instructions. The PSA test is interpreted differently: see its <a href="/rapid-tests/psa-prostate-home-test-kit">product page</a>.</p>',
         },
         {
           question: 'What if my result is positive?',
           answer:
-            '<p>Don’t panic. Take a photo of the test and contact a sexual health clinic or your GP for a confirmation test and treatment. Many STIs are curable, and the rest can be treated or managed.</p>',
+            '<p>Don’t panic. Take a photo of the test and contact a sexual health clinic or your GP for a confirmation test and treatment. Many STIs are curable, and the rest can be treated or managed. For a positive PSA result, contact your GP to discuss further testing.</p>',
         },
         {
           question: 'Can you have an STI without symptoms?',
