@@ -67,11 +67,6 @@
         "value": "In around 15 minutes"
       },
       {
-        "icon": "verified",
-        "label": "Accuracy",
-        "value": "100% match with another commercially available test in a 1,000-sample evaluation"
-      },
-      {
         "icon": "users",
         "label": "Suitable for",
         "value": "Men and women"
@@ -143,7 +138,7 @@
       "buttonLabel": "Get my test"
     }
   },
-  "intro": "<p>Test privately at home for chlamydia and gonorrhoea with one simple swab test. Results in around 15 minutes, with 100% match with an established reference test.*</p>",
+  "intro": "<p>Test privately at home for chlamydia and gonorrhoea with one simple swab test. Results in around 15 minutes.</p>",
   "footnote": "",
   "keyFacts": [
     "<strong>Screens for:</strong> Chlamydia, gonorrhoea",
@@ -246,7 +241,7 @@
   },
   "how": {
     "heading": "How does the chlamydia and gonorrhoea home test work?",
-    "intro": "<p>The test uses a swab you take yourself: a vaginal swab, or a swab from just inside the urethra (the tube you pee from). It checks the sample for chlamydia and gonorrhoea, and shows a separate result for each in around 15 minutes, with no sample to send to a lab. In a clinical evaluation of 1,000 samples, results matched another commercially available test 100% of the time.</p><p>This kit tests genital samples only. It doesn’t test the throat or bottom. If you’ve had oral or anal sex, ask a sexual health clinic about testing those areas.</p><p><strong>Before you start:</strong> For a urethral swab, don’t pee for at least 2 hours beforehand.</p>",
+    "intro": "<p>The test uses a swab you take yourself: a vaginal swab, or a swab from just inside the urethra (the tube you pee from). It checks the sample for chlamydia and gonorrhoea, and shows a separate result for each in around 15 minutes, with no sample to send to a lab.</p><p>This kit tests genital samples only. It doesn’t test the throat or bottom. If you’ve had oral or anal sex, ask a sexual health clinic about testing those areas.</p><p><strong>Before you start:</strong> For a urethral swab, don’t pee for at least 2 hours beforehand.</p>",
     "stepsHeading": "How to use the chlamydia and gonorrhoea test kit in 4 steps",
     "steps": [
       {
@@ -373,7 +368,7 @@
           },
           {
             "question": "How reliable is the chlamydia and gonorrhoea home test?",
-            "answer": "<p>When used correctly, this is a reliable screening test. In a clinical evaluation of 1,000 samples, results matched another commercially available test 100% of the time. Testing too early or not collecting enough sample on the swab can affect your result. Follow up a positive result with a sexual health clinic.</p>"
+            "answer": "<p>When used correctly, this is a reliable screening test. Testing too early or not collecting enough sample on the swab can affect your result. Follow up a positive result with a sexual health clinic.</p>"
           },
           {
             "question": "How do I use the chlamydia and gonorrhoea home test kit?",

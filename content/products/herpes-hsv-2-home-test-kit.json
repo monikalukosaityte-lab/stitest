@@ -3,7 +3,7 @@
   "handle": "hsv-2",
   "seo": {
     "title": "Herpes Test Kit UK – HSV-2 Home Test, 15 Min | STI Test Kit",
-    "description": "Private HSV-2 herpes home test. One finger-prick, results in 15 minutes, 98.92% match with another lab test. £19.95, discreet UK delivery."
+    "description": "Private HSV-2 herpes home test. One finger-prick, results in 15 minutes and discreet UK delivery."
   },
   "gallery": [
     {
@@ -65,11 +65,6 @@
         "icon": "clock",
         "label": "Results",
         "value": "In around 15 minutes"
-      },
-      {
-        "icon": "verified",
-        "label": "Accuracy",
-        "value": "98.92% match with another commercially available HSV-2 test"
       },
       {
         "icon": "users",
@@ -236,7 +231,7 @@
   },
   "how": {
     "heading": "How does the HSV-2 home test work?",
-    "intro": "<p>The test looks for HSV-2 IgM antibodies in a small finger-prick blood sample. IgM is an antibody your immune system makes in response to HSV-2. Your result appears on the test pad in around 15 minutes, with no sample to send to a lab. In the manufacturer’s clinical evaluation, 98.92% of results matched another commercially available HSV-2 test.</p><p><strong>What this test can and can’t tell you:</strong></p><ul><li>It checks for HSV-2 only, not HSV-1 (the cold sore virus, which can also cause genital herpes).</li><li>It finds antibodies in your blood, not the virus in a sore. To confirm what’s causing a sore, a clinic needs to swab it.</li><li>IgM can show up early in an infection, but it can also come back during a repeat outbreak. So a positive result can’t tell you when you got herpes, or whether it’s new.</li></ul>",
+    "intro": "<p>The test looks for HSV-2 IgM antibodies in a small finger-prick blood sample. IgM is an antibody your immune system makes in response to HSV-2. Your result appears on the test pad in around 15 minutes, with no sample to send to a lab.</p><p><strong>What this test can and can’t tell you:</strong></p><ul><li>It checks for HSV-2 only, not HSV-1 (the cold sore virus, which can also cause genital herpes).</li><li>It finds antibodies in your blood, not the virus in a sore. To confirm what’s causing a sore, a clinic needs to swab it.</li><li>IgM can show up early in an infection, but it can also come back during a repeat outbreak. So a positive result can’t tell you when you got herpes, or whether it’s new.</li></ul>",
     "stepsHeading": "How to use the herpes test kit in 3 steps",
     "steps": [
       {
@@ -330,7 +325,7 @@
           },
           {
             "question": "How reliable is the HSV-2 home test?",
-            "answer": "<p>In the manufacturer’s clinical evaluation, 98.92% of IgM results matched another commercially available HSV-2 test. IgM results have limits: they can’t show when an infection started, and IgM can return during a repeat outbreak.</p>"
+            "answer": "<p>When used correctly, this is a reliable screening test. IgM results have limits: they can’t show when an infection started, and IgM can return during a repeat outbreak.</p>"
           },
           {
             "question": "What does an IgM result tell me?",
