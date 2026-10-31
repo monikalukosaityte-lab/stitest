@@ -3,6 +3,7 @@
 ## Scope & Deployment
 
 - This repo is stitestkit.co.uk only. td-site-prod (`~/Documents/td-site-prod`, `~/orca/workspaces/td-site-prod/`) is the separate Shopify theme for testdiscreet.co.uk — it is read-only reference: you may read its files and copy assets out of it, but never edit, write, commit, push, or run commands that change anything there
+- The live address is `https://www.stitestkit.co.uk` (non-www redirects to www). Use the www URL in canonicals, the sitemap, schema and robots.txt
 - `main` auto-deploys to production on Vercel. Never commit or push to `main`
 - Always work on a branch (e.g. `preview/<feature>`) and push it so Vercel builds a preview URL for review
 - Never merge into `main` — the user reviews the preview and merges themselves

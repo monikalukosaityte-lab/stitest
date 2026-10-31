@@ -3,8 +3,9 @@ import type { Metadata } from 'next';
 import HomePage, { HOME_FAQ } from '@/components/sections/home/home-page';
 import { SHOP_PRODUCTS } from '@/components/sections/product-grid';
 import { CONTACT_EMAIL } from '@/lib/constants';
+import { socialMetadata } from '@/lib/metadata';
 
-const SITE_URL = 'https://stitestkit.co.uk';
+const SITE_URL = 'https://www.stitestkit.co.uk';
 
 const TITLE = 'Home STI Test Kits UK – 15 Minute Results | STI Test Kit';
 const DESCRIPTION =
@@ -15,8 +16,7 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   alternates: { canonical: '/' },
   robots: { index: true, follow: true },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: '/' },
-  twitter: { title: TITLE, description: DESCRIPTION },
+  ...socialMetadata({ title: TITLE, description: DESCRIPTION, path: '/' }),
 };
 
 const plainText = (html: string) =>

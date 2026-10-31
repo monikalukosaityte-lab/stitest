@@ -3,10 +3,11 @@ import { notFound } from 'next/navigation';
 
 import ProductPage from '@/components/sections/product/product-page';
 import { SHOP_PRODUCTS } from '@/components/sections/product-grid';
+import { socialMetadata } from '@/lib/metadata';
 import { getProductBySlug, getProductSlugs } from '@/lib/products';
 import { ProductPageData } from '@/lib/types';
 
-const SITE_URL = 'https://stitestkit.co.uk';
+const SITE_URL = 'https://www.stitestkit.co.uk';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -26,15 +27,18 @@ export async function generateMetadata({
 
   if (!product) return {};
 
+  const title = product.seo?.title ?? `${product.title} | STI Test Kit`;
+  const description =
+    product.seo?.description ??
+    product.intro.replace(/<[^>]+>/g, '').replace(/\*$/, '');
+  const path = `/rapid-tests/${slug}`;
+
   return {
-    title: {
-      absolute: product.seo?.title ?? `${product.title} | STI Test Kit`,
-    },
-    description:
-      product.seo?.description ??
-      product.intro.replace(/<[^>]+>/g, '').replace(/\*$/, ''),
-    alternates: { canonical: `/rapid-tests/${slug}` },
+    title: { absolute: title },
+    description,
+    alternates: { canonical: path },
     robots: { index: true, follow: true },
+    ...socialMetadata({ title, description, path }),
   };
 }
 

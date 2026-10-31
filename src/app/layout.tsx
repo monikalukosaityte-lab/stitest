@@ -43,7 +43,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://stitestkit.co.uk'),
+  metadataBase: new URL('https://www.stitestkit.co.uk'),
   title: {
     default: 'Home STI Test Kits UK – 15 Minute Results | STI Test Kit',
     template: '%s | STI Test Kit',
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_GB',
-    url: 'https://stitestkit.co.uk',
+    url: 'https://www.stitestkit.co.uk',
     siteName: 'STI Test Kit',
     title: 'Home STI Test Kits UK – 15 Minute Results | STI Test Kit',
     description:

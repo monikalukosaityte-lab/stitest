@@ -18,6 +18,7 @@ import {
   getArticleBySlug,
   getArticleSlugs,
 } from '@/lib/articles';
+import { socialMetadata } from '@/lib/metadata';
 import { ArticleFrontmatter } from '@/lib/types';
 import { cn } from '@/lib/utils';
 
@@ -85,14 +86,17 @@ export async function generateMetadata({
 
   if (!article) return {};
 
+  const title = article.frontmatter.metaTitle ?? article.frontmatter.title;
+  const description =
+    article.frontmatter.metaDescription ?? article.frontmatter.description;
+  const path = `/blog/${slug}`;
+
   return {
-    title: {
-      absolute: article.frontmatter.metaTitle ?? article.frontmatter.title,
-    },
-    description:
-      article.frontmatter.metaDescription ?? article.frontmatter.description,
-    alternates: { canonical: `/blog/${slug}` },
+    title: { absolute: title },
+    description,
+    alternates: { canonical: path },
     robots: { index: true, follow: true },
+    ...socialMetadata({ title, description, path }),
   };
 }
 
