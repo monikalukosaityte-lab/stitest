@@ -11,6 +11,8 @@ export interface ArticleFrontmatter {
   image?: string;
   tags?: string[];
   pinned?: boolean;
+  /** Set only after clinical review; omitted means no review badge. */
+  medicallyReviewed?: boolean;
   toc?: TocItem[];
   metaTitle?: string;
   metaDescription?: string;

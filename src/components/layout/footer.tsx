@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { CookieSettingsButton } from '@/components/layout/cookie-consent';
 import { BrandLockup } from '@/components/layout/logo';
 import { shopUrl } from '@/lib/utils';
 
@@ -49,6 +50,7 @@ const FOOTER_COLUMNS = [
     heading: 'About',
     links: [
       { label: 'Privacy policy', href: shopUrl('/policies/privacy-policy') },
+      { label: 'Cookies', href: '/cookies' },
       {
         label: 'Terms of service',
         href: shopUrl('/policies/terms-of-service'),
@@ -119,6 +121,7 @@ export default function Footer() {
             ))}
           </ul>
           <p>&copy; 2026 STI Test Kit</p>
+          <CookieSettingsButton />
           <p className="max-w-3xl opacity-85">
             Our tests don&apos;t replace advice from a doctor or nurse. For ages
             16 and over. Free, confidential testing is also available from NHS

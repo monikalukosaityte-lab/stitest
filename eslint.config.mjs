@@ -16,6 +16,10 @@ const eslintConfig = defineConfig([
     'src/components/ui/**',
   ]),
   {
+    files: ['tests/*.cjs'],
+    rules: { '@typescript-eslint/no-require-imports': 'off' },
+  },
+  {
     plugins: {
       'simple-import-sort': simpleImportSort,
     },

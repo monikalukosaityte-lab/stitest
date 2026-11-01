@@ -9,6 +9,7 @@ interface ArticleHeroProps {
   description: string;
   date: string;
   image?: string;
+  medicallyReviewed?: boolean;
   children?: React.ReactNode;
 }
 
@@ -17,6 +18,7 @@ export function ArticleHero({
   description,
   date,
   image,
+  medicallyReviewed = false,
   children,
 }: ArticleHeroProps) {
   return (
@@ -38,7 +40,7 @@ export function ArticleHero({
             <p className="text-muted-foreground mt-4 text-lg">{description}</p>
             <ul className="mt-5 flex flex-wrap gap-2">
               <MetaPill>Published {formatPublishDate(date)}</MetaPill>
-              <MetaPill>Medically reviewed</MetaPill>
+              {medicallyReviewed && <MetaPill>Medically reviewed</MetaPill>}
             </ul>
           </div>
 

@@ -271,7 +271,7 @@
     },
     "stages": [
       {
-        "until": 3,
+        "until": 4,
         "title": "Contact a sexual health clinic or A&E as soon as possible and ask about PEP.",
         "body": "Don’t wait for a home test result. The clinic will advise when to test."
       },
@@ -297,7 +297,7 @@
       }
     ],
     "notes": "<p><strong>PEP alert:</strong> Possible HIV exposure in the last 72 hours? Contact a sexual health clinic or A&amp;E now and ask about PEP. Don’t wait for a test result.</p>",
-    "after": "<p><strong>Planning to retest?</strong> The 2-kit Test + retest pack is £80.91 and saves 10%.</p>"
+    "after": "<p><strong>Planning to retest?</strong> The 2-kit Test + retest pack is £80.92 and saves 10%.</p>"
   },
   "results": {
     "heading": "How to read your Core 4 STI test results",
@@ -348,7 +348,7 @@
           },
           {
             "question": "How much do I save with the Core 4?",
-            "answer": "<p>The 3 tests cost £50.85 bought separately. The Core 4 is £44.95, so you save £5.90. The 2-kit Test + retest pack is £80.91, saving a further 10%.</p>"
+            "answer": "<p>The 3 tests cost £50.85 bought separately. The Core 4 is £44.95, so you save £5.90. The 2-kit Test + retest pack is £80.92, saving a further 10%.</p>"
           },
           {
             "question": "Can men and women use the Core 4 kit?",

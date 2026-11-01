@@ -97,10 +97,12 @@
 - Copy arrives as an SEO doc (.docx). Use its wording exactly and keep its internal links: guide links go to `/blog/...` anchors on this site, product links go to this site's `/rapid-tests/...` pages, and only buy buttons go to the Shopify checkout
 - Wrap anything the copy says still needs checking in `<mark>`
 - About section H2: set `about.heading` to the copy doc's section 2 label (e.g. "2. About PSA and prostate testing" → "About PSA and prostate testing"); the About questions then render as H3s
-- When to test date checker: keep the 1-week grace logic in `window-calculator.tsx` on every page, including bundles. Update the message wording from the doc, but don't switch to the doc's exact cut-offs; if a doc's ranges differ, just mention it
+- When to test date checker: use the full approved intervals in each product's `windows` data, including bundles. Never remove repeat advice early using a grace period. A date three calendar days ago can still be within 72 hours, so retain the PEP assessment advice through that date. Reset advice for cleared, invalid or future input. Preserve separate guidance for tests without a reliable shared completion date
 - Never invent medical claims or accuracy figures; use only what the copy doc gives
 
 ## MDX / Articles
+
+- Set article frontmatter `medicallyReviewed: true` only when clinical review is confirmed. Missing/false means no review badge. Never invent reviewer names or review dates. Homepage guide cards must follow the same review status when adding a guide.
 
 ### Setup
 

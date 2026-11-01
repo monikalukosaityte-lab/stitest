@@ -7,15 +7,12 @@ import {
   Montserrat,
 } from 'next/font/google';
 import localFont from 'next/font/local';
-import Script from 'next/script';
 
+import CookieConsent from '@/components/layout/cookie-consent';
 import Footer from '@/components/layout/footer';
 import Navbar from '@/components/layout/navbar';
-import { StyleGlideProvider } from '@/components/providers/styleglide-provider';
 import { ThemeProvider } from '@/components/providers/theme-provider';
 import { cn } from '@/lib/utils';
-
-const GA_MEASUREMENT_ID = 'G-90V3D10GNM';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -109,30 +106,16 @@ export default function RootLayout({
           jetbrainsMono.variable,
         )}
       >
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="ga4-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_MEASUREMENT_ID}');
-          `}
-        </Script>
-
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
           forcedTheme="light"
           disableTransitionOnChange
         >
-          <StyleGlideProvider />
-
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
+          <CookieConsent />
         </ThemeProvider>
       </body>
     </html>
