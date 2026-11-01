@@ -28,7 +28,12 @@ import {
   getArticleSlugs,
 } from '@/lib/articles';
 import { socialMetadata } from '@/lib/metadata';
-import { ArticleFrontmatter } from '@/lib/types';
+import {
+  ArticleFrontmatter,
+  TestNowPreset,
+  TestOption,
+  TestOptionsPreset,
+} from '@/lib/types';
 import { cn } from '@/lib/utils';
 
 function slugify(text: string) {
@@ -71,7 +76,7 @@ function Lead({ children }: { children: React.ReactNode }) {
 // "Test now" box placed in articles with <TestNow preset="hiv" />, plus a
 // mobile buy bar that appears once the box has scrolled away. The buttons open
 // the product page.
-const TEST_NOW_PRESETS = {
+const TEST_NOW_PRESETS: Record<'hiv' | 'herpes', TestNowPreset> = {
   hiv: {
     handle: 'hiv',
     productName: 'HIV Home Test',
@@ -90,6 +95,26 @@ const TEST_NOW_PRESETS = {
       { desktop: 'Ships in 1 working day', mobile: 'Ships in 1 working day' },
     ],
     note: 'Exposed in the last 72 hours? Contact a sexual health clinic or A&E now about PEP.',
+    stickySubtitle: 'results in 15 min',
+  },
+  herpes: {
+    handle: 'hsv-2',
+    productName: 'Herpes (HSV-2) Test',
+    title: 'Check for herpes privately, in your own time',
+    text: 'A simple finger-prick test, with results in about 15 minutes.',
+    points: [
+      {
+        desktop: 'Checks for HSV-2 antibodies',
+        mobile: 'Checks for HSV-2 antibodies',
+      },
+      { desktop: 'No clinic visit', mobile: 'No clinic visit' },
+      {
+        desktop: 'Plain, discreet packaging',
+        mobile: 'Plain, discreet packaging',
+      },
+      { desktop: 'Ships in 1 working day', mobile: 'Ships in 1 working day' },
+    ],
+    note: 'Have blisters or sores right now? A sexual health clinic can swab them, which is the most reliable way to check.',
     stickySubtitle: 'results in 15 min',
   },
 };
@@ -173,7 +198,7 @@ function TestNow({ preset }: { preset: keyof typeof TEST_NOW_PRESETS }) {
 // "Test for more" box placed in articles with <TestOptions preset="hiv" />.
 // MDX here only accepts plain-text props, so each preset's copy lives below.
 // Prices, samples and links come from SHOP_PRODUCTS so they stay in sync.
-const TEST_OPTION_PRESETS = {
+const TEST_OPTION_PRESETS: Record<'hiv' | 'herpes', TestOptionsPreset> = {
   hiv: {
     eyebrow: 'Testing for HIV?',
     title: {
@@ -232,20 +257,71 @@ const TEST_OPTION_PRESETS = {
       },
     ],
   },
+  herpes: {
+    title: {
+      desktop: 'Want to check for more than herpes?',
+      mobile: 'Want to check for more than herpes?',
+    },
+    text: {
+      desktop:
+        'Herpes isn’t included in most standard STI tests. Our 7-in-1 checks for it alongside 6 other common STIs.',
+      mobile:
+        'Herpes isn’t included in most standard STI tests. Our 7-in-1 checks for it alongside 6 other common STIs.',
+    },
+    note: 'Plain packaging · Ships in 1 working day · Results in about 15 minutes',
+    options: [
+      {
+        handle: 'hsv-2',
+        title: {
+          desktop: 'Herpes (HSV-2) Test',
+          mobile: 'Herpes (HSV-2) Test',
+        },
+        badge: { desktop: 'Just herpes', mobile: null },
+        summary: 'Just herpes',
+        details: 'Genital herpes (HSV-2) · finger-prick',
+        infections: 1,
+        tags: ['Genital herpes (HSV-2)'],
+        priceNote: 'Fast and focused',
+        featured: false,
+      },
+      {
+        handle: 'sti-bundle',
+        title: { desktop: '7-in-1 STI Test', mobile: '7-in-1 STI Test' },
+        badge: { desktop: '7-in-1 · Best value', mobile: 'Best value' },
+        summary: 'Herpes + 6 more',
+        details:
+          'Herpes, HIV, syphilis, chlamydia, gonorrhoea, hepatitis B and C',
+        infections: 7,
+        meta: 'Herpes + 6 more',
+        tags: [
+          'Herpes (HSV-2)',
+          'HIV',
+          'Syphilis',
+          'Chlamydia',
+          'Gonorrhoea',
+          'Hepatitis B',
+          'Hepatitis C',
+        ],
+        highlightTag: 'Herpes (HSV-2)',
+        priceNote: null,
+        showSaving: true,
+        featured: true,
+      },
+    ],
+  },
 };
-
-type TestOption =
-  (typeof TEST_OPTION_PRESETS)[keyof typeof TEST_OPTION_PRESETS]['options'][number];
 
 function TestOptions({ preset }: { preset: keyof typeof TEST_OPTION_PRESETS }) {
   const { eyebrow, title, text, note, options } = TEST_OPTION_PRESETS[preset];
 
   return (
     <aside className="not-prose bg-accent-light my-10 rounded-xl p-5 md:p-8">
-      <p className="font-display text-accent text-xs font-bold tracking-widest uppercase">
-        {eyebrow}
-      </p>
-      <p className="font-display mt-2 text-xl leading-tight font-extrabold md:text-2xl">
+      {eyebrow && (
+        <p className="font-display text-accent mb-2 text-xs font-bold tracking-widest uppercase">
+          {eyebrow}
+        </p>
+      )}
+      <p className="font-display text-xl leading-tight font-extrabold md:text-2xl">
         <span className="md:hidden">{title.mobile}</span>
         <span className="hidden md:inline">{title.desktop}</span>
       </p>
@@ -259,7 +335,12 @@ function TestOptions({ preset }: { preset: keyof typeof TEST_OPTION_PRESETS }) {
           <TestOptionRow key={option.handle} option={option} />
         ))}
       </ul>
-      <ul className="mt-6 hidden gap-4 md:grid md:grid-cols-3">
+      <ul
+        className={cn(
+          'mt-6 hidden gap-4 md:grid',
+          options.length === 2 ? 'md:grid-cols-2' : 'md:grid-cols-3',
+        )}
+      >
         {options.map((option) => (
           <TestOptionCard key={option.handle} option={option} />
         ))}
@@ -297,15 +378,20 @@ function TestOptionCard({ option }: { option: TestOption }) {
         {option.title.desktop}
       </p>
       <p className="text-muted-foreground mt-1 text-xs">
-        Checks {option.infections}{' '}
-        {option.infections === 1 ? 'infection' : 'infections'} ·{' '}
-        <span className="whitespace-nowrap">{product.sample}</span>
+        {option.meta ??
+          `Checks ${option.infections} ${option.infections === 1 ? 'infection' : 'infections'}`}{' '}
+        · <span className="whitespace-nowrap">{product.sample}</span>
       </p>
       <ul className="mt-3 flex flex-wrap gap-1.5">
         {option.tags.map((tag) => (
           <li
             key={tag}
-            className="bg-muted rounded-full px-2 py-0.5 text-xs font-medium"
+            className={cn(
+              'rounded-full px-2 py-0.5 text-xs font-medium',
+              tag === option.highlightTag
+                ? 'bg-accent-light text-accent'
+                : 'bg-muted',
+            )}
           >
             {tag}
           </li>
@@ -315,11 +401,22 @@ function TestOptionCard({ option }: { option: TestOption }) {
         <div className="border-t pt-4">
           <p className="font-display text-2xl font-extrabold">
             {product.price}
+            {option.showSaving && product.compareAt && (
+              <s className="font-text text-muted-foreground ml-2 text-sm font-normal">
+                {product.compareAt}
+              </s>
+            )}
           </p>
-          <p className="text-muted-foreground text-xs">
-            {option.priceNote ??
-              `About ${perInfection(product.price, option.infections)} per infection`}
-          </p>
+          {option.showSaving && product.compareAt ? (
+            <p className="text-accent text-xs font-semibold">
+              Save {saving(product.price, product.compareAt)}
+            </p>
+          ) : (
+            <p className="text-muted-foreground text-xs">
+              {option.priceNote ??
+                `About ${perInfection(product.price, option.infections)} per infection`}
+            </p>
+          )}
         </div>
         <div className="mt-4 grid">
           <Button
@@ -365,6 +462,11 @@ function TestOptionRow({ option }: { option: TestOption }) {
         </div>
         <div className="shrink-0 text-right">
           <p className="font-display text-lg font-extrabold">{product.price}</p>
+          {option.showSaving && product.compareAt && (
+            <s className="text-muted-foreground block text-xs">
+              {product.compareAt}
+            </s>
+          )}
           <span className="font-display text-primary inline-flex items-center gap-1 text-xs font-bold tracking-wider uppercase">
             View
             <ChevronRightIcon className="size-3" />
@@ -375,9 +477,20 @@ function TestOptionRow({ option }: { option: TestOption }) {
   );
 }
 
+function toPence(price: string) {
+  return Math.round(parseFloat(price.replace(/[^0-9.]/g, '')) * 100);
+}
+
+function formatPence(pence: number) {
+  return `£${(pence / 100).toFixed(2)}`;
+}
+
 function perInfection(price: string, infections: number) {
-  const pence = Math.round(parseFloat(price.replace(/[^0-9.]/g, '')) * 100);
-  return `£${(Math.round(pence / infections) / 100).toFixed(2)}`;
+  return formatPence(Math.round(toPence(price) / infections));
+}
+
+function saving(price: string, compareAt: string) {
+  return formatPence(toPence(compareAt) - toPence(price));
 }
 
 const mdxComponents: MDXComponents = {
