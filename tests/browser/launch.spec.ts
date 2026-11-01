@@ -44,12 +44,13 @@ test('fresh, rejected, accepted, route change and withdrawn choices control the 
   await page.goto('/');
   const banner = page.getByRole('region', { name: 'Cookie choices' });
   await expect(banner).toBeVisible();
+  // A fresh development compile can hydrate before the stylesheet arrives.
+  await expect(banner).toHaveCSS('position', 'fixed');
+  await page.evaluate(() => document.fonts.ready);
   await expect(page.locator('#sti-analytics')).toHaveCount(0);
   expect(requests).toEqual([]);
   await page.screenshot({ path: info.outputPath('home-banner.png') });
-  await banner
-    .getByRole('button', { name: 'Reject optional', exact: true })
-    .click();
+  await banner.getByRole('button', { name: 'Decline', exact: true }).click();
   await expect(banner).toHaveCount(0);
   await page.reload();
   await expect(
@@ -67,9 +68,7 @@ test('fresh, rejected, accepted, route change and withdrawn choices control the 
     .click();
   const dialog = page.getByRole('dialog');
   await expect(dialog.getByRole('checkbox')).not.toBeChecked();
-  await dialog
-    .getByRole('button', { name: 'Accept analytics', exact: true })
-    .click();
+  await dialog.getByRole('button', { name: 'Accept', exact: true }).click();
   await expect(dialog).toBeHidden();
   await expect(page.locator('#sti-analytics')).toHaveCount(enabled ? 1 : 0);
   // Use client-side navigation to verify that permission survives route changes.
@@ -104,9 +103,7 @@ test('fresh, rejected, accepted, route change and withdrawn choices control the 
   await page
     .getByRole('button', { name: 'Cookie settings', exact: true })
     .click();
-  await dialog
-    .getByRole('button', { name: 'Reject optional', exact: true })
-    .click();
+  await dialog.getByRole('button', { name: 'Decline', exact: true }).click();
   await expect
     .poll(() =>
       page.evaluate((k) => JSON.parse(localStorage.getItem(k)!).analytics, key),
@@ -125,13 +122,14 @@ test('settings fit 320px, trap keyboard focus, close with Escape and restore foc
 }, info) => {
   await page.setViewportSize({ width: 320, height: 568 });
   await page.goto('/');
-  const trigger = page.getByRole('button', { name: 'Settings', exact: true });
+  const trigger = page.getByRole('button', {
+    name: 'Manage preferences',
+    exact: true,
+  });
   await trigger.click();
   const dialog = page.getByRole('dialog');
   await expect(dialog).toBeVisible();
-  expect(
-    await dialog.evaluate((el) => getComputedStyle(el).backgroundColor),
-  ).toBe('rgb(255, 255, 255)');
+  await expect(dialog).toHaveCSS('background-color', 'rgb(255, 255, 255)');
   await page.screenshot({ path: info.outputPath('settings-open-320.png') });
   for (let i = 0; i < 10; i++) {
     await page.keyboard.press('Tab');
@@ -161,9 +159,7 @@ test('withdrawal is synchronised to an already open second tab', async ({
   page,
 }) => {
   await page.goto('/');
-  await page
-    .getByRole('button', { name: 'Accept analytics', exact: true })
-    .click();
+  await page.getByRole('button', { name: 'Accept', exact: true }).click();
   const other = await context.newPage();
   await other.goto('/cookies');
   await expect(other.locator('#sti-analytics')).toHaveCount(enabled ? 1 : 0);
@@ -172,7 +168,7 @@ test('withdrawal is synchronised to an already open second tab', async ({
     .click();
   await page
     .getByRole('dialog')
-    .getByRole('button', { name: 'Reject optional', exact: true })
+    .getByRole('button', { name: 'Decline', exact: true })
     .click();
   await expect
     .poll(() =>
@@ -220,9 +216,7 @@ for (const mode of ['expired', 'invalid', 'blocked'] as const) {
       page.getByRole('region', { name: 'Cookie choices' }),
     ).toBeVisible();
     await expect(page.locator('#sti-analytics')).toHaveCount(0);
-    await page
-      .getByRole('button', { name: 'Reject optional', exact: true })
-      .click();
+    await page.getByRole('button', { name: 'Decline', exact: true }).click();
     await page.reload();
     await expect(page.locator('#sti-analytics')).toHaveCount(0);
   });
@@ -257,7 +251,7 @@ test('all public pages render, images load and existing self-canonicals remain',
     const banner = page.getByRole('region', { name: 'Cookie choices' });
     if (await banner.isVisible())
       await banner
-        .getByRole('button', { name: 'Reject optional', exact: true })
+        .getByRole('button', { name: 'Decline', exact: true })
         .click();
     await page.evaluate(async () => {
       await document.fonts.ready;
@@ -364,9 +358,7 @@ test('full calculator boundaries and clearing work through actual date inputs', 
     const banner = page.getByRole('region', { name: 'Cookie choices' });
     // The banner appears after hydration; do not fill an inert server input.
     await expect(banner).toBeVisible();
-    await banner
-      .getByRole('button', { name: 'Reject optional', exact: true })
-      .click();
+    await banner.getByRole('button', { name: 'Decline', exact: true }).click();
     const input = page.getByLabel('Date of possible exposure');
     const status = page.getByRole('status');
     for (const [days, pattern, matches = true] of checks) {
