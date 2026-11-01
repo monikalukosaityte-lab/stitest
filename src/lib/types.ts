@@ -238,7 +238,8 @@ export interface TestNowPreset {
   text: string;
   /** Ticks; `mobile: null` hides one on mobile. */
   points: { desktop: string; mobile: string | null }[];
-  note: string;
+  /** Small print under the box (and divider on desktop); optional. */
+  note?: string;
   stickySubtitle: string;
 }
 

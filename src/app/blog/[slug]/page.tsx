@@ -114,7 +114,6 @@ const TEST_NOW_PRESETS: Record<'hiv' | 'herpes', TestNowPreset> = {
       },
       { desktop: 'Ships in 1 working day', mobile: 'Ships in 1 working day' },
     ],
-    note: 'Have blisters or sores right now? A sexual health clinic can swab them, which is the most reliable way to check.',
     stickySubtitle: 'results in 15 min',
   },
 };
@@ -180,9 +179,11 @@ function TestNow({ preset }: { preset: keyof typeof TEST_NOW_PRESETS }) {
           </div>
         </div>
 
-        <p className="text-muted-foreground mt-5 text-xs md:mt-6 md:border-t md:pt-4 md:text-sm">
-          {note}
-        </p>
+        {note && (
+          <p className="text-muted-foreground mt-5 text-xs md:mt-6 md:border-t md:pt-4 md:text-sm">
+            {note}
+          </p>
+        )}
       </aside>
       <StickyBuyBar
         targetId={id}
