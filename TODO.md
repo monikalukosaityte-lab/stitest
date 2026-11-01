@@ -12,14 +12,6 @@ Open tasks for stitestkit.co.uk. Remove an item in the same commit that finishes
 
 - At 320px, the homepage hero's long 7-in-1 buy label clips at the right edge. Browser comparison on 1 November reproduces the same behaviour on production and the launch branch. Make a targeted wrapping fix without changing the desktop design.
 
-## Herpes guide (`/blog/genital-herpes-symptoms`)
-
-Copy is coming from the SEO doc. Until this guide is reviewed and published, its previous product-page links point to the existing NHS genital herpes page so the journey works.
-
-- Add `content/articles/genital-herpes-symptoms.mdx`, using the intended symptom, outbreak, treatment and transmission headings. Once published, replace the temporary NHS links in the herpes and 7-in-1 product pages with the appropriate reviewed guide anchors
-- Its image is ready: `public/images/blog/genital-herpes-symptoms.webp` (use it as the article `image`)
-- Put it first in the homepage guide cards (see the comment in `src/components/sections/home/home-page.tsx`)
-
 ## Branded 404 page
 
 `src/app/not-found.tsx` is still the starter template's notebook design (flipping page, ruled lines, "There's nothing written here yet"). Rebuild it in the site style: a "Page not found" heading, one line of text, and buttons to the homepage, the 7-in-1 kit and STI guides. Afterwards, delete `src/components/elements/journal-container` if nothing else uses it.

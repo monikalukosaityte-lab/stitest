@@ -119,7 +119,7 @@ export function TableOfContents({ items }: { items: readonly TocItem[] }) {
       {/* Mobile — floating "Sections" pill + bottom sheet */}
       <button
         onClick={() => setSheetOpen(true)}
-        className="border-accent bg-card text-accent fixed right-4 bottom-6 z-30 flex items-center gap-2 rounded-full border-2 px-4 py-2.5 text-sm font-medium shadow-lg lg:hidden"
+        className="border-accent bg-card text-accent fixed right-4 bottom-6 z-30 flex items-center gap-2 rounded-full border-2 px-4 py-2.5 text-sm font-medium shadow-lg transition-[bottom] lg:hidden [[data-sticky-buy]_&]:bottom-24"
       >
         <List className="size-4" />
         Sections

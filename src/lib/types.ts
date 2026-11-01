@@ -229,3 +229,46 @@ export interface ProductPageData {
   };
   otherProducts: string[];
 }
+
+// "Test now" box in articles (<TestNow preset="..." />)
+export interface TestNowPreset {
+  handle: string;
+  productName: string;
+  title: string;
+  text: string;
+  /** Ticks; `mobile: null` hides one on mobile. */
+  points: { desktop: string; mobile: string | null }[];
+  /** Small print under the box (and divider on desktop); optional. */
+  note?: string;
+  stickySubtitle: string;
+}
+
+// "Test for more" box in articles (<TestOptions preset="..." />)
+export interface TestOptionsPreset {
+  eyebrow?: string;
+  title: { desktop: string; mobile: string };
+  text: { desktop: string; mobile: string };
+  note: string;
+  options: TestOption[];
+}
+
+export interface TestOption {
+  handle: string;
+  title: { desktop: string; mobile: string };
+  badge: { desktop: string | null; mobile: string | null };
+  /** Bold line on mobile, e.g. "HIV + 3 more". */
+  summary: string;
+  /** Infections list on mobile. */
+  details: string;
+  infections: number;
+  /** Replaces "Checks N infections" on desktop. */
+  meta?: string;
+  tags: string[];
+  /** Tag shown in the accent colour, e.g. the infection the article is about. */
+  highlightTag?: string;
+  /** Text under the price; null shows the price per infection. */
+  priceNote: string | null;
+  /** Show the crossed-out shop price and "Save £x" instead of priceNote. */
+  showSaving?: boolean;
+  featured: boolean;
+}
