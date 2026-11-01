@@ -14,11 +14,10 @@ Open tasks for stitestkit.co.uk. Remove an item in the same commit that finishes
 
 ## Herpes guide (`/blog/genital-herpes-symptoms`)
 
-Copy is coming from the SEO doc. Until this guide is reviewed and published, its previous product-page links point to the existing NHS genital herpes page so the journey works.
+The guide is built from the SEO doc, and the herpes and 7-in-1 product pages and the HIV guide link to it again. Still to do:
 
-- Add `content/articles/genital-herpes-symptoms.mdx`, using the intended symptom, outbreak, treatment and transmission headings. Once published, replace the temporary NHS links in the herpes and 7-in-1 product pages with the appropriate reviewed guide anchors
-- Its image is ready: `public/images/blog/genital-herpes-symptoms.webp` (use it as the article `image`)
-- Put it first in the homepage guide cards (see the comment in `src/components/sections/home/home-page.tsx`)
+- Confirm clinical review, then set `medicallyReviewed: true` in `content/articles/genital-herpes-symptoms.mdx`
+- After that, add it first in the homepage guide cards (`GUIDES` in `src/components/sections/home/home-page.tsx`); every card there says "Medically reviewed"
 
 ## Branded 404 page
 
