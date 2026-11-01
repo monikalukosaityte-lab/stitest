@@ -129,9 +129,7 @@ test('settings fit 320px, trap keyboard focus, close with Escape and restore foc
   await trigger.click();
   const dialog = page.getByRole('dialog');
   await expect(dialog).toBeVisible();
-  expect(
-    await dialog.evaluate((el) => getComputedStyle(el).backgroundColor),
-  ).toBe('rgb(255, 255, 255)');
+  await expect(dialog).toHaveCSS('background-color', 'rgb(255, 255, 255)');
   await page.screenshot({ path: info.outputPath('settings-open-320.png') });
   for (let i = 0; i < 10; i++) {
     await page.keyboard.press('Tab');

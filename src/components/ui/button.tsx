@@ -38,7 +38,7 @@ const buttonVariants = cva(
         xs: "min-h-7 px-3 text-xs [&_svg:not([class*='size-'])]:size-3",
         sm: "min-h-9 px-5 py-1.5 text-sm [&_svg:not([class*='size-'])]:size-3.5",
         lg: 'min-h-13 px-9 py-3 text-lg tracking-normal normal-case',
-        consent: 'h-full min-h-10 w-full px-6 py-2 text-base',
+        consent: 'h-full min-h-10 w-full px-4 py-2 text-base/5',
         icon: 'size-8',
         'icon-xs': "size-6 [&_svg:not([class*='size-'])]:size-3",
         'icon-sm': 'size-7',
