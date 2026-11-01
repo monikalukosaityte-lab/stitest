@@ -380,13 +380,18 @@ test('full calculator boundaries and clearing work through actual date inputs', 
     }
     await input.fill('');
     await expect(input).toHaveValue('');
-    await expect(status).toContainText(
+    const unknownAdvice =
       slug === 'core-4-sti-test-kit' || slug === '7-in-1-sti-test-kit'
-        ? /Contact a sexual health clinic for advice about when to test/
-        : /Test now/,
-    );
+        ? /^Contact a sexual health clinic for advice about when to test\./
+        : slug === 'hepatitis-b-c-home-test-kit'
+          ? /^You can test now\./
+          : /^Test now\./;
+    await expect(status).toContainText(unknownAdvice);
+    await input.fill('2026-01-01');
+    await expect(input).toHaveValue('2026-01-01');
     await input.fill('2026-11-02');
     await expect(input).toHaveValue('');
+    await expect(status).toContainText(unknownAdvice);
     if (slug === 'core-4-sti-test-kit') {
       await input.scrollIntoViewIfNeeded();
       await page.screenshot({ path: info.outputPath('calculator.png') });
