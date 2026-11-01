@@ -379,7 +379,12 @@ test('full calculator boundaries and clearing work through actual date inputs', 
       else await expect(status).not.toContainText(pattern);
     }
     await input.fill('');
-    await expect(status).toContainText(/Test now/);
+    await expect(input).toHaveValue('');
+    await expect(status).toContainText(
+      slug === 'core-4-sti-test-kit' || slug === '7-in-1-sti-test-kit'
+        ? /Contact a sexual health clinic for advice about when to test/
+        : /Test now/,
+    );
     await input.fill('2026-11-02');
     await expect(input).toHaveValue('');
     if (slug === 'core-4-sti-test-kit') {

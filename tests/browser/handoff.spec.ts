@@ -85,7 +85,7 @@ for (const scenario of cases) {
     await page.screenshot({ path: info.outputPath('shopify-cart.png') });
     if (scenario.quantity === 1) {
       // This is the actual cart control. Stop as soon as the checkout is rendered.
-      await page.locator('button[name="checkout"]').click();
+      await page.getByRole('main').locator('button[name="checkout"]').click();
       await expect(page).toHaveURL(/\/checkouts\//);
       await expect(
         page.getByRole('heading', { name: /Contact|Delivery/i }).first(),
