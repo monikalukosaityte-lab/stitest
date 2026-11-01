@@ -118,9 +118,15 @@ const WINDOWS = [
   },
 ];
 
-// Newest first. Add "What are the symptoms of genital herpes?"
-// (/blog/genital-herpes-symptoms) at the top once that guide is live.
+// Newest first. The homepage shows four, so the oldest drops off when a
+// guide is added (all guides stay on /blog).
 const GUIDES = [
+  {
+    title: 'What are the symptoms of genital herpes?',
+    text: 'How first and repeat outbreaks differ, what triggers them and how it’s treated.',
+    href: '/blog/genital-herpes-symptoms',
+    image: '/images/blog/genital-herpes-symptoms.webp',
+  },
   {
     title: 'What are the symptoms of HIV?',
     text: 'The 3 stages of HIV, and why most people on treatment never develop AIDS.',
@@ -138,12 +144,6 @@ const GUIDES = [
     text: 'Symptoms in men and women, and why most people have none.',
     href: '/blog/chlamydia-gonorrhoea-symptoms',
     image: '/images/blog/chlamydia-gonorrhoea-symptoms.webp',
-  },
-  {
-    title: 'What are the symptoms of syphilis?',
-    text: 'The 4 stages, how soon symptoms appear and how it’s cured.',
-    href: '/blog/syphilis-symptoms-stages',
-    image: '/images/blog/syphilis-symptoms-stages.webp',
   },
 ];
 
