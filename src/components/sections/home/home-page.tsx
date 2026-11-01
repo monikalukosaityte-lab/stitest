@@ -131,7 +131,7 @@ const GUIDES = [
     title: 'What is an STI test?',
     text: 'How STI testing works, what it checks for and what happens next.',
     href: '/blog/what-is-an-sti-test',
-    image: '/images/blog/what-is-sti-test.webp',
+    image: '/images/blog/what-is-an-sti-test.webp',
   },
   {
     title: 'What are the symptoms of chlamydia and gonorrhoea?',
