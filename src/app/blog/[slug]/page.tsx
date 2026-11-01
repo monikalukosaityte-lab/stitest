@@ -7,8 +7,14 @@ import { notFound } from 'next/navigation';
 import { compileMDX } from 'next-mdx-remote/rsc';
 import { ComponentPropsWithoutRef } from 'react';
 
-import { ArrowRightIcon, ChevronRightIcon } from '@/components/icons/shop';
+import {
+  ArrowRightIcon,
+  CheckIcon,
+  ChevronRightIcon,
+  TestCassetteIcon,
+} from '@/components/icons/shop';
 import { Pre } from '@/components/mdx/code-block';
+import StickyBuyBar from '@/components/mdx/sticky-buy-bar';
 import {
   ArticleHero,
   MoreEntries,
@@ -24,7 +30,7 @@ import {
 } from '@/lib/articles';
 import { socialMetadata } from '@/lib/metadata';
 import { ArticleFrontmatter } from '@/lib/types';
-import { cn } from '@/lib/utils';
+import { cn, shopUrl } from '@/lib/utils';
 
 function slugify(text: string) {
   return text
@@ -61,6 +67,118 @@ function Ul(props: ComponentPropsWithoutRef<'ul'>) {
 
 function Lead({ children }: { children: React.ReactNode }) {
   return <p className="lead text-muted-foreground">{children}</p>;
+}
+
+// "Test now" box placed in articles with <TestNow preset="hiv" />, plus a
+// mobile buy bar that appears once the box has scrolled away. The buy button
+// goes straight to the Shopify cart, like the product pages.
+const TEST_NOW_PRESETS = {
+  hiv: {
+    handle: 'hiv',
+    productName: 'HIV Home Test',
+    title: 'Test for HIV privately, in your own time',
+    text: 'Easy to use, with results in about 15 minutes.',
+    points: [
+      {
+        desktop: 'Simple finger-prick test',
+        mobile: 'Simple finger-prick test at home',
+      },
+      { desktop: 'Checks HIV-1 & HIV-2', mobile: null },
+      {
+        desktop: 'Plain, discreet packaging',
+        mobile: 'Plain, discreet packaging',
+      },
+      { desktop: 'Ships in 1 working day', mobile: 'Ships in 1 working day' },
+    ],
+    note: 'Exposed in the last 72 hours? Contact a sexual health clinic or A&E now about PEP.',
+    stickySubtitle: 'results in 15 min',
+  },
+};
+
+function TestNow({ preset }: { preset: keyof typeof TEST_NOW_PRESETS }) {
+  const { handle, productName, title, text, points, note, stickySubtitle } =
+    TEST_NOW_PRESETS[preset];
+  const product = SHOP_PRODUCTS.find((p) => p.handle === handle);
+  if (!product) return null;
+
+  const id = `test-now-${preset}`;
+  const buyHref = shopUrl(`/cart/add?id=${product.variantId}&quantity=1`);
+
+  return (
+    <>
+      <aside
+        id={id}
+        className="not-prose bg-accent-light my-10 rounded-xl p-5 md:p-8"
+      >
+        <div className="md:grid md:grid-cols-[1fr_13rem] md:items-center md:gap-8">
+          <div>
+            <div className="flex items-start gap-4">
+              <span className="bg-card grid size-14 shrink-0 place-items-center rounded-lg md:hidden">
+                <TestCassetteIcon className="text-accent size-7" />
+              </span>
+              <div>
+                <p className="font-display text-xl leading-tight font-extrabold md:text-3xl">
+                  {title}
+                </p>
+                <p className="text-muted-foreground mt-2 text-sm md:text-base">
+                  {text}
+                </p>
+              </div>
+            </div>
+            <ul className="mt-4 space-y-2 text-sm md:mt-5 md:grid md:grid-cols-2 md:space-y-0 md:gap-x-6 md:gap-y-3">
+              {points.map((point) => (
+                <li
+                  key={point.desktop}
+                  className={cn(
+                    'flex items-start gap-2',
+                    !point.mobile && 'hidden md:flex',
+                  )}
+                >
+                  <CheckIcon className="text-accent mt-0.5 size-4 shrink-0" />
+                  <span className="md:hidden">{point.mobile}</span>
+                  <span className="hidden md:inline">{point.desktop}</span>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-5 grid md:hidden">
+              <Button asChild variant="brand">
+                <a href={buyHref}>Get your kit · {product.price}</a>
+              </Button>
+            </div>
+          </div>
+
+          <div className="bg-card hidden rounded-lg p-6 text-center md:block">
+            <p className="text-sm font-semibold">{productName}</p>
+            <p className="font-display mt-1 text-4xl font-extrabold">
+              {product.price}
+            </p>
+            <div className="mt-4 grid">
+              <Button asChild size="sm" variant="brand">
+                <a href={buyHref}>
+                  Get your kit
+                  <ArrowRightIcon />
+                </a>
+              </Button>
+            </div>
+            <p className="text-muted-foreground mt-3 text-xs">
+              Secure checkout
+            </p>
+          </div>
+        </div>
+
+        <p className="text-muted-foreground mt-5 text-xs md:mt-6 md:border-t md:pt-4 md:text-sm">
+          {note}
+        </p>
+      </aside>
+      <StickyBuyBar
+        targetId={id}
+        title={productName}
+        subtitle={`${product.price} · ${stickySubtitle}`}
+        href={buyHref}
+        label="Get your kit"
+      />
+    </>
+  );
 }
 
 // "Test for more" box placed in articles with <TestOptions preset="hiv" />.
@@ -280,6 +398,7 @@ const mdxComponents: MDXComponents = {
   p: P,
   ul: Ul,
   Lead,
+  TestNow,
   TestOptions,
 };
 

@@ -132,6 +132,24 @@ export const CheckIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export const TestCassetteIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    aria-hidden
+    {...props}
+  >
+    <rect x="7" y="2" width="10" height="20" rx="3" />
+    <rect x="10" y="5" width="4" height="7" rx="1" />
+    <path d="M10 7.5h4M10 9.5h4" />
+    <circle cx="12" cy="17" r="1.75" />
+  </svg>
+);
+
 export const PackageIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 24 24"
