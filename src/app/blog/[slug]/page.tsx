@@ -11,7 +11,6 @@ import {
   ArrowRightIcon,
   CheckIcon,
   ChevronRightIcon,
-  TestCassetteIcon,
 } from '@/components/icons/shop';
 import { Pre } from '@/components/mdx/code-block';
 import StickyBuyBar from '@/components/mdx/sticky-buy-bar';
@@ -30,7 +29,7 @@ import {
 } from '@/lib/articles';
 import { socialMetadata } from '@/lib/metadata';
 import { ArticleFrontmatter } from '@/lib/types';
-import { cn, shopUrl } from '@/lib/utils';
+import { cn } from '@/lib/utils';
 
 function slugify(text: string) {
   return text
@@ -70,8 +69,8 @@ function Lead({ children }: { children: React.ReactNode }) {
 }
 
 // "Test now" box placed in articles with <TestNow preset="hiv" />, plus a
-// mobile buy bar that appears once the box has scrolled away. The buy button
-// goes straight to the Shopify cart, like the product pages.
+// mobile buy bar that appears once the box has scrolled away. The buttons open
+// the product page.
 const TEST_NOW_PRESETS = {
   hiv: {
     handle: 'hiv',
@@ -102,7 +101,7 @@ function TestNow({ preset }: { preset: keyof typeof TEST_NOW_PRESETS }) {
   if (!product) return null;
 
   const id = `test-now-${preset}`;
-  const buyHref = shopUrl(`/cart/add?id=${product.variantId}&quantity=1`);
+  const productHref = `/rapid-tests/${product.slug}`;
 
   return (
     <>
@@ -112,19 +111,12 @@ function TestNow({ preset }: { preset: keyof typeof TEST_NOW_PRESETS }) {
       >
         <div className="md:grid md:grid-cols-[1fr_13rem] md:items-center md:gap-8">
           <div>
-            <div className="flex items-start gap-4">
-              <span className="bg-card grid size-14 shrink-0 place-items-center rounded-lg md:hidden">
-                <TestCassetteIcon className="text-accent size-7" />
-              </span>
-              <div>
-                <p className="font-display text-xl leading-tight font-extrabold md:text-3xl">
-                  {title}
-                </p>
-                <p className="text-muted-foreground mt-2 text-sm md:text-base">
-                  {text}
-                </p>
-              </div>
-            </div>
+            <p className="font-display text-xl leading-tight font-extrabold md:text-3xl">
+              {title}
+            </p>
+            <p className="text-muted-foreground mt-2 text-sm md:text-base">
+              {text}
+            </p>
             <ul className="mt-4 space-y-2 text-sm md:mt-5 md:grid md:grid-cols-2 md:space-y-0 md:gap-x-6 md:gap-y-3">
               {points.map((point) => (
                 <li
@@ -142,7 +134,7 @@ function TestNow({ preset }: { preset: keyof typeof TEST_NOW_PRESETS }) {
             </ul>
             <div className="mt-5 grid md:hidden">
               <Button asChild variant="brand">
-                <a href={buyHref}>Get your kit · {product.price}</a>
+                <Link href={productHref}>Get your kit · {product.price}</Link>
               </Button>
             </div>
           </div>
@@ -154,15 +146,12 @@ function TestNow({ preset }: { preset: keyof typeof TEST_NOW_PRESETS }) {
             </p>
             <div className="mt-4 grid">
               <Button asChild size="sm" variant="brand">
-                <a href={buyHref}>
+                <Link href={productHref}>
                   Get your kit
                   <ArrowRightIcon />
-                </a>
+                </Link>
               </Button>
             </div>
-            <p className="text-muted-foreground mt-3 text-xs">
-              Secure checkout
-            </p>
           </div>
         </div>
 
@@ -174,7 +163,7 @@ function TestNow({ preset }: { preset: keyof typeof TEST_NOW_PRESETS }) {
         targetId={id}
         title={productName}
         subtitle={`${product.price} · ${stickySubtitle}`}
-        href={buyHref}
+        href={productHref}
         label="Get your kit"
       />
     </>

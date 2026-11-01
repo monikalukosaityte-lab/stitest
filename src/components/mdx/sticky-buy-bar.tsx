@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 import { Button } from '@/components/ui/button';
@@ -60,9 +61,9 @@ export default function StickyBuyBar({
         <p className="text-muted-foreground text-xs">{subtitle}</p>
       </div>
       <Button asChild size="sm" variant="brand">
-        <a href={href} tabIndex={show ? undefined : -1}>
+        <Link href={href} tabIndex={show ? undefined : -1}>
           {label}
-        </a>
+        </Link>
       </Button>
     </div>
   );
