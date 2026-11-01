@@ -9,8 +9,7 @@ import { ProductPageData } from '@/lib/types';
 
 type Windows = NonNullable<ProductPageData['windows']>;
 
-// Same logic as the testdiscreet.co.uk calculator: the answer is always "test now",
-// plus a retest date if the window hasn't passed. The date never leaves the browser.
+// Use the full configured testing intervals. The date never leaves the browser.
 const pad = (n: number) => String(n).padStart(2, '0');
 const iso = (d: Date) =>
   `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
@@ -22,7 +21,11 @@ const today = () => {
 const addDays = (d: Date, n: number) =>
   new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
 const format = (d: Date) =>
-  d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+  d.toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    ...(d.getFullYear() !== today().getFullYear() ? { year: 'numeric' } : {}),
+  });
 const fill = (text: string, values: Record<string, string | number>) =>
   Object.entries(values).reduce(
     (out, [key, value]) =>
@@ -36,7 +39,7 @@ const fillDates = (text: string, exposure: Date) =>
     format(addDays(exposure, Number(n))),
   );
 
-// Within 72 hours of exposure PEP comes first (pages with a "pep_title" string).
+// Three calendar days ago can still be within 72 hours; the time is unknown.
 const PEP_DAYS = 3;
 
 export default function WindowCalculator({ windows }: { windows: Windows }) {
@@ -51,12 +54,18 @@ export default function WindowCalculator({ windows }: { windows: Windows }) {
 
   function onChange(value: string) {
     setDate(value);
-    if (!value || !strings) return;
+    if (!value || !strings) {
+      onUnsure();
+      return;
+    }
     const exposure = new Date(`${value}T00:00:00`);
     const days = Math.round(
       (today().getTime() - exposure.getTime()) / 86400000,
     );
-    if (Number.isNaN(days) || days < 0) return;
+    if (Number.isNaN(days) || days < 0 || iso(exposure) !== value) {
+      onUnsure();
+      return;
+    }
 
     setSince(
       days === 0
@@ -65,10 +74,9 @@ export default function WindowCalculator({ windows }: { windows: Windows }) {
             count: days,
           }),
     );
-    const grace = (window: number) => Math.min(7, Math.floor(window / 4));
     if (windows.stages) {
       const stage = windows.stages.find(
-        (s) => s.until === null || days < s.until - grace(s.until),
+        (s) => s.until === null || days < s.until,
       );
       if (stage) {
         setSummary({
@@ -84,17 +92,17 @@ export default function WindowCalculator({ windows }: { windows: Windows }) {
       date2: second ? format(addDays(exposure, second)) : '',
       exposure: format(exposure),
     };
-    if (strings.pep_title && days < PEP_DAYS) {
+    if (strings.pep_title && days <= PEP_DAYS) {
       setSummary({
         title: strings.pep_title,
         body: fill(strings.pep_body ?? '', dates),
       });
-    } else if (windows.days - days > grace(windows.days)) {
+    } else if (days < windows.days) {
       setSummary({
         title: fill(strings.retest_title, dates),
         body: fill(strings.retest_body, dates),
       });
-    } else if (second - days > grace(second)) {
+    } else if (days < second) {
       // Past the first window but not the second.
       setSummary({
         title: fill(strings.middle_title ?? strings.now_title, dates),

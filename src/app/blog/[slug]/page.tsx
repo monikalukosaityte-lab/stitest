@@ -147,6 +147,7 @@ export default async function ArticlePage({
           description={article.frontmatter.description}
           date={article.frontmatter.date}
           image={article.frontmatter.image}
+          medicallyReviewed={article.frontmatter.medicallyReviewed}
         >
           {/* Article body */}
           <div className="grid gap-8 lg:grid-cols-[1fr_220px] lg:gap-12">

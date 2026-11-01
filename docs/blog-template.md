@@ -15,6 +15,8 @@ The first real article, [`content/articles/what-is-an-sti-test.mdx`](../content/
 
 ## Frontmatter
 
+Set `medicallyReviewed: true` only after clinical review is confirmed. Omitted/false means no review badge. The four existing guides retain their status on Robin's instruction to assume review completed; no reviewer name or date was supplied or invented. Keep the review record with the approved content, and apply the same status to any homepage card when adding a guide.
+
 `title` is sentence case, not Title Case — capitalize only the first word and proper nouns/acronyms (e.g. "What are the symptoms of chlamydia and gonorrhoea?", "What is an STI test? How STI & STD testing works"). Same goes for H2s in the body.
 
 ```yaml
