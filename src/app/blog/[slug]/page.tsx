@@ -14,7 +14,7 @@ import {
   MoreEntries,
   TableOfContents,
 } from '@/components/sections/article';
-import ProductGrid, { SHOP_PRODUCTS } from '@/components/sections/product-grid';
+import { SHOP_PRODUCTS } from '@/components/sections/product-grid';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import {
@@ -375,7 +375,6 @@ export default async function ArticlePage({
       </article>
 
       <MoreEntries articles={otherArticles} />
-      <ProductGrid heading="Ready to test?" />
     </>
   );
 }
