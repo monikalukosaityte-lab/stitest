@@ -7,6 +7,7 @@ Open tasks for stitestkit.co.uk. Remove an item in the same commit that finishes
 The herpes product page already links to this article and about 10 of its anchors, but the article doesn't exist yet, so those links 404. Copy is coming from the SEO doc.
 
 - Add `content/articles/genital-herpes-symptoms.mdx`, making sure its heading anchors match the links in `content/products/herpes-hsv-2-home-test-kit.json` (search for `genital-herpes-symptoms#`)
+- Its image is ready: `public/images/blog/genital-herpes-symptoms.webp` (use it as the article `image`)
 - Put it first in the homepage guide cards (see the comment in `src/components/sections/home/home-page.tsx`)
 
 ## Branded 404 page
