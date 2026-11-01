@@ -4,9 +4,13 @@ Open tasks for stitestkit.co.uk. Remove an item in the same commit that finishes
 
 ## Launch verification
 
-- Complete mobile/desktop, real-browser consent and Shopify handoff checks on the launch-repairs preview; after owner merge, verify the public deployment. See `docs/launch-checks.md`.
+- Owner review of the signed-in launch-repairs Vercel preview, then owner merge and public deployment verification. Repeat affected public journeys after deployment. Automated browser coverage and its limits are in `docs/launch-checks.md`.
 - Provide access to the existing new-domain Search Console property, inspect the sitemap/pages, then log appropriate indexing requests after publication. Its index status is currently unverified.
 - Keep analytics disabled until the existing GA stream settings and outgoing requests are checked; activation steps are in `docs/deployment.md`.
+
+## Existing narrow-screen layout
+
+- At 320px, the homepage hero's long 7-in-1 buy label clips at the right edge. Browser comparison on 1 November reproduces the same behaviour on production and the launch branch. Make a targeted wrapping fix without changing the desktop design.
 
 ## Herpes guide (`/blog/genital-herpes-symptoms`)
 

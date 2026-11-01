@@ -17,7 +17,17 @@ npm test
 npm run dev
 ```
 
-Do not run a local production build unless explicitly requested. Vercel builds the preview. Review mobile/desktop appearance, images, guides, calculator advice, cookie choices and the Shopify handoff before merging. CI runs on pull requests and pushes; repository administrators can make checks required in branch settings.
+Do not run a local production build unless explicitly requested. Vercel builds the preview. Review mobile/desktop appearance, images, guides, calculator advice, cookie choices and the Shopify handoff before merging. CI runs on pull requests and pushes to main; repository administrators can make checks required in branch settings.
+
+Real-browser checks run against a disposable HTTPS development server in CI using desktop Chromium and mobile WebKit. To repeat locally in isolated Playwright browsers (without connecting to personal Chrome):
+
+```bash
+npx playwright install --with-deps chromium webkit
+NEXT_PUBLIC_GA_ENABLED=false npm run test:browser
+NEXT_PUBLIC_GA_ENABLED=true npm run test:browser
+```
+
+The runner generates an ignored, temporary localhost certificate with OpenSSL. Reports and screenshots are uploaded as `browser-analytics-false` and `browser-analytics-true` for 14 days. The enabled branch stubs Google's remote script and checks the consent gate and site-generated event queue; it does not verify Google's delivery or stream configuration. Shopify cases use fresh anonymous carts, check totals and basket preservation, and stop at checkout without customer details or payment. Those cases run only in the analytics-off matrix to avoid duplicate provider checks. These CI renders are separate from the signed-in Vercel preview and the production deployment.
 
 Production rollback: revert the reviewed change through another pull request, or have the owner restore the preceding Vercel deployment. Record the deployed commit and verify public pages; a preview does not prove production deployment.
 

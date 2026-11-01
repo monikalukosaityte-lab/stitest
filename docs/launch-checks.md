@@ -13,16 +13,23 @@ Scope: plan steps 1–4. Shared price/stock/policy synchronisation is step 5 and
 
 The 1 November dependency audit after patching reported zero production findings. Development tooling retained 22 findings (20 moderate, 2 low; no high/critical), mainly minimatch and deepmerge dependency chains. The unused SF Symbols packages were also removed: one brought a second Next.js installation into production dependencies. Targeted overrides keep selector-parser and brace-expansion on patched versions within their existing major versions; no forced major upgrades were applied.
 
-## Verification boundaries
+## Browser verification
 
-Automated tests exercise actual calculator and consent components with React and a DOM: interval boundaries, stale input, missing/expired/blocked storage, rejection persistence, settings, consent-gated loading and cookie removal. They do not execute Google's remote script or prove real browser network behaviour.
+`npm run test:browser` runs real Chromium at 1280px and WebKit with iPhone 13 settings against the branch's disposable HTTPS development server. CI runs analytics off and on; the Google script is stubbed to exercise the consent gate without sending synthetic health browsing to Google. Site-generated requests and queued parameters are checked, but Google's delivery and the live GA stream settings are not established by this fixture.
 
-Before owner merge, record the preview deployment and checks. The standing browser bridge was unavailable during implementation; the following checks remain required:
+The suite exercises:
 
-- Compare 320–430px mobile and desktop pages with production. Use keyboard navigation in cookie settings. Confirm banner/settings fit the screen and shopping/guide navigation work.
-- Test browser storage/network, including withdrawal/reload and another tab. Keep analytics disabled until activation checks pass.
-- Open home, eight products, four MDX guides, images, blog list and cookie notice. Check canonical, robots and sitemap separately from Google indexing.
-- Verify a single, a two-kit retest pack and an existing Shopify cart still hand off correctly. Do not place a paid order as part of these checks.
-- Review report-only CSP console messages; no blocking policy is introduced.
+- Fresh, rejected, accepted and withdrawn choices, reload persistence, invalid/expired/blocked storage, another open tab, accessible GA-cookie removal and absence of a tag while analytics is disabled.
+- Cookie settings at 320px, keyboard focus containment, Escape, focus restoration and an opaque background using the site's existing card token. Screenshot inspection caught and corrected a transparent settings panel.
+- Home, all eight products, all four MDX guides, the blog list and cookie notice: responses, self-canonicals, eager images, horizontal overflow and browser exceptions. Robots and sitemap endpoints are checked separately from Google indexing.
+- Full calculator boundaries through actual date inputs, including PEP day 3, separate bundle intervals and clearing/future-date resets. The fixture waits for hydration before entering dates and preserves each product's approved unknown-date advice.
+- Actual clicks to Shopify for a single HIV kit (£15.95), Core 4 retest pack (£80.92), 7-in-1 retest pack (£116.92), preservation of an existing anonymous basket and opening checkout. No customer details or payment are entered.
+- Production/branch screenshots at 320px, 430px and 1280px, plus settings, product/cart and guide captures. The pre-existing homepage buy-label clipping at 320px appears on both production and branch and is recorded on TODO.
 
-After owner merge, verify the public deployment and repeat affected journeys. Record Search Console access, requests, actual indexing and production deployment separately from source/preview checks.
+CI uploads the HTML report, screenshots, traces for failures and request/cart summaries for 14 days. Consult the latest PR checks for the exact tested commit and result. The 19 React/DOM tests remain useful for interval and storage fault cases; they complement the browser suite.
+
+The report-only CSP logs development `unsafe-eval` warnings from Next's development runtime. It does not block resources and has no collector. This is not evidence for enforcing the policy in production.
+
+## Owner release checks
+
+Review the signed-in Vercel preview before merging; isolated CI renders do not establish the state of that deployment. Only the owner merges. After merge, verify the deployed commit and public consent, calculator, images and Shopify journeys. Record Search Console access, requests, actual indexing and production deployment separately from source/CI checks. Keep analytics disabled until its activation checks in [deployment](deployment.md) pass.
