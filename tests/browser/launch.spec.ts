@@ -94,7 +94,12 @@ test('fresh, rejected, accepted, route change and withdrawn choices control the 
   });
   // An accessible synthetic GA cookie verifies withdrawal cleanup, not Google delivery.
   await context.addCookies([
-    { name: '_ga', value: 'synthetic-test', url: 'http://localhost:3187' },
+    {
+      name: '_ga',
+      value: 'synthetic-test',
+      url: 'https://localhost:3187',
+      secure: true,
+    },
   ]);
   await page
     .getByRole('button', { name: 'Cookie settings', exact: true })
@@ -167,10 +172,9 @@ test('withdrawal is synchronised to an already open second tab', async ({
     .click();
   await expect
     .poll(() =>
-      other.evaluate(
-        (k) => JSON.parse(localStorage.getItem(k)!).analytics,
-        key,
-      ),
+      other
+        .evaluate((k) => JSON.parse(localStorage.getItem(k)!).analytics, key)
+        .catch(() => null),
     )
     .toBe(false);
   await expect(other.locator('#sti-analytics')).toHaveCount(0);
@@ -289,6 +293,7 @@ test('all public pages render, images load and existing self-canonicals remain',
           `${path.replaceAll('/', '-') || 'home'}-page.png`,
         ),
         fullPage: true,
+        scale: 'css',
       });
   }
   expect(errors).toEqual([]);
@@ -302,7 +307,9 @@ test('all public pages render, images load and existing self-canonicals remain',
 
 test('full calculator boundaries and clearing work through actual date inputs', async ({
   page,
+  context,
 }, info) => {
+  await context.addInitScript((k) => localStorage.removeItem(k), key);
   await page.clock.setFixedTime(new Date('2026-11-01T12:00:00Z'));
   const cases: [string, [number, RegExp, boolean?][]][] = [
     [
@@ -351,10 +358,11 @@ test('full calculator boundaries and clearing work through actual date inputs', 
   for (const [slug, checks] of cases) {
     await page.goto(`/rapid-tests/${slug}`);
     const banner = page.getByRole('region', { name: 'Cookie choices' });
-    if (await banner.isVisible())
-      await banner
-        .getByRole('button', { name: 'Reject optional', exact: true })
-        .click();
+    // The banner appears after hydration; do not fill an inert server input.
+    await expect(banner).toBeVisible();
+    await banner
+      .getByRole('button', { name: 'Reject optional', exact: true })
+      .click();
     const input = page.getByLabel('Date of possible exposure');
     const status = page.getByRole('status');
     for (const [days, pattern, matches = true] of checks) {

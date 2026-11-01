@@ -42,7 +42,7 @@ for (const scenario of cases) {
       .getByRole('button', { name: 'Reject optional', exact: true })
       .click();
     if (scenario.quantity === 2)
-      await page.locator('input[name="quantity"]').nth(1).check();
+      await page.locator('input[name="quantity"]').nth(1).locator('..').click();
     const buy = page
       .locator(
         `a[href*="/cart/add?id=${scenario.variant}&quantity=${scenario.quantity}"]`,
