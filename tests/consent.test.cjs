@@ -37,6 +37,14 @@ async function click(text) {
     button.click();
   });
 }
+async function expectFocus(text) {
+  // Radix restores focus on the task after its portal has unmounted.
+  const deadline = Date.now() + 1000;
+  while (document.activeElement.textContent !== text && Date.now() < deadline) {
+    await act(async () => new Promise((resolve) => setTimeout(resolve, 5)));
+  }
+  assert.equal(document.activeElement.textContent, text);
+}
 afterEach(async () => {
   if (root) await act(async () => root.unmount());
   root = null;
@@ -196,14 +204,14 @@ test('settings reopen the saved choice and saving unchecked rejects analytics', 
   assert.equal(document.querySelector('input[type="checkbox"]').checked, false);
   await click('Save choices');
   assert.equal(consent.readCookieChoice().analytics, false);
-  assert.equal(document.activeElement.textContent, 'Cookie settings');
+  await expectFocus('Cookie settings');
 });
 
 test('closing initial settings returns focus to its banner button', async () => {
   await mount();
   await click('Settings');
   await click('Close');
-  assert.equal(document.activeElement.textContent, 'Settings');
+  await expectFocus('Settings');
 });
 
 test('withdrawal removes the tag, stops queued events and clears GA cookies only', () => {
