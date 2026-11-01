@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import ProductGrid from '@/components/sections/product-grid';
 import { ArticleFrontmatter } from '@/lib/types';
 import { formatPublishDate } from '@/lib/utils';
 
@@ -26,8 +25,6 @@ export function BlogListing({ articles }: { articles: ArticleFrontmatter[] }) {
           </div>
         </section>
       )}
-
-      <ProductGrid />
     </>
   );
 }

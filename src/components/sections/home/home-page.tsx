@@ -118,8 +118,7 @@ const WINDOWS = [
   },
 ];
 
-// Newest first. The homepage shows four, so the oldest drops off when a
-// guide is added (all guides stay on /blog).
+// The homepage shows four symptom guides; every guide stays on /blog.
 const GUIDES = [
   {
     title: 'What are the symptoms of genital herpes?',
@@ -134,16 +133,16 @@ const GUIDES = [
     image: '/images/blog/hiv-symptoms-stages.webp',
   },
   {
-    title: 'What is an STI test?',
-    text: 'How STI testing works, what it checks for and what happens next.',
-    href: '/blog/what-is-an-sti-test',
-    image: '/images/blog/what-is-an-sti-test.webp',
-  },
-  {
     title: 'What are the symptoms of chlamydia and gonorrhoea?',
     text: 'Symptoms in men and women, and why most people have none.',
     href: '/blog/chlamydia-gonorrhoea-symptoms',
     image: '/images/blog/chlamydia-gonorrhoea-symptoms.webp',
+  },
+  {
+    title: 'What are the symptoms of syphilis?',
+    text: 'The 4 stages, how soon symptoms appear and how it’s cured.',
+    href: '/blog/syphilis-symptoms-stages',
+    image: '/images/blog/syphilis-symptoms-stages.webp',
   },
 ];
 
