@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "test": "node --test tests/*.test.cjs",
+    "test:browser": "playwright test",
     "typecheck": "tsc --noEmit",
     "lint:fix": "eslint --fix",
     "prettier:format": "prettier --write ."
@@ -40,6 +41,7 @@
     "brace-expansion@1": "1.1.21"
   },
   "devDependencies": {
+    "@playwright/test": "1.64.1",
     "@tailwindcss/postcss": "^4",
     "@tailwindcss/typography": "^0.5.20",
     "@types/node": "^20",
