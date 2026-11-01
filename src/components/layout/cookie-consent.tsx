@@ -148,7 +148,7 @@ export default function CookieConsent() {
       <Sheet open={settingsOpen} onOpenChange={setSettingsOpen}>
         <SheetContent
           side="bottom"
-          className="max-h-dvh overflow-y-auto"
+          className="bg-card text-card-foreground max-h-dvh overflow-y-auto"
           onCloseAutoFocus={(event) => {
             if (settingsTrigger.current?.isConnected) {
               event.preventDefault();

@@ -129,6 +129,10 @@ test('settings fit 320px, trap keyboard focus, close with Escape and restore foc
   await trigger.click();
   const dialog = page.getByRole('dialog');
   await expect(dialog).toBeVisible();
+  expect(
+    await dialog.evaluate((el) => getComputedStyle(el).backgroundColor),
+  ).toBe('rgb(255, 255, 255)');
+  await page.screenshot({ path: info.outputPath('settings-open-320.png') });
   for (let i = 0; i < 10; i++) {
     await page.keyboard.press('Tab');
     expect(
@@ -370,6 +374,7 @@ test('full calculator boundaries and clearing work through actual date inputs', 
         .toISOString()
         .slice(0, 10);
       await input.fill(date);
+      await expect(input).toHaveValue(date);
       if (matches) await expect(status).toContainText(pattern);
       else await expect(status).not.toContainText(pattern);
     }
