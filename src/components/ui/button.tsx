@@ -31,14 +31,14 @@ const buttonVariants = cva(
         consent:
           'rounded-xs border border-foreground bg-card font-text font-normal tracking-normal text-card-foreground normal-case hover:bg-muted',
         'consent-link':
-          'rounded-xs border-0 bg-transparent font-text font-normal tracking-normal text-foreground normal-case underline underline-offset-4 hover:bg-muted',
+          'rounded-xs border-0 bg-transparent font-text font-normal tracking-normal whitespace-normal text-foreground normal-case underline underline-offset-4 hover:bg-muted',
       },
       size: {
         default: 'min-h-12 px-9 py-3 text-base',
         xs: "min-h-7 px-3 text-xs [&_svg:not([class*='size-'])]:size-3",
         sm: "min-h-9 px-5 py-1.5 text-sm [&_svg:not([class*='size-'])]:size-3.5",
         lg: 'min-h-13 px-9 py-3 text-lg tracking-normal normal-case',
-        consent: 'min-h-10 w-full px-6 py-2 text-base',
+        consent: 'h-full min-h-10 w-full px-6 py-2 text-base',
         icon: 'size-8',
         'icon-xs': "size-6 [&_svg:not([class*='size-'])]:size-3",
         'icon-sm': 'size-7',

@@ -44,6 +44,9 @@ test('fresh, rejected, accepted, route change and withdrawn choices control the 
   await page.goto('/');
   const banner = page.getByRole('region', { name: 'Cookie choices' });
   await expect(banner).toBeVisible();
+  // A fresh development compile can hydrate before the stylesheet arrives.
+  await expect(banner).toHaveCSS('position', 'fixed');
+  await page.evaluate(() => document.fonts.ready);
   await expect(page.locator('#sti-analytics')).toHaveCount(0);
   expect(requests).toEqual([]);
   await page.screenshot({ path: info.outputPath('home-banner.png') });

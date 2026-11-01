@@ -109,7 +109,7 @@ export default function CookieConsent() {
       {ready && !choice && (
         <section
           aria-label="Cookie choices"
-          className="bg-card text-card-foreground fixed bottom-0 left-1/2 z-50 max-h-dvh w-9/10 -translate-x-1/2 space-y-4 overflow-y-auto rounded-t-xs p-8 shadow-lg md:w-7/10"
+          className="bg-card text-card-foreground fixed bottom-0 left-1/2 z-50 max-h-dvh w-9/10 -translate-x-1/2 space-y-4 overflow-y-auto rounded-t-xs p-8 shadow-lg lg:w-7/10"
         >
           <div className="space-y-2">
             <h2 className="font-text text-lg font-bold">Cookie consent</h2>
