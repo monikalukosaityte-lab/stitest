@@ -109,7 +109,7 @@ test('fresh/rejected visits load no Google tag; rejecting survives remount', asy
   await mount();
   assert.ok(document.querySelector('[aria-label="Cookie choices"]'));
   assert.equal(document.querySelector('script[src*="googletagmanager"]'), null);
-  await click('Reject optional');
+  await click('Decline');
   assert.equal(consent.readCookieChoice().analytics, false);
   assert.equal(document.querySelector('[aria-label="Cookie choices"]'), null);
   await act(async () => root.unmount());
@@ -161,7 +161,7 @@ test('a rejection saved in another tab replaces the current accepted choice', as
 
 test('analytics stays disabled by default even after acceptance', async () => {
   await mount();
-  await click('Accept analytics');
+  await click('Accept');
   assert.equal(consent.readCookieChoice().analytics, true);
   assert.equal(document.querySelector('script[src*="googletagmanager"]'), null);
 });
@@ -176,7 +176,7 @@ test('enabled analytics starts only on acceptance, without an overflowing expiry
   };
   try {
     await mount();
-    await click('Accept analytics');
+    await click('Accept');
     assert.ok(document.getElementById('sti-analytics'));
     assert.ok(consent.readCookieChoice()?.analytics);
     assert.ok(delays.includes(86400000));
@@ -209,9 +209,9 @@ test('settings reopen the saved choice and saving unchecked rejects analytics', 
 
 test('closing initial settings returns focus to its banner button', async () => {
   await mount();
-  await click('Settings');
+  await click('Manage preferences');
   await click('Close');
-  await expectFocus('Settings');
+  await expectFocus('Manage preferences');
 });
 
 test('withdrawal removes the tag, stops queued events and clears GA cookies only', () => {

@@ -38,9 +38,7 @@ for (const scenario of cases) {
       (route) => route.abort(),
     );
     await page.goto(`/rapid-tests/${scenario.slug}`);
-    await page
-      .getByRole('button', { name: 'Reject optional', exact: true })
-      .click();
+    await page.getByRole('button', { name: 'Decline', exact: true }).click();
     if (scenario.quantity === 2)
       await page.locator('input[name="quantity"]').nth(1).locator('..').click();
     const buy = page
@@ -110,9 +108,7 @@ test('existing anonymous basket is retained by the cross-domain buy link', async
     data: { items: [{ id: 63780180820298, quantity: 1 }] },
   });
   await page.goto('/rapid-tests/hiv-home-test-kit');
-  await page
-    .getByRole('button', { name: 'Reject optional', exact: true })
-    .click();
+  await page.getByRole('button', { name: 'Decline', exact: true }).click();
   await page
     .locator('a[href*="/cart/add?id=63780178592074&quantity=1"]')
     .first()

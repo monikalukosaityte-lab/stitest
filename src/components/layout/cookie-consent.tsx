@@ -109,36 +109,50 @@ export default function CookieConsent() {
       {ready && !choice && (
         <section
           aria-label="Cookie choices"
-          className="bg-card text-card-foreground fixed inset-x-0 bottom-0 z-50 border-t p-5 shadow-lg"
+          className="bg-card text-card-foreground fixed bottom-0 left-1/2 z-50 max-h-dvh w-9/10 -translate-x-1/2 space-y-4 overflow-y-auto rounded-t-xs p-8 shadow-lg md:w-7/10"
         >
-          <div className="container space-y-4 md:flex md:items-center md:justify-between md:gap-8 md:space-y-0">
-            <div className="max-w-2xl space-y-2 text-sm">
-              <h2 className="text-lg">Your cookie choices</h2>
-              <p>
-                We remember your cookie choice. With your permission, we also
-                use Google Analytics to understand how the site is used. You can
-                change your choice at any time.{' '}
-                <Link href="/cookies" className="underline">
-                  About cookies
-                </Link>
-              </p>
-            </div>
-            <div className="flex flex-wrap items-center gap-3">
-              <Button variant="outline" size="sm" onClick={() => choose(false)}>
-                Reject optional
-              </Button>
-              <Button variant="outline" size="sm" onClick={() => choose(true)}>
-                Accept analytics
-              </Button>
+          <div className="space-y-2">
+            <h2 className="font-text text-lg font-bold">Cookie consent</h2>
+            <p>
+              We remember your cookie preferences. With your permission, we may
+              use analytics cookies to understand how this site is used. You can
+              accept or decline optional cookies and change your choice at any
+              time. Learn more in our{' '}
+              <Link href="/cookies" className="underline">
+                cookie notice
+              </Link>
+              .
+            </p>
+          </div>
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <div className="order-3 md:order-1">
               <Button
-                variant="link"
-                size="sm"
+                variant="consent-link"
+                size="consent"
                 onClick={(event) => {
                   settingsTrigger.current = event.currentTarget;
                   setSettingsOpen(true);
                 }}
               >
-                Settings
+                Manage preferences
+              </Button>
+            </div>
+            <div className="order-1 md:order-2">
+              <Button
+                variant="consent"
+                size="consent"
+                onClick={() => choose(true)}
+              >
+                Accept
+              </Button>
+            </div>
+            <div className="order-2 md:order-3">
+              <Button
+                variant="consent"
+                size="consent"
+                onClick={() => choose(false)}
+              >
+                Decline
               </Button>
             </div>
           </div>
@@ -160,8 +174,9 @@ export default function CookieConsent() {
             <SheetHeader>
               <SheetTitle>Cookie settings</SheetTitle>
               <SheetDescription>
-                Choose whether to allow analytics on STI Test Kit. Shopping
-                takes you to Test Discreet, which has its own cookie settings.
+                Choose whether to allow optional analytics cookies on STI Test
+                Kit. Shopping takes you to Test Discreet, which has its own
+                cookie settings.
               </SheetDescription>
             </SheetHeader>
             <div className="space-y-2">
@@ -179,22 +194,36 @@ export default function CookieConsent() {
                 className="accent-primary mt-1 size-5"
               />
               <span className="space-y-2">
-                <strong className="block">Google Analytics</strong>
+                <strong className="block">Analytics cookies</strong>
                 <span className="text-muted-foreground block text-sm">
-                  Optional measurement of visits and general page types. Your
-                  exposure date is not sent. Advertising personalisation is
-                  disabled.
+                  With your permission, we may use Google Analytics to measure
+                  visits and general page types. Your exposure date is not sent.
+                  Advertising personalisation is disabled.
                 </span>
               </span>
             </label>
-            <div className="flex flex-wrap gap-3">
-              <Button variant="outline" onClick={() => choose(false)}>
-                Reject optional
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+              <Button
+                variant="consent"
+                size="consent"
+                onClick={() => choose(true)}
+              >
+                Accept
               </Button>
-              <Button variant="outline" onClick={() => choose(true)}>
-                Accept analytics
+              <Button
+                variant="consent"
+                size="consent"
+                onClick={() => choose(false)}
+              >
+                Decline
               </Button>
-              <Button onClick={() => choose(analytics)}>Save choices</Button>
+              <Button
+                variant="consent"
+                size="consent"
+                onClick={() => choose(analytics)}
+              >
+                Save choices
+              </Button>
             </div>
             <Link href="/cookies" className="inline-block underline">
               Read about cookies
