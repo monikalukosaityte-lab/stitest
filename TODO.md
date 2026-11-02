@@ -5,7 +5,7 @@ Open tasks for stitestkit.co.uk. Remove an item in the same commit that finishes
 ## Launch verification
 
 - Owner review of the signed-in launch-repairs Vercel preview, then owner merge and public deployment verification. Repeat affected public journeys after deployment. Automated browser coverage and its limits are in `docs/launch-checks.md`.
-- Provide access to the existing new-domain Search Console property, inspect the sitemap/pages, then log appropriate indexing requests after publication. Its index status is currently unverified.
+- After owner merge, verify the published Google ownership file, finish URL-prefix Search Console verification, and inspect the current sitemap URLs. Log appropriate indexing requests after publication; index status remains unverified until URL Inspection succeeds. See `docs/deployment.md`.
 - Keep analytics disabled until the existing GA stream settings and outgoing requests are checked; activation steps are in `docs/deployment.md`.
 
 ## Existing narrow-screen layout

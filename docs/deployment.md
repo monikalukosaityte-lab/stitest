@@ -47,12 +47,14 @@ The CSP is report-only, with no report collector: inspect browser console violat
 
 ## Search Console
 
-Use the existing new-domain property where available; an inaccessible property is not evidence that it does not exist. The available Test Discreet reporting identity had no new-domain access on 1 November 2026, so its indexing and submissions remain unverified.
+The URL-prefix property is `https://www.stitestkit.co.uk/`. It can be verified through the website without DNS access. The reporting identity is `td-gsc-reporting@robin-personal-rw508.iam.gserviceaccount.com`.
+
+Keep `public/google8765eea27ee433bd.html` published at the same root path. Google issued this public ownership-verification file for the reporting identity; it is not an API credential. Removing it can invalidate ownership. After owner merge and deployment, confirm the live file returns HTTP 200 with its exact contents, complete Google's FILE verification, and read back Search Console ownership before claiming setup is complete. An inaccessible property is not evidence that it does not exist in another account.
 
 Once owner/full-user access is available:
 
 1. Read submission status for `https://www.stitestkit.co.uk/sitemap.xml`; submit only if absent or incorrect.
-2. Inspect the homepage, eight product pages and four guides in that sitemap; also `/blog` if needed. Record index status, Google-selected canonical, last crawl and exclusion reason.
+2. Inspect each unique URL in the current sitemap, including the homepage, product pages and guides. Record index status, Google-selected canonical, last crawl and exclusion reason.
 3. After repairs are published, request indexing for new or materially changed pages needing it. Start with the homepage and affected Core 4, 7-in-1 and herpes pages, then others as justified by inspection. Keep existing URLs and self-canonicals.
 4. Log requests and read back outcomes later. A request is not proof of indexing. URL Inspection API reads status; it does not submit ordinary webpages for indexing.
 
